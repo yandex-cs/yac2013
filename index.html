@@ -37,11 +37,15 @@
                 <div class="span3">
                     <div class="well sidebar-nav">
                         <script type="text/javascript">
-                        jQuery(document).ready(function(evt){
-                            jQuery("ul.nav.nav-list").find("#main").attr("class","active")
-                            var src = jQuery("ul.nav.nav-list").find("#main").find('img').attr('src')
-                            jQuery("ul.nav.nav-list").find("#main").find('img').attr('src', src.replace('.png', '-w.png'))
-                        })
+                        (function($) {
+                            $(function(evt){
+                                var $main = $("#main");
+                                var $img = $main.find('img');
+                                $main.addClass("active");
+                                $img.attr('src', function(index, val) {
+                                    return val.replace('.png', '-w.png');
+                                });
+                        })})(jQuery);
                         </script>
                         <ul class="nav nav-list">
                             <li class="nav-header">Меню</li>
