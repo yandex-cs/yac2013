@@ -1,11 +1,29 @@
 .nav-menu-image {
     height: 20px;
-    padding-right: 1ex;
+    margin-right: 1ex;
 }
 
 .nav-menu-image4 { margin-top: -4px; }
 .nav-menu-image5 { margin-top: -5px; }
 .nav-menu-image6 { margin-top: -6px; }
+
+.nav-menu-ico {
+    background-image: url(../img/sprite.png);
+    background-size: 20px 160px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.nav-menu-ico-main { background-position: 0px -80px; }
+.nav-menu-ico-agenda { background-position: 0px 0px; }
+.nav-menu-ico-crown { background-position: 0px -20px; }
+.nav-menu-ico-helicopter { background-position: 0px -40px; }
+.nav-menu-ico-new { background-position: 0px -100px; }
+.nav-menu-ico-pay { background-position: 0px -120px; }
+.nav-menu-ico-rocket { background-position: 0px -140px; }
 
 .clearfix {
     *zoom: 1;
