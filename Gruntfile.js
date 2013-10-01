@@ -18,8 +18,8 @@ module.exports = function(grunt) {
                         'assets/js/bootstrap-scrollspy.js',
                         'assets/js/bootstrap-tab.js',
                         'assets/js/bootstrap-tooltip.js',
-                        'assets/js/bootstrap-transition.js',
-                        'assets/js/bootstrap-typehead.js'
+                        'assets/js/bootstrap-transition.js'//,
+                        //'assets/js/bootstrap-typehead.js'
                     ]
                 }
             }
