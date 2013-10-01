@@ -3,7 +3,6 @@
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
 }
 
 a:focus {
@@ -45,10 +44,8 @@ a:focus {
   text-decoration: underline;
 }
 
-.img-rounded {
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+footer {
+    display: block;
 }
 
 .row {
