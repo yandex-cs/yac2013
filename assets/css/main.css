@@ -75,6 +75,7 @@ body {
 
 .hero-unit {
   background-image: url(../img/photo_head.jpg);
+  border-radius: 0;
 }
 
 .hero-unit h1,
