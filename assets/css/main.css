@@ -17,8 +17,45 @@ body {
     border-radius: 5px 0;
 }
 
-.nav-list li {
+.nav-item {
     font: 19px/30px 'PT Sans Narrow', sans;
+}
+
+.nav-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -6px 9.5px 0 0;
+    vertical-align: middle;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.nav-icon-tree {
+    background-position: 0 0;
+}
+
+.nav-icon-new {
+    background-position: -24px 0;
+}
+
+.nav-icon-agenda {
+    background-position: -48px 0;
+}
+
+.nav-icon-crown {
+    background-position: -72px 0;
+}
+
+.nav-icon-pay {
+    background-position: -96px 0;
+}
+
+.nav-icon-helicopter {
+    background-position: -120px 0;
+}
+
+.nav-item-active .nav-icon-tree {
+    background-position: -144px 0;
 }
 
 .span3.banner {
