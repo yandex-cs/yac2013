@@ -708,3 +708,45 @@ body {
 .btn-mini {
   padding: 1px 8px;
 }
+
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #EEE;
+    box-shadow: 0 0 0.7em #222222;
+}
+.sidebar-nav {
+    padding: 9px 0;
+}
+.container {
+    padding: 0 0.9cm;
+    box-shadow: 0 0 0.7em #222222;
+}
+.content img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 0 5px 0;
+}
+.nav-list > li {
+    font-family: 'PT Sans Narrow', sans;
+    font-size: 19px;
+    line-height: 30px;
+
+}
+.row-fluid .span3.banner {
+    margin-left: 0px;
+    padding-top: 18px;
+    width: 220px;
+}
+.g-largeHeader {
+    font-family: 'PT Sans', sans;
+}
+.g-smallHeader {
+    font-family: 'PT Sans Narrow', sans;
+}
+.g-linkImage {
+    height: 20px;
+    padding-right: 1ex;
+    margin-top: -6px;
+}
