@@ -18,3 +18,28 @@ body {
     line-height: 30px;
     font-weight: 100;
 }
+
+.nav-icon {
+	background: url(../img/icons.png) top left no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-top: -6px;
+	vertical-align: middle;
+	padding-right: 1ex;
+}
+
+.nav-icon.nav-icon-tree {background-position: 0 0;}
+.nav-icon.nav-icon-new {background-position: 0 -21px;}
+.nav-icon.nav-icon-pay {background-position: 0 -42px;}
+.nav-icon.nav-icon-agenda {background-position: 0 -63px ;}
+.nav-icon.nav-icon-helicopter {background-position: 0 -84px;}
+.nav-icon.nav-icon-crown {background-position: 0 -105px;}
+
+
+.active .nav-icon.nav-icon-tree {background-position: -21px 0;}
+.active .nav-icon.nav-icon-new {background-position: -21px -21px;}
+.active .nav-icon.nav-icon-pay {background-position: -21px -42px;}
+.active .nav-icon.nav-icon-agenda {background-position: -21px -63px ;}
+.active .nav-icon.nav-icon-helicopter {background-position: -21px -84px;}
+.active .nav-icon.nav-icon-crown {background-position: -21px -105px;}
