@@ -54,13 +54,6 @@
                 font-family: 'PT Sans Narrow', sans;
             }
         </style>
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $("ul.nav.nav-list").find("#main").attr("class", "active")
-                var src = $("ul.nav.nav-list").find("#main").find('img').attr('src')
-                $("ul.nav.nav-list").find("#main").find('img').attr('src', src.replace('.png', '-w.png'))
-            })
-        </script>
     </head>
     <body>
         <div class="container" style="background: white;">
@@ -76,8 +69,8 @@
                     <div class="well sidebar-nav">
                         <ul class="nav nav-list">
                             <li class="nav-header">Меню</li>
-                            <li id="main">
-                                <a><img src="assets/img/ico-main.png" style="
+                            <li id="main" class="active">
+                                <a><img src="assets/img/ico-main-w.png" style="
                                             height: 20px;
                                             padding-right: 1ex;
                                             margin-top: -6px;">Главная</a>
