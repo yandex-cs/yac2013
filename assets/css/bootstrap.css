@@ -2443,8 +2443,8 @@ body {
   padding-right: 1ex;
   margin-top: -6px;
 }
-#news {margin-top: -4px;}
-#pay {margin-top: -5px;}
+#news img {margin-top: -4px;}
+#pay img {margin-top: -5px;}
 .row-fluid .span3.banner {
     margin-left: 0px;
     padding-top: 18px;
