@@ -1,6 +1,5 @@
 .hero-unit {
   background-image: url(../img/photo_head.jpg);
-  background-position: 0% 46.001%;
   box-shadow: inset 0 0 1em #222;
   border-radius: 0 0 10px 10px;
 }
@@ -14,6 +13,66 @@
     font-size: 19px;
     line-height: 30px;
     font-weight: 100;
+}
+
+#main-link:before,
+#news-link:before,
+#agenda-link:before,
+#sponsors-link:before,
+#pay-link:before,
+#contacts-link:before
+{
+  width: 20px;
+  height: 20px;
+  content: '';
+  background-image: url(../img/ico-sprites.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 1ex;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
+#agenda-link:before {
+  background-position: -1px -1px;
+}
+
+#sponsors-link:before {
+    background-position: -22px -1px;
+}
+
+#contacts-link:before {
+    background-position: -1px -22px;
+}
+
+#main-link:before {
+  margin-top: -6px;
+  background-position: -23px -22px;
+}
+
+#main.active #main-link:before {
+    background-position: -43px -1px;
+}
+
+#news-link:before {
+    background-position: -43px -22px;
+}
+
+#pay-link:before {
+    background-position: -1px -43px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+  #main-link:before,
+  #news-link:before,
+  #agenda-link:before,
+  #sponsors-link:before,
+  #pay-link:before,
+  #contacts-link:before {
+    background-image: url(../img/ico-sprites@2x.png);
+    background-size: 63px;
+  }
 }
 
 body {
