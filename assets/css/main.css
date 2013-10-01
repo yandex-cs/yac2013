@@ -39,6 +39,7 @@ body {
 .container {
   padding: 0 0.9cm;
   box-shadow: 0 0 0.7em #222222;
+  background: #fff;
 }
 .content img {
   float: left;
