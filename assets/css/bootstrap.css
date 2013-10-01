@@ -2439,10 +2439,12 @@ body {
 .nav-list > li.nav-header {
     font-weight: 100;
 }
-.nav-list >li img {
+.nav-list > li img {
   padding-right: 1ex;
   margin-top: -6px;
 }
+#news {margin-top: -4px;}
+#pay {margin-top: -5px;}
 .row-fluid .span3.banner {
     margin-left: 0px;
     padding-top: 18px;
