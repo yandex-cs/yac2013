@@ -8,32 +8,8 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="assets/img/favicon.ico">
         <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
-
-<!-- ######################################################################
-
-        .oooooo..o                     o8o                 .
-       d8P'    `Y8                     `"'               .o8
-       Y88bo.       .ooooo.  oooo d8b oooo  oo.ooooo.  .o888oo  .oooo.o
-        `"Y8888o.  d88' `"Y8 `888""8P `888   888' `88b   888   d88(  "8
-            `"Y88b 888        888      888   888   888   888   `"Y88b.
-       oo     .d8P 888   .o8  888      888   888   888   888 . o.  )88b
-       8""88888P'  `Y8bod8P' d888b    o888o  888bod8P'   "888" 8""888P'
-                                             888
-                                            o888o
-     ###################################################################### -->
-        <script src="https://yandex.st/jquery/1.8.3/jquery.js"></script>
-        <script src="assets/js/bootstrap-transition.js"></script>
-        <script src="assets/js/bootstrap-alert.js"></script>
-        <script src="assets/js/bootstrap-modal.js"></script>
-        <script src="assets/js/bootstrap-dropdown.js"></script>
-        <script src="assets/js/bootstrap-scrollspy.js"></script>
-        <script src="assets/js/bootstrap-tab.js"></script>
-        <script src="assets/js/bootstrap-tooltip.js"></script>
-        <script src="assets/js/bootstrap-popover.js"></script>
-        <script src="assets/js/bootstrap-button.js"></script>
-        <script src="assets/js/bootstrap-collapse.js"></script>
-        <script src="assets/js/bootstrap-carousel.js"></script>
-        <script src="assets/js/bootstrap-typeahead.js"></script>
+        <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="assets/css/main.css" rel="stylesheet" media="screen">
     </head>
 
 <!-- ######################################################################
@@ -49,25 +25,17 @@
                                               `Y8P'
      ###################################################################### -->
     <body>
-        <div class="container" style="background: white; ">
+        <div class="container" style="background:white">
             <div class="row-fluid">
-                    <div class="hero-unit">
-                        <h1>LXII форум</h1>
-                        <p>Профессиональных чтецов инструкций на освежителях воздуха</p>
-                        <p><a href="#reg" class="btn btn-primary btn-large">Зарегистрироваться!</a></p>
-                    </div>
-
+                <div class="hero-unit">
+                    <h1>LXII форум</h1>
+                    <p>Профессиональных чтецов инструкций на освежителях воздуха</p>
+                    <p><a href="#reg" class="btn btn-primary btn-large">Зарегистрироваться!</a></p>
+                </div>
             </div>
             <div class="row-fluid">
                 <div class="span3">
                     <div class="well sidebar-nav">
-                        <script type="text/javascript">
-                        jQuery(document).ready(function(evt){
-                            jQuery("ul.nav.nav-list").find("#main").attr("class","active")
-                            var src = jQuery("ul.nav.nav-list").find("#main").find('img').attr('src')
-                            jQuery("ul.nav.nav-list").find("#main").find('img').attr('src', src.replace('.png', '-w.png'))
-                        })
-                        </script>
 <!-- ######################################################################
 
                 ooo        ooooo
@@ -82,9 +50,9 @@
 
                         <ul class="nav nav-list">
                             <li class="nav-header">Меню</li>
-                            <li id="main">
+                            <li id="main" class="active">
                                 <a>
-                                    <img src="assets/img/ico-main.png" style="
+                                    <img src="assets/img/ico-main-w.png" style="
                                             height: 20px;
                                             padding-right: 1ex;
                                             margin-top: -6px;
@@ -125,7 +93,7 @@
                         </ul>
                     </div><!--/.well -->
                     <div class="span3 banner">
-                        <script type="text/javascript" src="assets/js/banner.js"></script>
+                        <a target="_blank" href="http://ya.ru"><img src="assets/img/banner.png" border="0"></a>
                     </div>
                 </div><!--/span-->
                 <div class="span9 content">
@@ -184,64 +152,5 @@
             </footer>
 
         </div><!--/.fluid-container-->
-
-<!-- ######################################################################
-
-             .oooooo..o     .               oooo
-            d8P'    `Y8   .o8               `888
-            Y88bo.      .o888oo oooo    ooo  888   .ooooo.   .oooo.o
-             `"Y8888o.    888    `88.  .8'   888  d88' `88b d88(  "8
-                 `"Y88b   888     `88..8'    888  888ooo888 `"Y88b.
-            oo     .d8P   888 .    `888'     888  888    .o o.  )88b
-            8""88888P'    "888"     .8'     o888o `Y8bod8P' 8""888P'
-                                .o..P'
-                                `Y8P'
-     ###################################################################### -->
-        <link href="assets/css/print.css" rel="stylesheet" media="print">
-        <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
-        <style type="text/css">
-            body {
-                padding-top: 0px;
-                padding-bottom: 0px;
-                background-color: #EEE;
-                box-shadow: 0 0 0.7em #222222;
-            }
-            .sidebar-nav {
-                padding: 9px 0;
-            }
-
-            .container {
-                padding: 0 0.9cm;
-                box-shadow: 0 0 0.7em #222222;
-            }
-            .content img {
-                float: left;
-                margin-right: 10px;
-                margin-bottom: 10px;
-                border-radius: 5px 0 5px 0;
-
-            }
-
-            .nav-list > li {
-                font-family: 'PT Sans Narrow', sans;
-                font-size: 19px;
-                line-height: 30px;
-
-            }
-
-            .row-fluid .span3.banner {
-                margin-left: 0px;
-                padding-top: 18px;
-                width: 220px;
-            }
-
-            h1, h2 {
-                font-family: 'PT Sans', sans;
-            }
-            h3, h4, h5, h6 {
-                font-family: 'PT Sans Narrow', sans;
-            }
-        </style>
-        <link href="assets/css/main.css" rel="stylesheet" media="screen">
     </body>
 </html>
