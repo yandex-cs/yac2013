@@ -16,11 +16,13 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 5px 0 5px 0;
+
 }
 .nav-list > li {
     font-family: 'PT Sans Narrow', sans;
     font-size: 19px;
     line-height: 30px;
+
 }
 .row-fluid .span3.banner {
     margin-left: 0;
@@ -32,4 +34,9 @@ h1, h2 {
 }
 h3, h4, h5, h6 {
     font-family: 'PT Sans Narrow', sans;
+}
+.navbar-icon {
+    height: 20px;
+    padding-right: 1ex;
+    margin-top: -6px;
 }
