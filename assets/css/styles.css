@@ -4,9 +4,11 @@ body {
     background-color: #eee;
     box-shadow: 0 0 0.7em #222;
 }
+
 .sidebar-nav {
     padding: 9px 0;
 }
+
 .container {
     padding: 0 0.9cm;
     box-shadow: 0 0 0.7em #222222;
@@ -18,23 +20,27 @@ body {
     border-radius: 5px 0 5px 0;
 
 }
+
 .nav-list > li {
     font-family: 'PT Sans Narrow', sans;
     font-size: 19px;
     line-height: 30px;
 
 }
+
 .row-fluid .span3.banner {
     margin-left: 0;
     padding-top: 18px;
     width: 220px;
 }
+
 h1, h2 {
     font-family: 'PT Sans', sans;
 }
 h3, h4, h5, h6 {
     font-family: 'PT Sans Narrow', sans;
 }
+
 .navbar-icon {
     height: 20px;
     padding-right: 1ex;
