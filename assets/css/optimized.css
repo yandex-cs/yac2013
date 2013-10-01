@@ -1,4 +1,29 @@
-/*!
+@font-face {
+	font-family: 'PT Sans';
+	src: url('../fonts/pts55f_w.eot');
+	src: local('PT Sans'), url('../fonts/PTS55F_W.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/pts75f_w.eot');
+	src: local('PT Sans Bold'), url('../fonts/PTS75F_W.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PT Sans Narrow';
+	src: url('../fonts/ptn57f_w.eot');
+	src: local('PT Sans Narrow'), url('../fonts/PTN57F_W.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'PT Sans Narrow';
+	font-weight: bold;
+	src: url('../fonts/ptn77f_w.eot');
+	src: local('PT Sans Narrow Bold'), url('../fonts/PTN77F_W.woff') format('woff');
+}/*!
  * Bootstrap v2.3.2
  *
  * Copyright 2012 Twitter, Inc
@@ -6822,4 +6847,99 @@ legend {
   .navbar .nav-collapse .nav > li > a:hover {
     background-color: #18bc9c;
   }
+}
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #EEE;
+    box-shadow: 0 0 0.7em #222222;
+}
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.container {
+    padding: 0 0.9cm;
+    box-shadow: 0 0 0.7em #222222;
+    background: #FFF;
+}
+.content img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 0 5px 0;
+
+}
+
+.nav-list > li {
+    font-family: 'PT Sans Narrow', sans;
+    font-size: 19px;
+    line-height: 30px;
+
+}
+
+.row-fluid .span3.banner {
+    margin-left: 0px;
+    padding-top: 18px;
+    width: 220px;
+}
+
+h1, h2 {
+    font-family: 'PT Sans', sans;
+}
+h3, h4, h5, h6 {
+    font-family: 'PT Sans Narrow', sans;
+}
+
+.nav i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding-right: 1ex;
+    background: url(../img/sprite.png) 0px 0px no-repeat;
+    background-size: 20px 126px;
+}
+
+#main i {
+    background-position: 0 -1px;
+}
+
+#news i {
+    background-position: 0 -83px;
+}
+
+#agenda i {
+    background-position: 0 -22px;
+}
+
+#sponsors i {
+    background-position: 0 -43px;
+}
+
+#pay i {
+    background-position: 0 -103px;
+}
+
+#contacts i {
+    background-position: 0 -62px;
+}body {
+  background-attachment: fixed;
+  background-image: url(../img/bg.svg);
+}
+.hero-unit {
+  background-image: url(../img/photo_head.jpg);
+  background-position: 0% 46.001%;
+  box-shadow: inset 0 0 1em #222;
+  border-radius: 0 0 10px 10px;
+}
+.hero-unit h1,
+.hero-unit p {
+  color: #2c3e50;
+}
+
+.nav-list > li.nav-header {
+    font-family: 'PT Sans Narrow', sans;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 100;
 }
