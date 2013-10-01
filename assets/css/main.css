@@ -31,8 +31,8 @@ h3, h4, h5, h6 {
     font-family: 'PT Sans Narrow', sans;
 }
 .hero-unit {
-  background: url(../img/photo_head.jpg) 0 46.001%;
-  box-shadow: inset 0 0 18px #222;
-  border-radius: 0 0 10px 10px;
-  color: #2c3e50;
+    background: url(../img/photo_head.jpg);
+    box-shadow: inset 0 0 18px #222;
+    border-radius: 0 0 10px 10px;
+    color: #2c3e50;
 }
