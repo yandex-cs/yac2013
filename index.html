@@ -8,7 +8,6 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="assets/img/favicon.ico">
         <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
-        <link href="assets/css/print.css" rel="stylesheet" media="print">
         <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
         <style type="text/css">
             body {
@@ -70,9 +69,9 @@
                     <div class="well sidebar-nav">
                         <ul class="nav nav-list">
                             <li class="nav-header">Меню</li>
-                            <li id="main">
+                            <li id="main" class="active">
                                 <a>
-                                    <img src="assets/img/ico-main.png" style="
+                                    <img src="assets/img/ico-main-w.png" style="
                                          height: 20px;
                                          padding-right: 1ex;
                                          margin-top: -6px;
@@ -174,13 +173,5 @@
         <script src="assets/js/bootstrap-collapse.js"></script>
         <script src="assets/js/bootstrap-carousel.js"></script>
         <script src="assets/js/bootstrap-typeahead.js"></script>
-        <script type="text/javascript">
-            jQuery(document).ready(function(evt) {
-                var main = $("#main");
-                $(main).attr("class", "active");
-                var src = $(main).find('img').attr('src');
-                $(main).find('img').attr('src', src.replace('.png', '-w.png'));
-            });
-        </script>
     </body>
 </html>
