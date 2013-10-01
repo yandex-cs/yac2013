@@ -1,4 +1,45 @@
 body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #EEE;
+  box-shadow: 0 0 0.7em #222222;
+}
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.container {
+  padding: 0 0.9cm;
+  box-shadow: 0 0 0.7em #222222;
+}
+.content img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px 0 5px 0;
+}
+
+.nav-list > li {
+  font-family: 'PT Sans Narrow', sans;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.row-fluid .span3.banner {
+  margin-left: 0px;
+  padding-top: 18px;
+  width: 220px;
+}
+
+h1, h2 {
+  font-family: 'PT Sans', sans;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'PT Sans Narrow', sans;
+}
+
+body {
   background-attachment: fixed;
   background-image: url(../img/body-bg.png);
 }
@@ -13,20 +54,20 @@ body {
 }
 
 .nav-list > li.nav-header {
-    font-family: 'PT Sans Narrow', sans;
-    font-size: 19px;
-    line-height: 30px;
-    font-weight: 100;
+  font-family: 'PT Sans Narrow', sans;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 100;
 }
 
 .nav-icon {
-	background: url(../img/icons.png) top left no-repeat;
-	width: 20px;
-	height: 20px;
-	display: inline-block;
-	margin-top: -6px;
-	vertical-align: middle;
-	padding-right: 1ex;
+  background: url(../img/icons.png) top left no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-top: -6px;
+  vertical-align: middle;
+  padding-right: 1ex;
 }
 
 .nav-icon.nav-icon-tree {background-position: 0 0;}
