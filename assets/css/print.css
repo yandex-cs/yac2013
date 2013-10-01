@@ -1,17 +1,29 @@
-/*
-
-Black K E Y!
-
- ad8888888888ba
-dP'         `"8b,
-8  ,aaa,       "Y888a     ,aaaa,     ,aaa,  ,aa,
-8  8' `8           "8baaaad""""baaaad""""baad""8b
-8  8   8              """"      """"      ""    8b
-8  8, ,8         ,aaaaaaaaaaaaaaaaaaaaaaaaddddd88P
-8  `"""'       ,d8""
-Yb,         ,ad8"    Normand Veilleux
- "Y8888888888P"
-
-
-*/
-
+* {
+  color: #000 !important;
+  text-shadow: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+a,
+a:visited {
+  text-decoration: underline;
+}
+a[href]:after {
+  content: " (" attr(href) ")";
+}
+.ir a:after,
+a[href^="javascript:"]:after,
+a[href^="#"]:after {
+  content: "";
+}
+img {
+  page-break-inside: avoid;
+  max-width: 100% !important;
+}
+@page  {
+  margin: 0.5cm;
+}
+p {
+  orphans: 3;
+  widows: 3;
+}
