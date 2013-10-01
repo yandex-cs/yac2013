@@ -105,4 +105,7 @@ ul.nav.nav-list li img {height: 20px; padding-right: 1ex;}
 #pay img {margin-top: -5px;}
 #contacts img {margin-top: -6px;}
 
+/* ul.nav.nav-list li a:before {content: ' '; width: auto; height: 20px; padding-right: 1ex;}
+#main a:before {margin-top: -6px; width: } */
+
 .span3.banner img {border: 0;}
