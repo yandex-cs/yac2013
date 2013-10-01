@@ -61,3 +61,42 @@ h3, h4, h5, h6 {
     line-height: 30px;
     font-weight: 100;
 }
+
+.nav-list__link-ico {
+  position:relative;
+  top:-3px;
+  display:inline-block;
+  vertical-align:middle;
+  width:20px;
+  height:20px;
+  padding-right:1ex;
+  background-image:url(../img/icons-sprite.png);
+  background-repeat:no-repeat;
+  background-size:20px;
+}
+
+.nav-list__link-ico_name_main-hover {
+  background-position:0 -120px;
+}
+
+.nav-list__link-ico_name_news {
+  background-position:0 -60px;
+  top:-2px;
+}
+
+.nav-list__link-ico_name_agenda {
+  background-position:0 -80px;
+}
+
+.nav-list__link-ico_name_crown {
+  background-position:0 0;
+}
+
+.nav-list__link-ico_name_pay {
+  background-position:0 -100px;
+  top:-2px;
+}
+
+.nav-list__link-ico_name_heli {
+  background-position:0 -20px;
+}

@@ -65,7 +65,6 @@
                         jQuery(document).ready(function(evt){
                             jQuery("ul.nav.nav-list").find("#main").attr("class","active")
                             var src = jQuery("ul.nav.nav-list").find("#main").find('img').attr('src')
-                            jQuery("ul.nav.nav-list").find("#main").find('img').attr('src', src.replace('.png', '-w.png'))
                         })
                         </script>
 <!-- ######################################################################
@@ -83,45 +82,23 @@
                         <ul class="nav nav-list">
                             <li class="nav-header">Меню</li>
                             <li id="main">
-                                <a>
-                                    <img src="assets/img/ico-main.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Главная
-                                </a>
+                                <a><span class="nav-list__link-ico nav-list__link-ico_name_main-hover"></span>Главная</a>
                             </li>
-                            <li id="news"><a href="#menu2">
-                                <img src="assets/img/ico-new.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -4px;
-                                    ">Новости
-                                </a></li>
-                            <li id="agenda"><a href="#menu3">
-                                <img src="assets/img/ico-agenda.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Программа</a></li>
-                            <li id="sponsors"><a href="#menu4">
-                                <img src="assets/img/ico-crown.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Спонсоры</a></li>
-                            <li id="pay"><a href="#menu5">
-                                <img src="assets/img/ico-pay.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -5px;
-                                    ">Оплата</a></li>
-                            <li id="contacts"><a href="#menu6">
-                                <img src="assets/img/ico-helicopter.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Как добраться</a></li>
+                            <li id="news">
+                              <a href="#menu2"><span class="nav-list__link-ico nav-list__link-ico_name_news"></span>Новости</a>
+                            </li>
+                            <li id="agenda">
+                              <a href="#menu3"><span class="nav-list__link-ico nav-list__link-ico_name_agenda"></span>Программа</a>
+                            </li>
+                            <li id="sponsors">
+                              <a href="#menu4"><span class="nav-list__link-ico nav-list__link-ico_name_crown"></span>Спонсоры</a>
+                            </li>
+                            <li id="pay">
+                              <a href="#menu5"><span class="nav-list__link-ico nav-list__link-ico_name_pay"></span>Оплата</a>
+                            </li>
+                            <li id="contacts">
+                              <a href="#menu6"><span class="nav-list__link-ico nav-list__link-ico_name_heli"></span>Как добраться</a>
+                            </li>
                         </ul>
                     </div><!--/.well -->
                     <div class="span3 banner">
