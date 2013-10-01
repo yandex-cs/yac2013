@@ -20,18 +20,22 @@ h3, h4, h5, h6 {
 	border-radius: 0 0 10px 10px;
 }
 
-.hero-unit h1,
-.hero-unit p {
+.hero-unit__description,
+.hero-unit__title{
 	color: #2c3e50;
 }
 
-.nav-list > li.nav-header {
+.nav-header {
 	font-family: 'PT Sans Narrow', sans;
 	font-size: 19px;
 	line-height: 30px;
 	font-weight: 100;
 }
-
+.nav-list__item{
+	font-family: 'PT Sans Narrow', sans;
+	font-size: 19px;
+	line-height: 30px;
+}
 .sidebar-nav {
 	padding: 9px 0;
 }
@@ -50,12 +54,7 @@ h3, h4, h5, h6 {
 
 }
 
-.nav-list > li {
-	font-family: 'PT Sans Narrow', sans;
-	font-size: 19px;
-	line-height: 30px;
 
-}
 
 .row-fluid .span3.banner {
 	margin-left: 0px;
