@@ -8,19 +8,6 @@
         <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
         <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
         <link href="assets/css/main.css" rel="stylesheet" media="screen">
-        <script src="assets/js/jquery.js"></script>
-        <script src="assets/js/bootstrap-transition.js"></script>
-        <script src="assets/js/bootstrap-alert.js"></script>
-        <script src="assets/js/bootstrap-modal.js"></script>
-        <script src="assets/js/bootstrap-dropdown.js"></script>
-        <script src="assets/js/bootstrap-scrollspy.js"></script>
-        <script src="assets/js/bootstrap-tab.js"></script>
-        <script src="assets/js/bootstrap-tooltip.js"></script>
-        <script src="assets/js/bootstrap-popover.js"></script>
-        <script src="assets/js/bootstrap-button.js"></script>
-        <script src="assets/js/bootstrap-collapse.js"></script>
-        <script src="assets/js/bootstrap-carousel.js"></script>
-        <script src="assets/js/bootstrap-typeahead.js"></script>
     </head>
     <body>
         <div class="container">
@@ -35,17 +22,6 @@
             <div class="row-fluid">
                 <div class="span3">
                     <div class="well sidebar-nav">
-                        <script type="text/javascript">
-                        (function($) {
-                            $(function(evt){
-                                var $main = $("#main");
-                                var $img = $main.find('img');
-                                $main.addClass("active");
-                                $img.attr('src', function(index, val) {
-                                    return val.replace('.png', '-w.png');
-                                });
-                        })})(jQuery);
-                        </script>
                         <ul class="nav nav-list">
                             <li class="nav-header">Меню</li>
                             <li id="main">
@@ -138,5 +114,30 @@
             </footer>
 
         </div>
+        
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/bootstrap-transition.js"></script>
+        <script src="assets/js/bootstrap-alert.js"></script>
+        <script src="assets/js/bootstrap-modal.js"></script>
+        <script src="assets/js/bootstrap-dropdown.js"></script>
+        <script src="assets/js/bootstrap-scrollspy.js"></script>
+        <script src="assets/js/bootstrap-tab.js"></script>
+        <script src="assets/js/bootstrap-tooltip.js"></script>
+        <script src="assets/js/bootstrap-popover.js"></script>
+        <script src="assets/js/bootstrap-button.js"></script>
+        <script src="assets/js/bootstrap-collapse.js"></script>
+        <script src="assets/js/bootstrap-carousel.js"></script>
+        <script src="assets/js/bootstrap-typeahead.js"></script>
+        <script type="text/javascript">
+        (function($) {
+            $(function(evt){
+                var $main = $("#main");
+                var $img = $main.find('img');
+                $main.addClass("active");
+                $img.attr('src', function(index, val) {
+                    return val.replace('.png', '-w.png');
+                });
+        })})(jQuery);
+        </script>
     </body>
 </html>
