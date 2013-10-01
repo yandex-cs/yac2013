@@ -16,7 +16,7 @@ woffMinor: 0
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 238 1803289547 14828189]
+XUID: [1021 238 1803289547 3272224]
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
@@ -905,11 +905,19 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1088 16 4
-BeginChars: 65542 187
+WinInfo: 1056 16 4
+BeginChars: 65542 180
+
+StartChar: space
+Encoding: 32 32 0
+Width: 267
+Flags: W
+LayerCount: 2
+Kerns2: 137 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+EndChar
 
 StartChar: exclam
-Encoding: 33 33 0
+Encoding: 33 33 1
 Width: 305
 Flags: W
 TtInstrs:
@@ -1065,7 +1073,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 1
+Encoding: 34 34 2
 Width: 335
 Flags: W
 TtInstrs:
@@ -1108,14 +1116,14 @@ EIF
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 6 39 N 1 0 0 1 117 0 2
-Refer: 6 39 N 1 0 0 1 0 0 2
-Kerns2: 127 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 7 39 N 1 0 0 1 117 0 2
+Refer: 7 39 N 1 0 0 1 0 0 2
+Kerns2: 120 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uniF635
 EndChar
 
 StartChar: numbersign
-Encoding: 35 35 2
+Encoding: 35 35 3
 Width: 545
 Flags: W
 TtInstrs:
@@ -1605,7 +1613,7 @@ EndSplineSet
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 3
+Encoding: 36 36 4
 Width: 545
 Flags: W
 TtInstrs:
@@ -2116,7 +2124,7 @@ EndSplineSet
 EndChar
 
 StartChar: percent
-Encoding: 37 37 4
+Encoding: 37 37 5
 Width: 773
 Flags: W
 LayerCount: 2
@@ -2128,15 +2136,15 @@ SplineSet
  123 27 l 1
  637 713 l 1
 EndSplineSet
-Refer: 118 186 N 1 0 0 1 26 0 2
-Refer: 118 186 N 1 0 0 1 383 -371 2
+Refer: 114 186 N 1 0 0 1 26 0 2
+Refer: 114 186 N 1 0 0 1 383 -371 2
 Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" zero uni2215 zero
 Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" zero fraction zero
 Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" zero slash zero
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 5
+Encoding: 38 38 6
 Width: 814
 Flags: W
 TtInstrs:
@@ -3323,7 +3331,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesingle
-Encoding: 39 39 6
+Encoding: 39 39 7
 Width: 218
 Flags: W
 TtInstrs:
@@ -3380,12 +3388,12 @@ SplineSet
  90 507 l 1,3,-1
  90 700 l 1,0,-1
 EndSplineSet
-Kerns2: 127 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 120 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uniF634
 EndChar
 
 StartChar: parenleft
-Encoding: 40 40 7
+Encoding: 40 40 8
 Width: 280
 Flags: W
 TtInstrs:
@@ -3578,12 +3586,12 @@ SplineSet
  241 -139 241 -139 278 -183 c 1,21,-1
  227 -220 l 1,0,1
 EndSplineSet
-Kerns2: 173 16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 166 16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 3" dx=0 dy=100 dh=0 dv=0
 EndChar
 
 StartChar: parenright
-Encoding: 41 41 8
+Encoding: 41 41 9
 Width: 280
 Flags: W
 TtInstrs:
@@ -3800,7 +3808,7 @@ Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 3" dx=0 dy=100 d
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 9
+Encoding: 42 42 10
 Width: 351
 Flags: W
 TtInstrs:
@@ -4553,7 +4561,7 @@ EndSplineSet
 EndChar
 
 StartChar: plus
-Encoding: 43 43 10
+Encoding: 43 43 11
 Width: 505
 Flags: W
 TtInstrs:
@@ -4744,7 +4752,7 @@ EndSplineSet
 EndChar
 
 StartChar: comma
-Encoding: 44 44 11
+Encoding: 44 44 12
 Width: 225
 Flags: W
 TtInstrs:
@@ -4943,7 +4951,7 @@ EndSplineSet
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 12
+Encoding: 45 45 13
 Width: 360
 Flags: W
 TtInstrs:
@@ -4995,12 +5003,12 @@ SplineSet
  59 251 l 1,3,-1
  59 325 l 1,0,-1
 EndSplineSet
-Kerns2: 176 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -72 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -49 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -72 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -49 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 2" dx=0 dy=80 dh=0 dv=0
 EndChar
 
 StartChar: period
-Encoding: 46 46 13
+Encoding: 46 46 14
 Width: 214
 Flags: W
 TtInstrs:
@@ -5058,7 +5066,7 @@ EndSplineSet
 EndChar
 
 StartChar: slash
-Encoding: 47 47 14
+Encoding: 47 47 15
 Width: 354
 Flags: W
 TtInstrs:
@@ -5322,7 +5330,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero
-Encoding: 48 48 15
+Encoding: 48 48 16
 Width: 545
 Flags: W
 TtInstrs:
@@ -5537,7 +5545,7 @@ EndSplineSet
 EndChar
 
 StartChar: one
-Encoding: 49 49 16
+Encoding: 49 49 17
 Width: 545
 Flags: W
 TtInstrs:
@@ -5826,7 +5834,7 @@ AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" one.numerator o
 EndChar
 
 StartChar: two
-Encoding: 50 50 17
+Encoding: 50 50 18
 Width: 545
 Flags: W
 TtInstrs:
@@ -6193,7 +6201,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" twosuperior
 EndChar
 
 StartChar: three
-Encoding: 51 51 18
+Encoding: 51 51 19
 Width: 545
 Flags: W
 TtInstrs:
@@ -6704,7 +6712,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" threesuperior
 EndChar
 
 StartChar: four
-Encoding: 52 52 19
+Encoding: 52 52 20
 Width: 545
 Flags: W
 TtInstrs:
@@ -7183,7 +7191,7 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 53 53 20
+Encoding: 53 53 21
 Width: 545
 Flags: W
 TtInstrs:
@@ -7443,7 +7451,7 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 54 54 21
+Encoding: 54 54 22
 Width: 545
 Flags: W
 TtInstrs:
@@ -7888,7 +7896,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 55 55 22
+Encoding: 55 55 23
 Width: 545
 Flags: W
 TtInstrs:
@@ -8218,7 +8226,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 56 56 23
+Encoding: 56 56 24
 Width: 545
 Flags: W
 TtInstrs:
@@ -9276,7 +9284,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 57 57 24
+Encoding: 57 57 25
 Width: 545
 Flags: W
 TtInstrs:
@@ -9798,7 +9806,7 @@ EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 58 58 25
+Encoding: 58 58 26
 Width: 219
 Flags: W
 TtInstrs:
@@ -9904,11 +9912,11 @@ SplineSet
  122 -12 122 -12 106.5 4 c 128,-1,23
  91 20 91 20 91 46 c 0,12,13
 EndSplineSet
-Kerns2: 14 20 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 15 20 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 26
+Encoding: 59 59 27
 Width: 256
 Flags: W
 TtInstrs:
@@ -10157,7 +10165,7 @@ EndSplineSet
 EndChar
 
 StartChar: less
-Encoding: 60 60 27
+Encoding: 60 60 28
 Width: 505
 Flags: W
 TtInstrs:
@@ -10338,7 +10346,7 @@ EndSplineSet
 EndChar
 
 StartChar: equal
-Encoding: 61 61 28
+Encoding: 61 61 29
 Width: 505
 Flags: W
 TtInstrs:
@@ -10449,7 +10457,7 @@ EndSplineSet
 EndChar
 
 StartChar: greater
-Encoding: 62 62 29
+Encoding: 62 62 30
 Width: 505
 Flags: W
 TtInstrs:
@@ -10614,7 +10622,7 @@ EndSplineSet
 EndChar
 
 StartChar: question
-Encoding: 63 63 30
+Encoding: 63 63 31
 Width: 436
 Flags: W
 TtInstrs:
@@ -10850,7 +10858,7 @@ EndSplineSet
 EndChar
 
 StartChar: at
-Encoding: 64 64 31
+Encoding: 64 64 32
 Width: 1064
 Flags: W
 TtInstrs:
@@ -11587,7 +11595,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: A
-Encoding: 65 65 32
+Encoding: 65 65 33
 Width: 585
 Flags: W
 TtInstrs:
@@ -12192,7 +12200,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: B
-Encoding: 66 66 33
+Encoding: 66 66 34
 Width: 584
 Flags: W
 TtInstrs:
@@ -12663,12 +12671,12 @@ SplineSet
  168 392 l 1,64,-1
  220 392 l 2,47,48
 EndSplineSet
-Kerns2: 51 -30 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Kerns2: 52 -30 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: C
-Encoding: 67 67 34
+Encoding: 67 67 35
 Width: 571
 Flags: W
 TtInstrs:
@@ -12999,7 +13007,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: D
-Encoding: 68 68 35
+Encoding: 68 68 36
 Width: 654
 Flags: W
 TtInstrs:
@@ -13295,7 +13303,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: E
-Encoding: 69 69 36
+Encoding: 69 69 37
 Width: 536
 Flags: W
 TtInstrs:
@@ -13506,7 +13514,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: F
-Encoding: 70 70 37
+Encoding: 70 70 38
 Width: 517
 Flags: W
 TtInstrs:
@@ -13718,7 +13726,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: G
-Encoding: 71 71 38
+Encoding: 71 71 39
 Width: 612
 Flags: W
 TtInstrs:
@@ -14185,7 +14193,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: H
-Encoding: 72 72 39
+Encoding: 72 72 40
 Width: 672
 Flags: W
 TtInstrs:
@@ -14428,7 +14436,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: I
-Encoding: 73 73 40
+Encoding: 73 73 41
 Width: 291
 Flags: W
 TtInstrs:
@@ -14527,7 +14535,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: J
-Encoding: 74 74 41
+Encoding: 74 74 42
 Width: 291
 Flags: W
 TtInstrs:
@@ -14734,7 +14742,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: K
-Encoding: 75 75 42
+Encoding: 75 75 43
 Width: 610
 Flags: W
 TtInstrs:
@@ -15703,7 +15711,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: L
-Encoding: 76 76 43
+Encoding: 76 76 44
 Width: 517
 Flags: W
 TtInstrs:
@@ -15848,7 +15856,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: M
-Encoding: 77 77 44
+Encoding: 77 77 45
 Width: 791
 Flags: W
 TtInstrs:
@@ -16728,7 +16736,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: N
-Encoding: 78 78 45
+Encoding: 78 78 46
 Width: 673
 Flags: W
 TtInstrs:
@@ -17554,7 +17562,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: O
-Encoding: 79 79 46
+Encoding: 79 79 47
 Width: 684
 Flags: W
 TtInstrs:
@@ -18040,7 +18048,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: P
-Encoding: 80 80 47
+Encoding: 80 80 48
 Width: 559
 Flags: W
 TtInstrs:
@@ -18317,7 +18325,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: Q
-Encoding: 81 81 48
+Encoding: 81 81 49
 Width: 684
 Flags: W
 TtInstrs:
@@ -18828,7 +18836,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: R
-Encoding: 82 82 49
+Encoding: 82 82 50
 Width: 595
 Flags: W
 TtInstrs:
@@ -19365,7 +19373,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: S
-Encoding: 83 83 50
+Encoding: 83 83 51
 Width: 531
 Flags: W
 TtInstrs:
@@ -19820,7 +19828,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: T
-Encoding: 84 84 51
+Encoding: 84 84 52
 Width: 555
 Flags: W
 TtInstrs:
@@ -19994,7 +20002,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: U
-Encoding: 85 85 52
+Encoding: 85 85 53
 Width: 652
 Flags: W
 TtInstrs:
@@ -20249,7 +20257,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: V
-Encoding: 86 86 53
+Encoding: 86 86 54
 Width: 568
 Flags: W
 TtInstrs:
@@ -20808,7 +20816,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: W
-Encoding: 87 87 54
+Encoding: 87 87 55
 Width: 828
 Flags: W
 TtInstrs:
@@ -22652,7 +22660,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: X
-Encoding: 88 88 55
+Encoding: 88 88 56
 Width: 618
 Flags: W
 TtInstrs:
@@ -24054,7 +24062,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: Y
-Encoding: 89 89 56
+Encoding: 89 89 57
 Width: 558
 Flags: W
 TtInstrs:
@@ -24620,7 +24628,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: Z
-Encoding: 90 90 57
+Encoding: 90 90 58
 Width: 545
 Flags: W
 TtInstrs:
@@ -25123,7 +25131,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: bracketleft
-Encoding: 91 91 58
+Encoding: 91 91 59
 Width: 304
 Flags: W
 TtInstrs:
@@ -25227,12 +25235,12 @@ SplineSet
  85 -230 l 1,7,-1
  85 700 l 1,0,-1
 EndSplineSet
-Kerns2: 173 16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 166 16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 3" dx=0 dy=100 dh=0 dv=0
 EndChar
 
 StartChar: backslash
-Encoding: 92 92 59
+Encoding: 92 92 60
 Width: 380
 Flags: W
 TtInstrs:
@@ -25455,7 +25463,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketright
-Encoding: 93 93 60
+Encoding: 93 93 61
 Width: 304
 Flags: W
 TtInstrs:
@@ -25570,7 +25578,7 @@ Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 3" dx=0 dy=100 d
 EndChar
 
 StartChar: asciicircum
-Encoding: 94 94 61
+Encoding: 94 94 62
 Width: 500
 Flags: W
 TtInstrs:
@@ -25759,7 +25767,7 @@ EndSplineSet
 EndChar
 
 StartChar: underscore
-Encoding: 95 95 62
+Encoding: 95 95 63
 Width: 408
 Flags: W
 TtInstrs:
@@ -25819,7 +25827,7 @@ EndSplineSet
 EndChar
 
 StartChar: grave
-Encoding: 96 96 63
+Encoding: 96 96 64
 Width: 280
 Flags: W
 TtInstrs:
@@ -26017,7 +26025,7 @@ EndSplineSet
 EndChar
 
 StartChar: a
-Encoding: 97 97 64
+Encoding: 97 97 65
 Width: 496
 Flags: W
 TtInstrs:
@@ -26523,12 +26531,12 @@ SplineSet
  122 107 122 107 147 84.5 c 128,-1,62
  172 62 172 62 211 62 c 0,46,47
 EndSplineSet
-Kerns2: 51 -120 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  6 -8 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  1 -8 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Kerns2: 52 -120 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  7 -8 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  2 -8 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 Substitution2: "Single Substitution lookup 13 subtable" ordfeminine
 EndChar
 
 StartChar: b
-Encoding: 98 98 65
+Encoding: 98 98 66
 Width: 540
 Flags: W
 TtInstrs:
@@ -26801,11 +26809,11 @@ SplineSet
  364 414 364 414 340.5 428 c 128,-1,30
  317 442 317 442 283 442 c 0,16,17
 EndSplineSet
-Kerns2: 69 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 70 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: c
-Encoding: 99 99 66
+Encoding: 99 99 67
 Width: 451
 Flags: W
 TtInstrs:
@@ -27071,11 +27079,11 @@ SplineSet
  374 80 374 80 392 94 c 1,28,-1
  418 33 l 1,0,1
 EndSplineSet
-Kerns2: 88 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 89 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: d
-Encoding: 100 100 67
+Encoding: 100 100 68
 Width: 538
 Flags: W
 TtInstrs:
@@ -27392,7 +27400,7 @@ EndSplineSet
 EndChar
 
 StartChar: e
-Encoding: 101 101 68
+Encoding: 101 101 69
 Width: 508
 Flags: W
 TtInstrs:
@@ -27787,7 +27795,7 @@ EndSplineSet
 EndChar
 
 StartChar: f
-Encoding: 102 102 69
+Encoding: 102 102 70
 Width: 319
 Flags: W
 TtInstrs:
@@ -28049,11 +28057,11 @@ SplineSet
  22 430 l 1,27,-1
  22 500 l 1,0,-1
 EndSplineSet
-Kerns2: 92 36 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  60 36 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 93 36 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  61 36 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: g
-Encoding: 103 103 70
+Encoding: 103 103 71
 Width: 537
 Flags: W
 TtInstrs:
@@ -28394,7 +28402,7 @@ EndSplineSet
 EndChar
 
 StartChar: h
-Encoding: 104 104 71
+Encoding: 104 104 72
 Width: 547
 Flags: W
 TtInstrs:
@@ -28651,7 +28659,7 @@ EndSplineSet
 EndChar
 
 StartChar: i
-Encoding: 105 105 72
+Encoding: 105 105 73
 Width: 268
 Flags: W
 TtInstrs:
@@ -28834,7 +28842,7 @@ EndSplineSet
 EndChar
 
 StartChar: j
-Encoding: 106 106 73
+Encoding: 106 106 74
 Width: 267
 Flags: W
 TtInstrs:
@@ -29043,7 +29051,7 @@ EndSplineSet
 EndChar
 
 StartChar: k
-Encoding: 107 107 74
+Encoding: 107 107 75
 Width: 479
 Flags: W
 TtInstrs:
@@ -30020,11 +30028,11 @@ SplineSet
  370 0 l 1,14,-1
  203 225 l 1,0,-1
 EndSplineSet
-Kerns2: 80 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  78 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  70 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  68 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  66 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Kerns2: 81 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  79 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  71 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  69 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  67 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 EndChar
 
 StartChar: l
-Encoding: 108 108 75
+Encoding: 108 108 76
 Width: 292
 Flags: W
 TtInstrs:
@@ -30205,7 +30213,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" l.var
 EndChar
 
 StartChar: m
-Encoding: 109 109 76
+Encoding: 109 109 77
 Width: 812
 Flags: W
 TtInstrs:
@@ -30669,7 +30677,7 @@ EndSplineSet
 EndChar
 
 StartChar: n
-Encoding: 110 110 77
+Encoding: 110 110 78
 Width: 547
 Flags: W
 TtInstrs:
@@ -30996,11 +31004,11 @@ SplineSet
  478 0 l 1,22,-1
  398 0 l 1,0,-1
 EndSplineSet
-Kerns2: 51 -127 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Kerns2: 52 -127 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 EndChar
 
 StartChar: o
-Encoding: 111 111 78
+Encoding: 111 111 79
 Width: 536
 Flags: W
 TtInstrs:
@@ -31255,12 +31263,12 @@ SplineSet
  305 442 305 442 268 442 c 0,28,29
  132 443 132 443 132 250 c 0,16,17
 EndSplineSet
-Kerns2: 69 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 70 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Substitution2: "Single Substitution lookup 13 subtable" ordmasculine
 EndChar
 
 StartChar: p
-Encoding: 112 112 79
+Encoding: 112 112 80
 Width: 541
 Flags: W
 TtInstrs:
@@ -31579,11 +31587,11 @@ SplineSet
  364 416 364 416 339.5 429 c 128,-1,34
  315 442 315 442 279 442 c 0,20,21
 EndSplineSet
-Kerns2: 69 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 70 -12 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: q
-Encoding: 113 113 80
+Encoding: 113 113 81
 Width: 537
 Flags: W
 TtInstrs:
@@ -31831,7 +31839,7 @@ EndSplineSet
 EndChar
 
 StartChar: r
-Encoding: 114 114 81
+Encoding: 114 114 82
 Width: 340
 Flags: W
 TtInstrs:
@@ -32293,7 +32301,7 @@ EndSplineSet
 EndChar
 
 StartChar: s
-Encoding: 115 115 82
+Encoding: 115 115 83
 Width: 421
 Flags: W
 TtInstrs:
@@ -32670,7 +32678,7 @@ Substitution2: "'aalt' Access All Alternates lookup 0 subtable" longs
 EndChar
 
 StartChar: t
-Encoding: 116 116 83
+Encoding: 116 116 84
 Width: 339
 Flags: W
 TtInstrs:
@@ -33002,7 +33010,7 @@ EndSplineSet
 EndChar
 
 StartChar: u
-Encoding: 117 117 84
+Encoding: 117 117 85
 Width: 539
 Flags: W
 TtInstrs:
@@ -33358,7 +33366,7 @@ EndSplineSet
 EndChar
 
 StartChar: v
-Encoding: 118 118 85
+Encoding: 118 118 86
 Width: 482
 Flags: W
 TtInstrs:
@@ -34056,7 +34064,7 @@ EndSplineSet
 EndChar
 
 StartChar: w
-Encoding: 119 119 86
+Encoding: 119 119 87
 Width: 735
 Flags: W
 TtInstrs:
@@ -35587,7 +35595,7 @@ EndSplineSet
 EndChar
 
 StartChar: x
-Encoding: 120 120 87
+Encoding: 120 120 88
 Width: 515
 Flags: W
 TtInstrs:
@@ -36831,7 +36839,7 @@ EndSplineSet
 EndChar
 
 StartChar: y
-Encoding: 121 121 88
+Encoding: 121 121 89
 Width: 466
 Flags: W
 TtInstrs:
@@ -37661,7 +37669,7 @@ EndSplineSet
 EndChar
 
 StartChar: z
-Encoding: 122 122 89
+Encoding: 122 122 90
 Width: 447
 Flags: W
 TtInstrs:
@@ -37960,7 +37968,7 @@ EndSplineSet
 EndChar
 
 StartChar: braceleft
-Encoding: 123 123 90
+Encoding: 123 123 91
 Width: 346
 Flags: W
 TtInstrs:
@@ -38142,12 +38150,12 @@ SplineSet
  137 -177 137 -177 137 -126 c 2,35,-1
  137 112 l 2,0,1
 EndSplineSet
-Kerns2: 173 16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 166 16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 3" dx=0 dy=100 dh=0 dv=0
 EndChar
 
 StartChar: bar
-Encoding: 124 124 91
+Encoding: 124 124 92
 Width: 238
 Flags: W
 TtInstrs:
@@ -38268,7 +38276,7 @@ EndSplineSet
 EndChar
 
 StartChar: braceright
-Encoding: 125 125 92
+Encoding: 125 125 93
 Width: 346
 Flags: W
 TtInstrs:
@@ -38475,7 +38483,7 @@ Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 3" dx=0 dy=100 d
 EndChar
 
 StartChar: asciitilde
-Encoding: 126 126 93
+Encoding: 126 126 94
 Width: 505
 Flags: W
 TtInstrs:
@@ -38692,1986 +38700,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: cent
-Encoding: 162 162 94
-Width: 545
-Flags: W
-TtInstrs:
-PUSHB_1
- 10
-CALL
-IF
-PUSHB_3
- 20
- 11
- 3
-CALL
-PUSHB_5
- 175
- 20
- 191
- 20
- 2
-DELTAP1
-PUSHB_3
- 111
- 20
- 1
-DELTAP2
-PUSHB_3
- 144
- 20
- 1
-DELTAP1
-PUSHB_3
- 80
- 20
- 1
-DELTAP1
-PUSHB_1
- 20
-SRP0
-PUSHB_1
- 0
-MDRP[rp0,grey]
-PUSHB_1
- 0
-MDAP[rnd]
-PUSHB_3
- 0
- 11
- 1
-DELTAP1
-PUSHB_5
- 80
- 11
- 96
- 11
- 2
-DELTAP1
-PUSHB_3
- 224
- 11
- 1
-DELTAP1
-PUSHB_3
- 6
- 11
- 0
-SRP1
-SRP2
-IP
-PUSHB_1
- 6
-MDAP[rnd]
-PUSHB_2
- 3
- 11
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
- 14
-MDRP[rp0,grey]
-PUSHB_1
- 3
-SRP0
-PUSHB_1
- 17
-MDRP[rp0,grey]
-PUSHB_1
- 3
-SRP0
-PUSHB_1
- 25
-MDRP[rp0,grey]
-PUSHB_1
- 11
-SRP0
-PUSHB_2
- 29
- 9
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
- 34
-MDRP[rp0,grey]
-NPUSHW
- 17
- 41
- 34
- 57
- 34
- 73
- 34
- 89
- 34
- 105
- 34
- 121
- 34
- 137
- 34
- 153
- 34
- 8
-DELTAP3
-EIF
-SVTCA[y-axis]
-PUSHB_1
- 0
-RCVT
-IF
-PUSHB_1
- 17
-MDAP[rnd]
-ELSE
-PUSHB_2
- 17
- 21
-MIAP[no-rnd]
-EIF
-PUSHB_1
- 0
-RCVT
-IF
-PUSHB_1
- 6
-MDAP[rnd]
-ELSE
-PUSHB_2
- 6
- 13
-MIAP[no-rnd]
-EIF
-PUSHB_1
- 0
-MDRP[rp0,grey]
-PUSHB_1
- 0
-MDAP[rnd]
-PUSHB_7
- 48
- 0
- 64
- 0
- 80
- 0
- 3
-DELTAP1
-PUSHB_1
- 6
-SRP0
-PUSHB_1
- 3
-MDRP[rp0,grey]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
- 5
-MDRP[rp0,min,rnd,grey]
-PUSHB_1
- 17
-SRP0
-PUSHB_1
- 14
-MDRP[rp0,grey]
-PUSHB_1
- 17
-SRP0
-PUSHB_1
- 16
-MDRP[rp0,min,rnd,grey]
-PUSHB_1
- 17
-SRP0
-PUSHB_1
- 20
-MDRP[rp0,grey]
-PUSHB_1
- 20
-MDAP[rnd]
-NPUSHW
- 9
- 96
- 20
- 112
- 20
- 128
- 20
- 144
- 20
- 4
-DELTAP1
-PUSHB_2
- 21
- 1
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 17
-SRP0
-PUSHB_2
- 24
- 1
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 6
-SRP0
-PUSHB_2
- 25
- 1
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 0
-SRP0
-PUSHB_2
- 28
- 3
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 25
-SRP0
-PUSHB_1
- 34
-MDRP[rp0,grey]
-PUSHB_3
- 87
- 34
- 1
-DELTAP1
-PUSHB_3
- 102
- 34
- 1
-DELTAP1
-PUSHB_1
- 24
-SRP0
-PUSHB_1
- 35
-MDRP[rp0,grey]
-PUSHB_3
- 105
- 35
- 1
-DELTAP1
-IUP[y]
-IUP[x]
-SVTCA[x-axis]
-PUSHB_1
- 10
-CALL
-IF
-PUSHB_5
- 104
- 8
- 120
- 8
- 2
-DELTAP1
-EIF
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-461 33 m 1,0,1
- 437 16 437 16 406.5 5.5 c 128,-1,2
- 376 -5 376 -5 341 -9 c 1,3,-1
- 341 -100 l 1,4,-1
- 270 -100 l 1,5,-1
- 270 -10 l 1,6,7
- 220 -5 220 -5 185.5 15.5 c 128,-1,8
- 151 36 151 36 129 69.5 c 128,-1,9
- 107 103 107 103 97 149 c 128,-1,10
- 87 195 87 195 87 250 c 0,11,12
- 87 365 87 365 134.5 431.5 c 128,-1,13
- 182 498 182 498 270 509 c 1,14,-1
- 270 600 l 1,15,-1
- 341 600 l 1,16,-1
- 341 511 l 1,17,18
- 376 509 376 509 403 501.5 c 128,-1,19
- 430 494 430 494 452 483 c 1,20,-1
- 429 415 l 1,21,22
- 409 425 409 425 384.5 432 c 128,-1,23
- 360 439 360 439 334 441 c 1,24,-1
- 334 58 l 1,25,26
- 366 60 366 60 392 70.5 c 128,-1,27
- 418 81 418 81 435 94 c 1,28,-1
- 461 33 l 1,0,1
-170 250 m 0,29,30
- 170 217 170 217 175.5 186.5 c 128,-1,31
- 181 156 181 156 194 130.5 c 128,-1,32
- 207 105 207 105 228 87 c 128,-1,33
- 249 69 249 69 280 62 c 1,34,-1
- 280 439 l 1,35,36
- 170 418 170 418 170 250 c 0,29,30
-EndSplineSet
-EndChar
-
-StartChar: sterling
-Encoding: 163 163 95
-Width: 545
-Flags: W
-TtInstrs:
-PUSHB_1
- 10
-CALL
-IF
-PUSHB_3
- 10
- 4
- 3
-CALL
-PUSHB_3
- 47
- 4
- 1
-DELTAP2
-PUSHB_3
- 191
- 4
- 1
-DELTAP1
-PUSHB_3
- 223
- 4
- 1
-DELTAP1
-NPUSHW
- 9
- 111
- 4
- 127
- 4
- 143
- 4
- 159
- 4
- 4
-DELTAP1
-PUSHB_3
- 15
- 4
- 1
-DELTAP2
-PUSHB_3
- 144
- 4
- 1
-DELTAP2
-PUSHB_1
- 4
-SRP0
-PUSHB_1
- 41
-MDRP[rp0,min,rnd,grey]
-PUSHB_5
- 160
- 41
- 176
- 41
- 2
-DELTAP1
-PUSHB_3
- 1
- 4
- 41
-SRP1
-SRP2
-IP
-NPUSHW
- 13
- 168
- 1
- 184
- 1
- 200
- 1
- 216
- 1
- 232
- 1
- 248
- 1
- 6
-DELTAP1
-PUSHB_5
- 8
- 1
- 24
- 1
- 2
-DELTAP2
-PUSHB_1
- 1
-SRP0
-PUSHB_1
- 0
-MDRP[rp0,grey]
-PUSHB_1
- 0
-MDAP[rnd]
-PUSHB_7
- 159
- 10
- 175
- 10
- 191
- 10
- 3
-DELTAP1
-PUSHB_3
- 127
- 10
- 1
-DELTAP1
-PUSHB_3
- 144
- 10
- 1
-DELTAP2
-PUSHB_3
- 48
- 10
- 1
-DELTAP1
-PUSHB_1
- 4
-SRP0
-PUSHB_2
- 17
- 9
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 41
-SRP0
-PUSHB_2
- 26
- 9
-MIRP[rp0,rnd,grey]
-PUSHB_3
- 20
- 17
- 26
-SRP1
-SRP2
-IP
-NPUSHW
- 13
- 168
- 20
- 184
- 20
- 200
- 20
- 216
- 20
- 232
- 20
- 248
- 20
- 6
-DELTAP1
-PUSHB_5
- 8
- 20
- 24
- 20
- 2
-DELTAP2
-PUSHB_1
- 20
-SRP0
-PUSHB_1
- 21
-MDRP[rp0,grey]
-PUSHB_1
- 21
-MDAP[rnd]
-PUSHB_3
- 23
- 26
- 17
-SRP1
-SRP2
-IP
-PUSHB_1
- 0
-SRP0
-PUSHB_1
- 36
-MDRP[rp0,grey]
-PUSHB_1
- 36
-MDAP[rnd]
-PUSHB_3
- 30
- 36
- 26
-SRP1
-SRP2
-IP
-PUSHB_3
- 102
- 30
- 1
-DELTAP1
-PUSHB_1
- 10
-SRP0
-PUSHB_1
- 33
-MDRP[rp0,grey]
-PUSHB_1
- 33
-MDAP[rnd]
-PUSHB_3
- 44
- 4
- 41
-SRP1
-SRP2
-IP
-EIF
-SVTCA[y-axis]
-PUSHB_1
- 0
-RCVT
-IF
-PUSHB_1
- 7
-MDAP[rnd]
-ELSE
-PUSHB_2
- 7
- 25
-MIAP[no-rnd]
-EIF
-PUSHB_1
- 0
-RCVT
-IF
-PUSHB_1
- 34
-MDAP[rnd]
-ELSE
-PUSHB_2
- 34
- 13
-MIAP[no-rnd]
-EIF
-PUSHB_3
- 21
- 7
- 34
-SRP1
-SRP2
-IP
-PUSHB_1
- 21
-MDAP[rnd]
-PUSHB_1
- 1
-MDRP[rp0,grey]
-PUSHB_1
- 7
-SRP0
-PUSHB_1
- 10
-MDRP[rp0,grey]
-PUSHB_1
- 10
-MDAP[rnd]
-PUSHB_3
- 96
- 10
- 1
-DELTAP1
-PUSHB_2
- 11
- 4
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 7
-SRP0
-PUSHB_2
- 14
- 2
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
- 22
-MDRP[rp0,min,rnd,grey]
-NPUSHW
- 11
- 159
- 22
- 175
- 22
- 191
- 22
- 207
- 22
- 223
- 22
- 5
-DELTAP3
-PUSHB_3
- 192
- 22
- 1
-DELTAP1
-PUSHB_1
- 34
-SRP0
-PUSHB_2
- 33
- 2
-MIRP[rp0,rnd,grey]
-PUSHB_3
- 31
- 33
- 34
-SRP1
-SRP2
-IP
-PUSHB_1
- 36
-MDRP[rp0,grey]
-PUSHB_1
- 22
-SRP0
-PUSHB_1
- 45
-MDRP[rp0,grey]
-IUP[y]
-IUP[x]
-SVTCA[x-axis]
-PUSHB_1
- 10
-CALL
-IF
-PUSHB_5
- 107
- 5
- 123
- 5
- 2
-DELTAP1
-PUSHB_3
- 138
- 6
- 1
-DELTAP1
-PUSHB_5
- 107
- 6
- 123
- 6
- 2
-DELTAP1
-PUSHB_5
- 118
- 29
- 134
- 29
- 2
-DELTAP1
-EIF
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-50 383 m 1,0,-1
- 116 383 l 1,1,2
- 104 409 104 409 96 440 c 128,-1,3
- 88 471 88 471 88 513 c 0,4,5
- 88 611 88 611 144 661.5 c 128,-1,6
- 200 712 200 712 297 712 c 0,7,8
- 358 712 358 712 403 703 c 128,-1,9
- 448 694 448 694 477 680 c 1,10,-1
- 451 609 l 1,11,12
- 428 620 428 620 389.5 629 c 128,-1,13
- 351 638 351 638 296 638 c 0,14,15
- 236 638 236 638 203.5 605.5 c 128,-1,16
- 171 573 171 573 171 518 c 0,17,18
- 171 476 171 476 181 444 c 128,-1,19
- 191 412 191 412 205 383 c 1,20,-1
- 366 383 l 1,21,-1
- 366 313 l 1,22,-1
- 235 313 l 1,23,24
- 243 290 243 290 248 265 c 128,-1,25
- 253 240 253 240 253 210 c 256,26,27
- 253 180 253 180 244 148.5 c 128,-1,28
- 235 117 235 117 217 97 c 1,29,-1
- 178 64 l 1,30,-1
- 178 60 l 1,31,-1
- 240 74 l 1,32,-1
- 496 74 l 1,33,-1
- 496 0 l 1,34,-1
- 50 0 l 1,35,-1
- 50 72 l 1,36,37
- 82 72 82 72 104.5 83.5 c 128,-1,38
- 127 95 127 95 141.5 113.5 c 128,-1,39
- 156 132 156 132 163 155.5 c 128,-1,40
- 170 179 170 179 170 203 c 0,41,42
- 170 236 170 236 163.5 262.5 c 128,-1,43
- 157 289 157 289 147 313 c 1,44,-1
- 50 313 l 1,45,-1
- 50 383 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: currency
-Encoding: 164 164 96
-Width: 545
-Flags: W
-TtInstrs:
-PUSHB_1
- 10
-CALL
-IF
-PUSHB_1
- 31
-MDAP[rnd]
-PUSHB_3
- 31
- 31
- 1
-DELTAP1
-PUSHB_1
- 13
-MDRP[rp0,min,rnd,grey]
-PUSHB_3
- 2
- 31
- 13
-SRP1
-SRP2
-IP
-PUSHB_3
- 6
- 2
- 1
-DELTAP2
-PUSHB_3
- 6
- 31
- 13
-SRP1
-SRP2
-IP
-PUSHB_3
- 150
- 6
- 1
-DELTAP1
-PUSHB_7
- 6
- 6
- 22
- 6
- 38
- 6
- 3
-DELTAP2
-PUSHB_1
- 17
-MDRP[rp0,min,rnd,grey]
-PUSHB_1
- 9
-MDRP[rp0,grey]
-PUSHB_3
- 11
- 13
- 31
-SRP1
-SRP2
-IP
-PUSHB_7
- 6
- 11
- 22
- 11
- 38
- 11
- 3
-DELTAP2
-PUSHB_5
- 134
- 11
- 150
- 11
- 2
-DELTAP1
-PUSHB_3
- 15
- 13
- 31
-SRP1
-SRP2
-IP
-PUSHB_5
- 134
- 15
- 150
- 15
- 2
-DELTAP1
-PUSHB_7
- 6
- 15
- 22
- 15
- 38
- 15
- 3
-DELTAP2
-PUSHB_3
- 20
- 31
- 13
-SRP1
-SRP2
-IP
-PUSHB_3
- 150
- 20
- 1
-DELTAP1
-PUSHB_3
- 24
- 31
- 13
-SRP1
-SRP2
-IP
-PUSHB_3
- 153
- 24
- 1
-DELTAP1
-PUSHB_7
- 6
- 24
- 22
- 24
- 38
- 24
- 3
-DELTAP2
-PUSHB_1
- 31
-SRP0
-PUSHB_1
- 27
-MDRP[rp0,min,rnd,grey]
-PUSHB_3
- 29
- 31
- 13
-SRP1
-SRP2
-IP
-PUSHB_7
- 9
- 29
- 25
- 29
- 41
- 29
- 3
-DELTAP2
-PUSHB_5
- 137
- 29
- 153
- 29
- 2
-DELTAP1
-PUSHB_3
- 34
- 31
- 13
-SRP1
-SRP2
-IP
-PUSHB_5
- 137
- 34
- 153
- 34
- 2
-DELTAP1
-PUSHB_7
- 9
- 34
- 25
- 34
- 41
- 34
- 3
-DELTAP2
-PUSHB_1
- 36
-MDRP[rp0,grey]
-PUSHB_1
- 31
-SRP0
-PUSHB_2
- 37
- 11
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 13
-SRP0
-PUSHB_2
- 43
- 11
-MIRP[rp0,rnd,grey]
-EIF
-SVTCA[y-axis]
-PUSHB_1
- 22
-MDAP[rnd]
-PUSHB_5
- 175
- 22
- 191
- 22
- 2
-DELTAP1
-PUSHB_1
- 4
-MDRP[rp0,min,rnd,grey]
-PUSHB_5
- 160
- 4
- 176
- 4
- 2
-DELTAP1
-PUSHB_1
- 0
-MDRP[rp0,min,rnd,grey]
-PUSHB_3
- 2
- 4
- 22
-SRP1
-SRP2
-IP
-PUSHB_5
- 22
- 2
- 38
- 2
- 2
-DELTAP2
-PUSHB_3
- 134
- 2
- 1
-DELTAP1
-PUSHB_3
- 149
- 2
- 1
-DELTAP1
-PUSHB_3
- 6
- 4
- 22
-SRP1
-SRP2
-IP
-PUSHB_3
- 134
- 6
- 1
-DELTAP1
-PUSHB_1
- 8
-MDRP[rp0,grey]
-PUSHB_3
- 11
- 22
- 4
-SRP1
-SRP2
-IP
-PUSHB_3
- 15
- 4
- 22
-SRP1
-SRP2
-IP
-PUSHB_1
- 22
-SRP0
-PUSHB_1
- 26
-MDRP[rp0,min,rnd,grey]
-PUSHB_1
- 18
-MDRP[rp0,grey]
-PUSHB_3
- 20
- 22
- 4
-SRP1
-SRP2
-IP
-PUSHB_5
- 137
- 20
- 153
- 20
- 2
-DELTAP1
-PUSHB_7
- 9
- 20
- 25
- 20
- 41
- 20
- 3
-DELTAP2
-PUSHB_3
- 24
- 22
- 4
-SRP1
-SRP2
-IP
-PUSHB_5
- 137
- 24
- 153
- 24
- 2
-DELTAP1
-PUSHB_3
- 29
- 22
- 4
-SRP1
-SRP2
-IP
-PUSHB_3
- 34
- 4
- 22
-SRP1
-SRP2
-IP
-PUSHB_1
- 22
-SRP0
-PUSHB_2
- 40
- 1
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 4
-SRP0
-PUSHB_2
- 46
- 1
-MIRP[rp0,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-70 596 m 1,0,-1
- 148 519 l 1,1,-1
- 169 484 l 1,2,3
- 211 517 211 517 272 517 c 0,4,5
- 331 517 331 517 375 484 c 1,6,-1
- 397 519 l 1,7,-1
- 475 596 l 1,8,-1
- 524 547 l 1,9,-1
- 447 469 l 1,10,-1
- 412 447 l 1,11,12
- 444 404 444 404 444 345 c 0,13,14
- 444 285 444 285 412 242 c 1,15,-1
- 447 221 l 1,16,-1
- 524 143 l 1,17,-1
- 475 95 l 1,18,-1
- 397 172 l 1,19,-1
- 376 205 l 1,20,21
- 333 174 333 174 272 174 c 0,22,23
- 210 174 210 174 169 205 c 1,24,-1
- 148 172 l 1,25,-1
- 70 95 l 1,26,-1
- 21 143 l 1,27,-1
- 98 221 l 1,28,-1
- 132 243 l 1,29,30
- 101 285 101 285 101 345 c 0,31,32
- 101 374 101 374 109.5 400 c 128,-1,33
- 118 426 118 426 132 448 c 1,34,-1
- 98 469 l 1,35,-1
- 21 547 l 1,36,-1
- 70 596 l 1,0,-1
-170 345 m 256,37,38
- 170 300 170 300 198.5 270 c 128,-1,39
- 227 240 227 240 272 240 c 256,40,41
- 317 240 317 240 346 270 c 128,-1,42
- 375 300 375 300 375 345 c 256,43,44
- 375 390 375 390 346 420.5 c 128,-1,45
- 317 451 317 451 272 451 c 256,46,47
- 227 451 227 451 198.5 420.5 c 128,-1,48
- 170 390 170 390 170 345 c 256,37,38
-EndSplineSet
-EndChar
-
-StartChar: yen
-Encoding: 165 165 97
-Width: 545
-Flags: W
-TtInstrs:
-PUSHB_1
- 10
-CALL
-IF
-PUSHW_4
- 13
- 9
- 24
- 4
-CALL
-PUSHB_3
- 32
- 24
- 1
-DELTAP1
-PUSHB_1
- 24
-SRP0
-PUSHB_1
- 2
-MDRP[rp0,min,rnd,grey]
-PUSHB_3
- 47
- 2
- 1
-DELTAP1
-PUSHB_3
- 191
- 2
- 1
-DELTAP1
-PUSHB_5
- 60
- 2
- 76
- 2
- 2
-DELTAP1
-PUSHB_3
- 1
- 24
- 2
-SRP1
-SRP2
-IP
-PUSHB_3
- 121
- 1
- 1
-DELTAP1
-PUSHB_7
- 155
- 1
- 171
- 1
- 187
- 1
- 3
-DELTAP1
-PUSHB_3
- 140
- 1
- 1
-DELTAP1
-PUSHB_5
- 74
- 1
- 90
- 1
- 2
-DELTAP1
-PUSHB_3
- 104
- 1
- 1
-DELTAP1
-PUSHB_7
- 38
- 1
- 54
- 1
- 70
- 1
- 3
-DELTAP3
-PUSHB_1
- 3
-MDRP[rp0,grey]
-PUSHB_3
- 116
- 3
- 1
-DELTAP1
-PUSHB_3
- 53
- 3
- 1
-DELTAP1
-PUSHB_5
- 230
- 3
- 246
- 3
- 2
-DELTAP2
-PUSHB_3
- 6
- 3
- 1
-DELTAP3
-PUSHB_7
- 70
- 3
- 86
- 3
- 102
- 3
- 3
-DELTAP1
-PUSHB_7
- 218
- 3
- 234
- 3
- 250
- 3
- 3
-DELTAP1
-PUSHB_5
- 187
- 3
- 203
- 3
- 2
-DELTAP1
-PUSHB_3
- 172
- 3
- 1
-DELTAP1
-PUSHB_3
- 106
- 3
- 1
-DELTAP2
-PUSHB_3
- 201
- 3
- 1
-DELTAP2
-PUSHB_5
- 150
- 3
- 166
- 3
- 2
-DELTAP3
-PUSHB_7
- 181
- 3
- 197
- 3
- 213
- 3
- 3
-DELTAP3
-PUSHB_3
- 21
- 3
- 1
-DELTAP3
-PUSHB_3
- 131
- 3
- 1
-DELTAP1
-PUSHB_3
- 146
- 3
- 1
-DELTAP1
-PUSHB_3
- 32
- 13
- 1
-DELTAP1
-PUSHB_1
- 13
-SRP0
-PUSHB_1
- 9
-MDRP[rp0,min,rnd,grey]
-PUSHB_3
- 50
- 9
- 1
-DELTAP1
-PUSHB_5
- 70
- 9
- 86
- 9
- 2
-DELTAP2
-PUSHB_3
- 67
- 9
- 1
-DELTAP1
-PUSHB_3
- 32
- 9
- 1
-DELTAP1
-PUSHB_3
- 176
- 9
- 1
-DELTAP1
-PUSHB_3
- 4
- 3
- 9
-SRP1
-SRP2
-IP
-PUSHB_5
- 8
- 4
- 24
- 4
- 2
-DELTAP1
-PUSHB_3
- 154
- 4
- 1
-DELTAP1
-PUSHB_3
- 139
- 4
- 1
-DELTAP1
-PUSHB_5
- 73
- 4
- 89
- 4
- 2
-DELTAP1
-PUSHB_3
- 23
- 4
- 1
-DELTAP2
-PUSHB_3
- 246
- 4
- 1
-DELTAP1
-PUSHB_2
- 8
- 10
-MIRP[rp0,rnd,grey]
-PUSHB_3
- 165
- 8
- 1
-DELTAP1
-PUSHB_3
- 245
- 8
- 1
-DELTAP1
-NPUSHW
- 9
- 5
- 8
- 21
- 8
- 37
- 8
- 53
- 8
- 4
-DELTAP2
-NPUSHW
- 11
- 102
- 8
- 118
- 8
- 134
- 8
- 150
- 8
- 166
- 8
- 5
-DELTAP2
-NPUSHW
- 11
- 182
- 8
- 198
- 8
- 214
- 8
- 230
- 8
- 246
- 8
- 5
-DELTAP3
-PUSHB_5
- 214
- 8
- 230
- 8
- 2
-DELTAP1
-PUSHB_3
- 197
- 8
- 1
-DELTAP1
-NPUSHW
- 11
- 181
- 8
- 197
- 8
- 213
- 8
- 229
- 8
- 245
- 8
- 5
-DELTAP2
-PUSHB_5
- 5
- 8
- 21
- 8
- 2
-DELTAP3
-PUSHB_5
- 68
- 8
- 84
- 8
- 2
-DELTAP2
-PUSHB_3
- 179
- 8
- 1
-DELTAP1
-PUSHB_3
- 7
- 8
- 2
-SRP1
-SRP2
-IP
-PUSHB_7
- 54
- 7
- 70
- 7
- 86
- 7
- 3
-DELTAP2
-PUSHB_3
- 150
- 7
- 1
-DELTAP1
-PUSHB_3
- 23
- 7
- 1
-DELTAP2
-PUSHB_3
- 184
- 7
- 1
-DELTAP1
-PUSHB_3
- 246
- 7
- 1
-DELTAP2
-PUSHB_5
- 6
- 7
- 22
- 7
- 2
-DELTAP3
-PUSHB_3
- 246
- 7
- 1
-DELTAP1
-PUSHB_3
- 101
- 7
- 1
-DELTAP1
-PUSHB_3
- 132
- 7
- 1
-DELTAP1
-PUSHB_3
- 10
- 13
- 9
-SRP1
-SRP2
-IP
-PUSHB_3
- 100
- 10
- 1
-DELTAP1
-PUSHB_3
- 165
- 10
- 1
-DELTAP1
-NPUSHW
- 11
- 9
- 10
- 25
- 10
- 41
- 10
- 57
- 10
- 73
- 10
- 5
-DELTAP3
-PUSHB_3
- 10
- 10
- 1
-DELTAP2
-PUSHB_5
- 217
- 10
- 233
- 10
- 2
-DELTAP2
-PUSHB_3
- 118
- 10
- 1
-DELTAP1
-PUSHB_5
- 69
- 10
- 85
- 10
- 2
-DELTAP1
-PUSHB_5
- 132
- 10
- 148
- 10
- 2
-DELTAP1
-PUSHB_3
- 179
- 10
- 1
-DELTAP1
-PUSHB_1
- 13
-SRP0
-PUSHB_1
- 12
-MDRP[rp0,min,rnd,grey]
-PUSHB_3
- 63
- 12
- 1
-DELTAP1
-PUSHB_1
- 15
-MDRP[rp0,grey]
-PUSHB_1
- 13
-SRP0
-PUSHB_1
- 17
-MDRP[rp0,grey]
-PUSHB_1
- 24
-SRP0
-PUSHB_1
- 20
-MDRP[rp0,grey]
-PUSHB_1
- 24
-SRP0
-PUSHB_1
- 25
-MDRP[rp0,min,rnd,grey]
-PUSHB_3
- 48
- 25
- 1
-DELTAP1
-PUSHB_1
- 22
-MDRP[rp0,grey]
-EIF
-SVTCA[y-axis]
-PUSHB_1
- 0
-RCVT
-IF
-PUSHB_1
- 3
-MDAP[rnd]
-ELSE
-PUSHB_2
- 3
- 25
-MIAP[no-rnd]
-EIF
-PUSHB_1
- 0
-RCVT
-IF
-PUSHB_1
- 8
-MDAP[rnd]
-ELSE
-PUSHB_2
- 8
- 25
-MIAP[no-rnd]
-EIF
-PUSHB_1
- 0
-RCVT
-IF
-PUSHB_1
- 18
-MDAP[rnd]
-ELSE
-PUSHB_2
- 18
- 13
-MIAP[no-rnd]
-EIF
-PUSHB_3
- 10
- 3
- 18
-SRP1
-SRP2
-IP
-PUSHB_1
- 10
-MDAP[rnd]
-PUSHB_1
- 1
-MDRP[rp0,grey]
-PUSHB_1
- 10
-SRP0
-PUSHB_1
- 5
-MDRP[rp0,grey]
-NPUSHW
- 9
- 207
- 5
- 223
- 5
- 239
- 5
- 255
- 5
- 4
-DELTAP1
-PUSHB_3
- 15
- 5
- 1
-DELTAP2
-PUSHB_3
- 27
- 5
- 1
-DELTAP2
-PUSHB_3
- 42
- 5
- 1
-DELTAP1
-PUSHB_1
- 10
-SRP0
-PUSHB_1
- 13
-MDRP[rp0,min,rnd,grey]
-NPUSHW
- 9
- 192
- 13
- 208
- 13
- 224
- 13
- 240
- 13
- 4
-DELTAP1
-PUSHB_3
- 0
- 13
- 1
-DELTAP3
-PUSHB_1
- 10
-SRP0
-PUSHB_1
- 14
-MDRP[rp0,min,rnd,grey]
-PUSHB_5
- 32
- 14
- 48
- 14
- 2
-DELTAP3
-PUSHB_7
- 0
- 14
- 16
- 14
- 32
- 14
- 3
-DELTAP1
-PUSHB_1
- 17
-MDRP[rp0,min,rnd,grey]
-PUSHB_3
- 0
- 17
- 1
-DELTAP3
-NPUSHW
- 9
- 192
- 17
- 208
- 17
- 224
- 17
- 240
- 17
- 4
-DELTAP1
-PUSHB_1
- 20
-MDRP[rp0,grey]
-PUSHB_1
- 14
-SRP0
-PUSHB_1
- 23
-MDRP[rp0,grey]
-PUSHB_1
- 13
-SRP0
-PUSHB_1
- 24
-MDRP[rp0,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-111 328 m 1,0,-1
- 205 328 l 1,1,-1
- 2 700 l 1,2,-1
- 99 700 l 1,3,-1
- 263 394 l 1,4,-1
- 280 333 l 1,5,-1
- 281 333 l 1,6,-1
- 299 396 l 1,7,-1
- 456 700 l 1,8,-1
- 545 700 l 1,9,-1
- 342 328 l 1,10,-1
- 438 328 l 1,11,-1
- 438 268 l 1,12,-1
- 316 268 l 1,13,-1
- 316 197 l 1,14,-1
- 438 197 l 1,15,-1
- 438 137 l 1,16,-1
- 316 137 l 1,17,-1
- 316 0 l 1,18,-1
- 233 0 l 1,19,-1
- 233 137 l 1,20,-1
- 111 137 l 1,21,-1
- 111 197 l 1,22,-1
- 233 197 l 1,23,-1
- 233 268 l 1,24,-1
- 111 268 l 1,25,-1
- 111 328 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: brokenbar
-Encoding: 166 166 98
-Width: 238
-Flags: W
-TtInstrs:
-PUSHB_1
- 10
-CALL
-IF
-PUSHB_1
- 6
-MDAP[rnd]
-PUSHB_3
- 80
- 6
- 1
-DELTAP2
-PUSHB_3
- 0
- 6
- 1
-DELTAP1
-PUSHB_5
- 192
- 6
- 208
- 6
- 2
-DELTAP1
-PUSHB_5
- 144
- 6
- 160
- 6
- 2
-DELTAP1
-PUSHB_1
- 0
-MDRP[rp0,grey]
-PUSHB_1
- 6
-SRP0
-PUSHB_2
- 7
- 11
-MIRP[rp0,rnd,grey]
-PUSHB_1
- 1
-MDRP[rp0,grey]
-PUSHB_3
- 239
- 9
- 1
-DELTAP1
-EIF
-SVTCA[y-axis]
-PUSHB_1
- 2
-MDAP[rnd]
-PUSHB_1
- 0
-RCVT
-IF
-PUSHB_1
- 6
-MDAP[rnd]
-ELSE
-PUSHB_2
- 6
- 25
-MIAP[no-rnd]
-EIF
-PUSHB_1
- 2
-SRP0
-PUSHB_1
- 0
-MDRP[rp0,min,rnd,grey]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
- 4
-MDRP[rp0,min,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-85 206 m 1,0,-1
- 153 206 l 1,1,-1
- 153 -130 l 1,2,-1
- 85 -130 l 1,3,-1
- 85 206 l 1,0,-1
-153 364 m 1,4,-1
- 85 364 l 1,5,-1
- 85 700 l 1,6,-1
- 153 700 l 1,7,-1
- 153 364 l 1,4,-1
-EndSplineSet
-EndChar
-
 StartChar: section
-Encoding: 167 167 99
+Encoding: 167 167 95
 Width: 497
 Flags: W
 TtInstrs:
@@ -41280,7 +39310,7 @@ EndSplineSet
 EndChar
 
 StartChar: dieresis
-Encoding: 168 168 100
+Encoding: 168 168 96
 Width: 411
 Flags: W
 TtInstrs:
@@ -41578,7 +39608,7 @@ EndSplineSet
 EndChar
 
 StartChar: copyright
-Encoding: 169 169 101
+Encoding: 169 169 97
 Width: 806
 Flags: W
 TtInstrs:
@@ -42066,7 +40096,7 @@ EndSplineSet
 EndChar
 
 StartChar: ordfeminine
-Encoding: 170 170 102
+Encoding: 170 170 98
 Width: 386
 Flags: W
 TtInstrs:
@@ -42525,7 +40555,7 @@ EndSplineSet
 EndChar
 
 StartChar: guillemotleft
-Encoding: 171 171 103
+Encoding: 171 171 99
 Width: 478
 Flags: W
 TtInstrs:
@@ -42712,7 +40742,7 @@ Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 3" dx=0 dy=100 d
 EndChar
 
 StartChar: logicalnot
-Encoding: 172 172 104
+Encoding: 172 172 100
 Width: 505
 Flags: W
 TtInstrs:
@@ -42769,7 +40799,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni00AD
-Encoding: 173 173 105
+Encoding: 173 173 101
 Width: 360
 Flags: W
 TtInstrs:
@@ -42821,11 +40851,11 @@ SplineSet
  58 251 l 1,3,-1
  58 325 l 1,0,-1
 EndSplineSet
-Kerns2: 176 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -72 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -49 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -72 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -49 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: registered
-Encoding: 174 174 106
+Encoding: 174 174 102
 Width: 700
 Flags: W
 TtInstrs:
@@ -43705,7 +41735,7 @@ EndSplineSet
 EndChar
 
 StartChar: macron
-Encoding: 175 175 107
+Encoding: 175 175 103
 Width: 416
 Flags: W
 TtInstrs:
@@ -43807,7 +41837,7 @@ EndSplineSet
 EndChar
 
 StartChar: degree
-Encoding: 176 176 108
+Encoding: 176 176 104
 Width: 425
 Flags: W
 TtInstrs:
@@ -44090,7 +42120,7 @@ EndSplineSet
 EndChar
 
 StartChar: plusminus
-Encoding: 177 177 109
+Encoding: 177 177 105
 Width: 505
 Flags: W
 TtInstrs:
@@ -44289,7 +42319,7 @@ EndSplineSet
 EndChar
 
 StartChar: twosuperior
-Encoding: 178 178 110
+Encoding: 178 178 106
 Width: 394
 Flags: W
 LayerCount: 2
@@ -44324,7 +42354,7 @@ EndSplineSet
 EndChar
 
 StartChar: threesuperior
-Encoding: 179 179 111
+Encoding: 179 179 107
 Width: 394
 Flags: W
 LayerCount: 2
@@ -44361,7 +42391,7 @@ EndSplineSet
 EndChar
 
 StartChar: acute
-Encoding: 180 180 112
+Encoding: 180 180 108
 Width: 268
 Flags: W
 TtInstrs:
@@ -44563,7 +42593,7 @@ EndSplineSet
 EndChar
 
 StartChar: mu
-Encoding: 181 181 113
+Encoding: 181 181 109
 AltUni2: 0003bc.ffffffff.0
 Width: 552
 Flags: W
@@ -44879,7 +42909,7 @@ EndSplineSet
 EndChar
 
 StartChar: paragraph
-Encoding: 182 182 114
+Encoding: 182 182 110
 Width: 494
 Flags: W
 TtInstrs:
@@ -45063,16 +43093,16 @@ EndSplineSet
 EndChar
 
 StartChar: periodcentered
-Encoding: 183 183 115
+Encoding: 183 183 111
 Width: 267
 Flags: W
 LayerCount: 2
 Fore
-Refer: 13 46 N 1 0 0 1 27 250 2
+Refer: 14 46 N 1 0 0 1 27 250 2
 EndChar
 
 StartChar: cedilla
-Encoding: 184 184 116
+Encoding: 184 184 112
 Width: 287
 Flags: W
 TtInstrs:
@@ -45216,7 +43246,7 @@ EndSplineSet
 EndChar
 
 StartChar: onesuperior
-Encoding: 185 185 117
+Encoding: 185 185 113
 Width: 394
 Flags: W
 LayerCount: 2
@@ -45240,7 +43270,7 @@ EndSplineSet
 EndChar
 
 StartChar: ordmasculine
-Encoding: 186 186 118
+Encoding: 186 186 114
 Width: 398
 Flags: W
 TtInstrs:
@@ -45447,7 +43477,7 @@ EndSplineSet
 EndChar
 
 StartChar: guillemotright
-Encoding: 187 187 119
+Encoding: 187 187 115
 Width: 478
 Flags: W
 TtInstrs:
@@ -45636,187 +43666,19 @@ EndSplineSet
 Position2: "'case' Case-Sensitive Forms lookup 1 per glyph data 3" dx=0 dy=100 dh=0 dv=0
 EndChar
 
-StartChar: onequarter
-Encoding: 188 188 120
-Width: 837
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-179 595 m 1
- 186 631 l 1
- 158 603 l 1
- 80 556 l 1
- 53 605 l 1
- 207 707 l 1
- 249 707 l 1
- 249 280 l 1
- 179 280 l 1
- 179 595 l 1
-797 96 m 1
- 714 96 l 1
- 714 0 l 1
- 647 0 l 1
- 647 96 l 1
- 443 96 l 1
- 443 133 l 1
- 669 435 l 1
- 714 435 l 1
- 714 155 l 1
- 797 155 l 1
- 797 96 l 1
-647 283 m 1
- 653 332 l 1
- 651 332 l 1
- 629 286 l 1
- 551 181 l 1
- 518 150 l 1
- 568 155 l 1
- 647 155 l 1
- 647 283 l 1
-628 713 m 1
- 680 678 l 1
- 193 -12 l 1
- 141 24 l 1
- 628 713 l 1
-EndSplineSet
-Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" one uni2215 four
-Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" one fraction four
-Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" one slash four
-EndChar
-
-StartChar: onehalf
-Encoding: 189 189 121
-Width: 850
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-179 595 m 1
- 186 631 l 1
- 158 603 l 1
- 80 556 l 1
- 53 605 l 1
- 207 707 l 1
- 249 707 l 1
- 249 280 l 1
- 179 280 l 1
- 179 595 l 1
-790 310 m 0
- 790 279 790 279 779.5 250 c 0
- 769 221 769 221 751.5 193 c 0
- 734 165 734 165 710 137.5 c 0
- 686 110 686 110 659 82 c 1
- 613 50 l 1
- 613 48 l 1
- 670 63 l 1
- 810 63 l 1
- 810 0 l 1
- 519 0 l 1
- 519 33 l 1
- 542 52 542 52 576.5 84 c 0
- 611 116 611 116 643 153 c 0
- 675 190 675 190 697.5 229 c 0
- 720 268 720 268 720 301 c 0
- 720 332 720 332 700 347.5 c 0
- 680 363 680 363 651 363 c 0
- 624 363 624 363 598.5 353.5 c 0
- 573 344 573 344 554 332 c 1
- 532 389 l 1
- 558 407 558 407 592.5 417 c 0
- 627 427 627 427 663 427 c 0
- 726 427 726 427 758 396 c 0
- 790 365 790 365 790 310 c 0
-628 713 m 1
- 680 678 l 1
- 193 -12 l 1
- 141 24 l 1
- 628 713 l 1
-EndSplineSet
-Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" one uni2215 two
-Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" one fraction two
-Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" one slash two
-EndChar
-
-StartChar: threequarters
-Encoding: 190 190 122
-Width: 876
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-836 96 m 1
- 753 96 l 1
- 753 0 l 1
- 686 0 l 1
- 686 96 l 1
- 482 96 l 1
- 482 133 l 1
- 708 435 l 1
- 753 435 l 1
- 753 155 l 1
- 836 155 l 1
- 836 96 l 1
-686 283 m 1
- 692 332 l 1
- 690 332 l 1
- 668 286 l 1
- 590 181 l 1
- 557 150 l 1
- 607 155 l 1
- 686 155 l 1
- 686 283 l 1
-178 333 m 0
- 226 333 226 333 251.5 352 c 0
- 277 371 277 371 277 408 c 0
- 277 440 277 440 254 460 c 0
- 231 480 231 480 180 480 c 2
- 125 480 l 1
- 125 503 l 1
- 222 619 l 1
- 256 646 l 1
- 207 640 l 1
- 77 640 l 1
- 77 700 l 1
- 333 700 l 1
- 333 667 l 1
- 230 544 l 1
- 205 526 l 1
- 205 524 l 1
- 228 527 l 1
- 283 526 283 526 315 494 c 0
- 347 462 347 462 347 408 c 0
- 347 347 347 347 302.5 310 c 0
- 258 273 258 273 184 273 c 0
- 148 273 148 273 122 279 c 0
- 96 285 96 285 76 292 c 1
- 91 352 l 1
- 108 344 108 344 130 338.5 c 0
- 152 333 152 333 178 333 c 0
-667 713 m 1
- 719 678 l 1
- 232 -12 l 1
- 180 24 l 1
- 667 713 l 1
-EndSplineSet
-Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" three uni2215 four
-Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" three fraction four
-Ligature2: "'frac' Diagonal Fractions lookup 7 subtable" three slash four
-EndChar
-
 StartChar: afii10017
-Encoding: 1040 1040 123
+Encoding: 1040 1040 116
 Width: 585
 Flags: W
 LayerCount: 2
 Fore
-Refer: 32 65 N 1 0 0 1 0 0 3
-Kerns2: 176 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 33 65 N 1 0 0 1 0 0 3
+Kerns2: 169 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10018
-Encoding: 1041 1041 124
+Encoding: 1041 1041 117
 Width: 550
 Flags: W
 TtInstrs:
@@ -46121,18 +43983,18 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10019
-Encoding: 1042 1042 125
+Encoding: 1042 1042 118
 Width: 584
 Flags: W
 LayerCount: 2
 Fore
-Refer: 33 66 N 1 0 0 1 0 0 3
-Kerns2: 141 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Refer: 34 66 N 1 0 0 1 0 0 3
+Kerns2: 134 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10020
-Encoding: 1043 1043 126
+Encoding: 1043 1043 119
 Width: 442
 Flags: W
 TtInstrs:
@@ -46295,12 +44157,12 @@ SplineSet
  460 700 l 1,5,-1
  460 626 l 1,0,-1
 EndSplineSet
-Kerns2: 176 -95 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -95 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10021
-Encoding: 1044 1044 127
+Encoding: 1044 1044 120
 Width: 669
 Flags: W
 TtInstrs:
@@ -46592,17 +44454,17 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10022
-Encoding: 1045 1045 128
+Encoding: 1045 1045 121
 Width: 536
 Flags: W
 LayerCount: 2
 Fore
-Refer: 36 69 N 1 0 0 1 0 0 3
+Refer: 37 69 N 1 0 0 1 0 0 3
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10024
-Encoding: 1046 1046 129
+Encoding: 1046 1046 122
 Width: 806
 Flags: W
 TtInstrs:
@@ -48403,7 +46265,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10025
-Encoding: 1047 1047 130
+Encoding: 1047 1047 123
 Width: 541
 Flags: W
 TtInstrs:
@@ -48790,7 +46652,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10026
-Encoding: 1048 1048 131
+Encoding: 1048 1048 124
 Width: 681
 Flags: W
 TtInstrs:
@@ -49542,7 +47404,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10027
-Encoding: 1049 1049 132
+Encoding: 1049 1049 125
 Width: 681
 Flags: W
 LayerCount: 2
@@ -49560,23 +47422,23 @@ SplineSet
  187 790 187 790 179 850 c 1
  258 870 l 1
 EndSplineSet
-Refer: 131 1048 N 1 0 0 1 0 0 3
+Refer: 124 1048 N 1 0 0 1 0 0 3
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10028
-Encoding: 1050 1050 133
+Encoding: 1050 1050 126
 Width: 610
 Flags: W
 LayerCount: 2
 Fore
-Refer: 42 75 N 1 0 0 1 0 0 3
-Kerns2: 175 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  172 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  169 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  160 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Refer: 43 75 N 1 0 0 1 0 0 3
+Kerns2: 168 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  165 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  162 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  153 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10029
-Encoding: 1051 1051 134
+Encoding: 1051 1051 127
 Width: 624
 Flags: W
 TtInstrs:
@@ -49833,38 +47695,38 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10030
-Encoding: 1052 1052 135
+Encoding: 1052 1052 128
 Width: 791
 Flags: W
 LayerCount: 2
 Fore
-Refer: 44 77 N 1 0 0 1 0 0 3
+Refer: 45 77 N 1 0 0 1 0 0 3
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10031
-Encoding: 1053 1053 136
+Encoding: 1053 1053 129
 Width: 672
 Flags: W
 LayerCount: 2
 Fore
-Refer: 39 72 N 1 0 0 1 0 0 3
+Refer: 40 72 N 1 0 0 1 0 0 3
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10032
-Encoding: 1054 1054 137
+Encoding: 1054 1054 130
 Width: 684
 Flags: W
 LayerCount: 2
 Fore
-Refer: 46 79 N 1 0 0 1 0 0 3
-Kerns2: 176 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 47 79 N 1 0 0 1 0 0 3
+Kerns2: 169 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10033
-Encoding: 1055 1055 138
+Encoding: 1055 1055 131
 Width: 659
 Flags: W
 TtInstrs:
@@ -50060,40 +47922,40 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10034
-Encoding: 1056 1056 139
+Encoding: 1056 1056 132
 Width: 559
 Flags: W
 LayerCount: 2
 Fore
-Refer: 47 80 N 1 0 0 1 0 0 3
-Kerns2: 176 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 48 80 N 1 0 0 1 0 0 3
+Kerns2: 169 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -65 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10035
-Encoding: 1057 1057 140
+Encoding: 1057 1057 133
 Width: 571
 Flags: W
 LayerCount: 2
 Fore
-Refer: 34 67 N 1 0 0 1 0 0 3
-Kerns2: 176 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 35 67 N 1 0 0 1 0 0 3
+Kerns2: 169 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10036
-Encoding: 1058 1058 141
+Encoding: 1058 1058 134
 Width: 555
 Flags: W
 LayerCount: 2
 Fore
-Refer: 51 84 N 1 0 0 1 0 0 3
-Kerns2: 176 -115 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  164 -76 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -58 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 52 84 N 1 0 0 1 0 0 3
+Kerns2: 169 -115 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  157 -76 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -58 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10037
-Encoding: 1059 1059 142
+Encoding: 1059 1059 135
 Width: 553
 Flags: W
 TtInstrs:
@@ -50918,12 +48780,12 @@ SplineSet
  103 700 l 1,23,-1
  282 331 l 1,0,-1
 EndSplineSet
-Kerns2: 176 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  164 -55 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  157 -55 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10038
-Encoding: 1060 1060 143
+Encoding: 1060 1060 136
 Width: 780
 Flags: W
 TtInstrs:
@@ -51361,23 +49223,23 @@ SplineSet
  190 171 190 171 218.5 157 c 128,-1,73
  247 143 247 143 282 143 c 0,55,56
 EndSplineSet
-Kerns2: 176 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10039
-Encoding: 1061 1061 144
+Encoding: 1061 1061 137
 Width: 618
 Flags: W
 LayerCount: 2
 Fore
-Refer: 55 88 N 1 0 0 1 0 0 3
-Kerns2: 181 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  175 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  174 -49 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  173 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  172 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  169 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  166 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  160 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  159 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  143 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  142 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  141 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  140 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  137 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  123 -16 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  105 -72 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  12 -72 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  176 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 56 88 N 1 0 0 1 0 0 3
+Kerns2: 174 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  168 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  167 -49 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  166 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  165 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  162 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  159 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  153 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  152 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  136 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  135 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  134 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  133 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  130 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  116 -16 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  101 -72 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  13 -72 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  0 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  169 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10040
-Encoding: 1062 1062 145
+Encoding: 1062 1062 138
 Width: 687
 Flags: W
 TtInstrs:
@@ -51573,7 +49435,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10041
-Encoding: 1063 1063 146
+Encoding: 1063 1063 139
 Width: 605
 Flags: W
 TtInstrs:
@@ -51879,7 +49741,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10042
-Encoding: 1064 1064 147
+Encoding: 1064 1064 140
 Width: 877
 Flags: W
 TtInstrs:
@@ -52085,7 +49947,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10043
-Encoding: 1065 1065 148
+Encoding: 1065 1065 141
 Width: 913
 Flags: W
 TtInstrs:
@@ -52328,12 +50190,12 @@ SplineSet
  812 0 l 1,15,-1
  85 0 l 1,0,-1
 EndSplineSet
-Kerns2: 175 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  172 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  169 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  160 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Kerns2: 168 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  165 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  162 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  153 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10044
-Encoding: 1066 1066 149
+Encoding: 1066 1066 142
 Width: 630
 Flags: W
 TtInstrs:
@@ -52628,12 +50490,12 @@ SplineSet
  256 67 256 67 282 65.5 c 128,-1,43
  308 64 308 64 334 64 c 0,25,26
 EndSplineSet
-Kerns2: 176 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10045
-Encoding: 1067 1067 150
+Encoding: 1067 1067 143
 Width: 769
 Flags: W
 TtInstrs:
@@ -52989,7 +50851,7 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10046
-Encoding: 1068 1068 151
+Encoding: 1068 1068 144
 Width: 555
 Flags: W
 TtInstrs:
@@ -53261,12 +51123,12 @@ SplineSet
  182 67 182 67 208 65.5 c 128,-1,41
  234 64 234 64 259 64 c 0,23,24
 EndSplineSet
-Kerns2: 141 -80 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  176 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 134 -80 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  169 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10047
-Encoding: 1069 1069 152
+Encoding: 1069 1069 145
 Width: 577
 Flags: W
 TtInstrs:
@@ -53698,12 +51560,12 @@ SplineSet
  150 321 l 1,36,-1
  150 395 l 1,0,-1
 EndSplineSet
-Kerns2: 176 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10048
-Encoding: 1070 1070 153
+Encoding: 1070 1070 146
 Width: 893
 Flags: W
 TtInstrs:
@@ -54125,12 +51987,12 @@ SplineSet
  473 638 473 638 426 567.5 c 128,-1,38
  379 497 379 497 379 350 c 0,23,24
 EndSplineSet
-Kerns2: 176 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  144 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  127 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  137 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  120 -36 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10049
-Encoding: 1071 1071 154
+Encoding: 1071 1071 147
 Width: 569
 Flags: W
 TtInstrs:
@@ -54696,17 +52558,17 @@ Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=40 dy=0 dh=80 dv=0
 EndChar
 
 StartChar: afii10065
-Encoding: 1072 1072 155
+Encoding: 1072 1072 148
 Width: 496
 Flags: W
 LayerCount: 2
 Fore
-Refer: 64 97 N 1 0 0 1 0 0 3
-Kerns2: 141 -109 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Refer: 65 97 N 1 0 0 1 0 0 3
+Kerns2: 134 -109 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 EndChar
 
 StartChar: afii10066
-Encoding: 1073 1073 156
+Encoding: 1073 1073 149
 Width: 536
 Flags: W
 TtInstrs:
@@ -55157,11 +53019,11 @@ SplineSet
  204 429 204 429 168 382.5 c 128,-1,49
  132 336 132 336 132 249 c 0,34,35
 EndSplineSet
-Kerns2: 176 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10067
-Encoding: 1074 1074 157
+Encoding: 1074 1074 150
 Width: 499
 Flags: W
 TtInstrs:
@@ -55493,7 +53355,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10068
-Encoding: 1075 1075 158
+Encoding: 1075 1075 151
 Width: 369
 Flags: W
 TtInstrs:
@@ -55652,11 +53514,11 @@ SplineSet
  369 500 l 1,5,-1
  369 430 l 1,0,-1
 EndSplineSet
-Kerns2: 176 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10069
-Encoding: 1076 1076 159
+Encoding: 1076 1076 152
 Width: 541
 Flags: W
 TtInstrs:
@@ -55987,21 +53849,21 @@ SplineSet
  161 102 161 102 144 70 c 1,23,-1
  366 70 l 1,16,-1
 EndSplineSet
-Kerns2: 166 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  159 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Kerns2: 159 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  152 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 EndChar
 
 StartChar: afii10070
-Encoding: 1077 1077 160
+Encoding: 1077 1077 153
 Width: 508
 Flags: W
 LayerCount: 2
 Fore
-Refer: 68 101 N 1 0 0 1 0 0 3
-Kerns2: 176 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 69 101 N 1 0 0 1 0 0 3
+Kerns2: 169 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10072
-Encoding: 1078 1078 161
+Encoding: 1078 1078 154
 Width: 659
 Flags: W
 TtInstrs:
@@ -57855,7 +55717,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10073
-Encoding: 1079 1079 162
+Encoding: 1079 1079 155
 Width: 441
 Flags: W
 TtInstrs:
@@ -58237,7 +56099,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10074
-Encoding: 1080 1080 163
+Encoding: 1080 1080 156
 Width: 546
 Flags: W
 TtInstrs:
@@ -58879,7 +56741,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10075
-Encoding: 1081 1081 164
+Encoding: 1081 1081 157
 Width: 546
 Flags: W
 LayerCount: 2
@@ -58899,11 +56761,11 @@ SplineSet
  129 648 129 648 124 678 c 1
  192 702 l 1
 EndSplineSet
-Refer: 163 1080 N 1 0 0 1 0 0 3
+Refer: 156 1080 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10076
-Encoding: 1082 1082 165
+Encoding: 1082 1082 158
 Width: 478
 Flags: W
 TtInstrs:
@@ -59862,11 +57724,11 @@ SplineSet
  370 0 l 1,14,-1
  203 225 l 1,0,-1
 EndSplineSet
-Kerns2: 175 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  172 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  169 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  160 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Kerns2: 168 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  165 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  162 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  153 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 EndChar
 
 StartChar: afii10077
-Encoding: 1083 1083 166
+Encoding: 1083 1083 159
 Width: 503
 Flags: W
 TtInstrs:
@@ -60227,7 +58089,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10078
-Encoding: 1084 1084 167
+Encoding: 1084 1084 160
 Width: 645
 Flags: W
 TtInstrs:
@@ -61015,7 +58877,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10079
-Encoding: 1085 1085 168
+Encoding: 1085 1085 161
 Width: 540
 Flags: W
 TtInstrs:
@@ -61287,17 +59149,17 @@ EndSplineSet
 EndChar
 
 StartChar: afii10080
-Encoding: 1086 1086 169
+Encoding: 1086 1086 162
 Width: 536
 Flags: W
 LayerCount: 2
 Fore
-Refer: 78 111 N 1 0 0 1 0 0 3
-Kerns2: 176 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 79 111 N 1 0 0 1 0 0 3
+Kerns2: 169 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10081
-Encoding: 1087 1087 170
+Encoding: 1087 1087 163
 Width: 535
 Flags: W
 TtInstrs:
@@ -61491,27 +59353,27 @@ EndSplineSet
 EndChar
 
 StartChar: afii10082
-Encoding: 1088 1088 171
+Encoding: 1088 1088 164
 Width: 541
 Flags: W
 LayerCount: 2
 Fore
-Refer: 79 112 N 1 0 0 1 0 0 3
-Kerns2: 176 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 80 112 N 1 0 0 1 0 0 3
+Kerns2: 169 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10083
-Encoding: 1089 1089 172
+Encoding: 1089 1089 165
 Width: 451
 Flags: W
 LayerCount: 2
 Fore
-Refer: 66 99 N 1 0 0 1 0 0 3
-Kerns2: 176 -16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 67 99 N 1 0 0 1 0 0 3
+Kerns2: 169 -16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10084
-Encoding: 1090 1090 173
+Encoding: 1090 1090 166
 Width: 398
 Flags: W
 TtInstrs:
@@ -61694,21 +59556,21 @@ SplineSet
  396 500 l 1,7,-1
  396 430 l 1,0,-1
 EndSplineSet
-Kerns2: 92 16 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  60 16 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  8 16 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  176 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  173 40 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 93 16 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  61 16 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  9 16 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  169 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 0"  166 40 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10085
-Encoding: 1091 1091 174
+Encoding: 1091 1091 167
 Width: 466
 Flags: W
 LayerCount: 2
 Fore
-Refer: 88 121 N 1 0 0 1 0 0 3
-Kerns2: 176 -6 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 89 121 N 1 0 0 1 0 0 3
+Kerns2: 169 -6 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10086
-Encoding: 1092 1092 175
+Encoding: 1092 1092 168
 Width: 680
 Flags: W
 TtInstrs:
@@ -62288,11 +60150,11 @@ SplineSet
  171 83 171 83 195.5 68.5 c 128,-1,58
  220 54 220 54 253 54 c 0,44,45
 EndSplineSet
-Kerns2: 176 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10087
-Encoding: 1093 1093 176
+Encoding: 1093 1093 169
 Width: 515
 Flags: W
 TtInstrs:
@@ -62311,12 +60173,12 @@ EIF
 EndTTInstrs
 LayerCount: 2
 Fore
-Refer: 87 120 N 1 0 0 1 0 0 3
-Kerns2: 175 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  174 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  172 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  169 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  166 -6 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  160 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  159 -6 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  105 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  12 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  176 -16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Refer: 88 120 N 1 0 0 1 0 0 3
+Kerns2: 168 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  167 -11 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  165 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  162 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  159 -6 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  153 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  152 -6 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  101 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  13 -43 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  0 -27 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  169 -16 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10088
-Encoding: 1094 1094 177
+Encoding: 1094 1094 170
 Width: 548
 Flags: W
 TtInstrs:
@@ -62482,11 +60344,11 @@ SplineSet
  526 70 l 1,11,-1
  526 -127 l 1,0,-1
 EndSplineSet
-Kerns2: 166 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  159 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Kerns2: 159 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  152 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 EndChar
 
 StartChar: afii10089
-Encoding: 1095 1095 178
+Encoding: 1095 1095 171
 Width: 490
 Flags: W
 TtInstrs:
@@ -62856,7 +60718,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10090
-Encoding: 1096 1096 179
+Encoding: 1096 1096 172
 Width: 736
 Flags: W
 TtInstrs:
@@ -63116,7 +60978,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10091
-Encoding: 1097 1097 180
+Encoding: 1097 1097 173
 Width: 753
 Flags: W
 TtInstrs:
@@ -63386,11 +61248,11 @@ SplineSet
  731 70 l 1,15,-1
  731 -127 l 1,0,-1
 EndSplineSet
-Kerns2: 166 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  159 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
+Kerns2: 159 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1"  152 30 "'kern' Horizontal Kerning lookup 2 per glyph data 1" 
 EndChar
 
 StartChar: afii10092
-Encoding: 1098 1098 181
+Encoding: 1098 1098 174
 Width: 497
 Flags: W
 TtInstrs:
@@ -63633,11 +61495,11 @@ SplineSet
  191 500 l 1,30,-1
  191 309 l 1,12,13
 EndSplineSet
-Kerns2: 176 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10093
-Encoding: 1099 1099 182
+Encoding: 1099 1099 175
 Width: 660
 Flags: W
 TtInstrs:
@@ -63922,7 +61784,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10094
-Encoding: 1100 1100 183
+Encoding: 1100 1100 176
 Width: 464
 Flags: W
 TtInstrs:
@@ -64172,11 +62034,11 @@ SplineSet
  157 500 l 1,27,-1
  157 309 l 1,12,13
 EndSplineSet
-Kerns2: 176 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -33 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10095
-Encoding: 1101 1101 184
+Encoding: 1101 1101 177
 Width: 465
 Flags: W
 TtInstrs:
@@ -64534,11 +62396,11 @@ SplineSet
  121 219 l 1,27,-1
  121 285 l 1,0,-1
 EndSplineSet
-Kerns2: 176 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10096
-Encoding: 1102 1102 185
+Encoding: 1102 1102 178
 Width: 719
 Flags: W
 TtInstrs:
@@ -64968,11 +62830,11 @@ SplineSet
  397 442 397 442 366.5 395.5 c 128,-1,38
  336 349 336 349 336 250 c 0,23,24
 EndSplineSet
-Kerns2: 176 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
+Kerns2: 169 -22 "'kern' Horizontal Kerning lookup 2 per glyph data 0" 
 EndChar
 
 StartChar: afii10097
-Encoding: 1103 1103 186
+Encoding: 1103 1103 179
 Width: 475
 Flags: W
 TtInstrs:
