@@ -31,6 +31,7 @@ body {
 }
 
 .container {
+    background: white;
     padding: 0 0.9cm;
     box-shadow: 0 0 0.7em #222222;
 }
@@ -42,10 +43,24 @@ body {
     border-radius: 5px 0 5px 0;
 }
 
-.nav-list .nav-item {
+.nav-item {
     font-family: 'PT Sans Narrow', sans;
     font-size: 19px;
     line-height: 30px;
+}
+
+.nav-item-img {
+    height: 20px;
+    padding-right: 1ex;
+    margin-top: -6px;
+}
+
+#news .nav-item-img {
+    margin-top: -4px;
+}
+
+#pay .nav-item-img {
+    margin-top: -5px;
 }
 
 .row-fluid .span3.banner {
