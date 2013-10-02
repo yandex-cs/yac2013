@@ -6,11 +6,9 @@ body {
     background-attachment: fixed;
     background-image: url(../img/bg.svg);
 }
-
 .sidebar-nav {
     padding: 9px 0;
 }
-
 .container {
     padding: 0 0.9cm;
     box-shadow: 0 0 0.7em #222222;
@@ -20,14 +18,11 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 5px 0 5px 0;
-
 }
-
 .nav-list > li {
     font-family: 'PT Sans Narrow', sans;
     font-size: 19px;
     line-height: 30px;
-
 }
 
 .row-fluid .span3.banner {
@@ -54,12 +49,28 @@ h3, h4, h5, h6 {
   color: #2c3e50;
 }
 
-.nav-list > li.nav-header {
+.nav-list li.nav-header {
     font-family: 'PT Sans Narrow', sans;
     font-size: 19px;
     line-height: 30px;
     font-weight: 100;
 }
+
+.ico-main-w, .ico-new, .ico-agenda, .ico-crown, .ico-pay, .ico-helicopter {
+width: 20px;
+height: 20px;
+display: inline-block;
+vertical-align: middle;
+background-image: url(../img/ico-all.png);
+background-size: 160px 20px;
+margin-right: 1ex;
+margin-top: -6px;
+}
+.ico-main-w{background-position: -120px 0;}
+.ico-new{background-position: -60px 0; margin-top: -5px;}
+.ico-crown{background-position: -140px 0;}
+.ico-pay{background-position: -40px 0; margin-top: -5px;}
+.ico-helicopter{background-position: -100px 0;}
 
 .menu-img{height: 20px;padding-right: 1ex;}
 .menu-img4{margin-top: -4px;}
