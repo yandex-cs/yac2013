@@ -1,0 +1,105 @@
+@import "fonts/pt_sans.css";
+@import "css/bootstrap.css";
+
+body {
+    background-attachment: fixed;
+    background-image: url(img/bg.png);
+    background-color: #EEE;
+}
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.container {
+    padding: 0 0.9cm;
+    box-shadow: 0 0 0.7em #222222;
+    background: white;
+}
+.content img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 0 5px 0;
+
+}
+
+.nav-list > li {
+    font-family: 'PT Sans Narrow', sans;
+    font-size: 19px;
+    line-height: 30px;
+
+}
+
+.row-fluid .span3.banner {
+    margin-left: 0px;
+    padding-top: 18px;
+    width: 220px;
+}
+
+h1, h2 {
+    font-family: 'PT Sans', sans;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'PT Sans Narrow', sans;
+}
+
+.hero-unit {
+  background-image: url(img/photo_head.jpg);
+  box-shadow: inset 0 0 1em #222;
+  border-radius: 0 0 10px 10px;
+}
+.hero-unit h1,
+.hero-unit p {
+  color: #2c3e50;
+}
+
+.nav-header {
+    font-weight: 100;
+}
+
+.nav-list > li > a {
+    position: relative;
+    padding-left: 45px;
+}
+
+.icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    left: 15px;
+    background-image: url(img/icons.png);
+}
+
+    .icon_type_main {
+        background-position: 0 0;
+    }
+
+        .active .icon_type_main {
+            background-position: -260px 0;
+        }
+
+    .icon_type_new {
+        top: 7px;
+        background-position: -160px 0;
+    }
+
+    .icon_type_agenda {
+        background-position: -40px 0;
+    }
+
+    .icon_type_crown {
+        background-position: -200px 0;
+    }
+
+    .icon_type_pay {
+        top: 7px;
+        background-position: -80px 0;
+    }
+
+    .icon_type_helicopter {
+        background-position: -240px 0;
+    }
