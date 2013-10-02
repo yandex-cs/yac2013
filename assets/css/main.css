@@ -60,7 +60,6 @@ p {
 
 footer {
   display: block;
-  overflow: hidden;
 }
 
 .container {
@@ -68,6 +67,7 @@ footer {
   background: #fff;
   width: 940px;
   padding: 0 0.9cm;
+  overflow: hidden;
   box-shadow: 0 0 0.7em #222222;
 }
 
