@@ -1,0 +1,84 @@
+body {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #eee;
+    box-shadow: 0 0 0.7em #222;
+}
+
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.container {
+    padding: 0 0.9cm;
+    box-shadow: 0 0 0.7em #222222;
+}
+.content img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 0 5px 0;
+
+}
+
+.nav-list > li {
+    font-family: 'PT Sans Narrow', sans;
+    font-size: 19px;
+    line-height: 30px;
+
+}
+
+.row-fluid .span3.banner {
+    margin-left: 0;
+    padding-top: 18px;
+    width: 220px;
+}
+
+h1, h2 {
+    font-family: 'PT Sans', sans;
+}
+h3, h4, h5, h6 {
+    font-family: 'PT Sans Narrow', sans;
+}
+
+.ico-agenda, .ico-crown, .ico-helicopter, .ico-main-w, .ico-main, .ico-new, .ico-pay{
+    background: url(../img/sprites.png) no-repeat;
+    height:20px;
+    width:20px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:
+    middle;margin-right:1ex;
+    margin-top:-6px;
+}
+
+.ico-agenda{
+    background-position: 0 -156px ;
+}
+
+.ico-crown{
+    background-position: 0 -130px ;
+}
+
+.ico-helicopter{
+    background-position: 0 -105px ;
+}
+
+.ico-main-w{
+    background-position: 0 -50px ;
+}
+
+.ico-main{
+    background-position: 0 -79px ;
+}
+
+.ico-new{
+    background-position: 0 -26px ;
+}
+
+.ico-pay{
+    background-position: 0 0;
+}
+
