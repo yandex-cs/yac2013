@@ -42,24 +42,20 @@ h3, h4, h5, h6 {
     font-family: 'PT Sans Narrow', sans;
 }
 
-.navbar-icon {
-    width: 20px;
-    height: 20px;
-    padding-right: 1ex;
-    margin-top: -6px;
-}
-
-.ico-agenda, .ico-crown, .ico-helicopter, .ico-main-w, .ico-main, .ico-new, .ico-pay, .ico-rocket{
+.ico-agenda, .ico-crown, .ico-helicopter, .ico-main-w, .ico-main, .ico-new, .ico-pay{
     background: url(../img/sprites.png) no-repeat;
-    width: 20px;
-    height: 20px;
-    padding-right: 1ex;
-    margin-top: -6px;
+    height:20px;
+    width:20px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:
+    middle;margin-right:1ex;
+    margin-top:-6px;
 }
 
 .ico-agenda{
     background-position: 0 -156px ;
-    clip: rect(10px, auto, auto, 10px);
 }
 
 .ico-crown{
