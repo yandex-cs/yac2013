@@ -2,7 +2,7 @@
 @font-face {
 	font-family: 'PT Sans';
 	src: url('../fonts/pts55f_w.eot');
-	src: local('PT Sans'), url('../fonts/PTS55F_W.woff.gz') format('woff');
+	src: local('PT Sans'), url('../fonts/PTS55F_W.woff') format('woff');
 }
 
 @font-face {
@@ -10,13 +10,13 @@
 	font-style: normal;
 	font-weight: bold;
 	src: url('../fonts/pts75f_w.eot');
-	src: local('PT Sans Bold'), url('../fonts/PTS75F_W.woff.gz') format('woff');
+	src: local('PT Sans Bold'), url('../fonts/PTS75F_W.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'PT Sans Narrow';
 	src: url('../fonts/ptn57f_w.eot');
-	src: local('PT Sans Narrow'), url('../fonts/PTN57F_W.woff.gz') format('woff');
+	src: local('PT Sans Narrow'), url('../fonts/PTN57F_W.woff') format('woff');
 }
 
 
@@ -24,7 +24,7 @@
 	font-family: 'PT Sans Narrow';
 	font-weight: bold;
 	src: url('../fonts/ptn77f_w.eot');
-	src: local('PT Sans Narrow Bold'), url('../fonts/PTN77F_W.woff.gz') format('woff');
+	src: local('PT Sans Narrow Bold'), url('../fonts/PTN77F_W.woff') format('woff');
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {  display: block;}
 html {  font-size: 100%; -webkit-text-size-adjust: 100%;}
@@ -160,10 +160,10 @@ h3, h4, h5, h6 {
     background-position: 0 -62px;
 }body {
   background-attachment: fixed;
-  background-image: url(../img/bg-comp.svg.gz);
+  background-image: url(../img/bg-comp.svg);
 }
 .hero-unit {
-  background-image: url(../img/photo_head_2.jpg.gz);
+  background-image: url(../img/photo_head_2.jpg);
   background-position: 0% 46%;
   box-shadow: inset 0 0 1em #222;
   border-radius: 0 0 10px 10px;
