@@ -8,32 +8,7 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="assets/img/favicon.ico">
         <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
-
-<!-- ######################################################################
-
-        .oooooo..o                     o8o                 .
-       d8P'    `Y8                     `"'               .o8
-       Y88bo.       .ooooo.  oooo d8b oooo  oo.ooooo.  .o888oo  .oooo.o
-        `"Y8888o.  d88' `"Y8 `888""8P `888   888' `88b   888   d88(  "8
-            `"Y88b 888        888      888   888   888   888   `"Y88b.
-       oo     .d8P 888   .o8  888      888   888   888   888 . o.  )88b
-       8""88888P'  `Y8bod8P' d888b    o888o  888bod8P'   "888" 8""888P'
-                                             888
-                                            o888o
-     ###################################################################### -->
-        <script src="https://yandex.st/jquery/1.8.3/jquery.js"></script>
-        <script src="assets/js/bootstrap-transition.js"></script>
-        <script src="assets/js/bootstrap-alert.js"></script>
-        <script src="assets/js/bootstrap-modal.js"></script>
-        <script src="assets/js/bootstrap-dropdown.js"></script>
-        <script src="assets/js/bootstrap-scrollspy.js"></script>
-        <script src="assets/js/bootstrap-tab.js"></script>
-        <script src="assets/js/bootstrap-tooltip.js"></script>
-        <script src="assets/js/bootstrap-popover.js"></script>
-        <script src="assets/js/bootstrap-button.js"></script>
-        <script src="assets/js/bootstrap-collapse.js"></script>
-        <script src="assets/js/bootstrap-carousel.js"></script>
-        <script src="assets/js/bootstrap-typeahead.js"></script>
+        <style>@font-face{font-family:'PT Sans';src:url('pts55f_w.eot');src:local('PT Sans'),url('../fonts/PTSans-Regular.woff') format('woff')}@font-face{font-family:'PT Sans';font-style:normal;font-weight:700;src:url('pts75f_w.eot');src:local('PT Sans Bold'),url('../fonts/PTSans-Bold.woff') format('woff')}@font-face{font-family:'PT Sans Narrow';src:url('ptn57f_w.eot');src:local('PT Sans Narrow'),url('../fonts/PTSans-Narrow.woff') format('woff')}@font-face{font-family:'PT Sans Narrow';font-weight:700;src:url('ptn77f_w.eot');src:local('PT Sans Narrow Bold'),url('../fonts/PTSans-NarrowBold.woff') format('woff')}html,body{margin:0;padding:0}body{background-attachment:fixed;background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxuczpvc2I9Imh0dHA6Ly93d3cub3BlbnN3YXRjaGJvb2sub3JnL3VyaS8yMDA5L29zYiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQxLjczMiIgaGVpZ2h0PSIxMjQuMDE2Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgb3NiOnBhaW50PSJzb2xpZCI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZmZmIi8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGg+PHBhdGggZD0iTTAgNDY0aDUyOHYtNDY0aC01Mjh2NDY0eiIvPjwvY2xpcFBhdGg+PHBhdHRlcm4gcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgd2lkdGg9IjUxLjI3MyIgaGVpZ2h0PSI1MS4yNzUiIHBhdHRlcm5UcmFuc2Zvcm09Im1hdHJpeCguOCAwIDAgLS44IDE4Ljk3NCA0NDUuMjIpIj48ZyB0cmFuc2Zvcm09Im1hdHJpeCgxLjI1IDAgMCAtMS4yNSA3NS4yNzMgNDc5KSI+PGc+PHBhdGggZD0iTS0yMS4yIDM1My4xOGgtMXYtMWMwLTEuNTQyLTEuNDU3LTMtMy0zaC00LjU4NmwtMS40MTQtMS40MTR2LS41ODZjMC0xIDEtMiAyLTJoNWwzLTN2M2MxIDAgMiAxIDIgMnY0YzAgMS0xIDItMiAyIiBmaWxsPSIjMWQxZDFiIi8+PHBhdGggZD0iTS0zMC4yIDM1MC4xOGg1YzEgMCAyIDEgMiAydjRjMCAxLTEgMi0yIDJoLThjLTEgMC0yLTEtMi0ydi00YzAtMSAxLTIgMi0ydi0zbDMgM3oiIGZpbGw9IiMxZDFkMWIiLz48L2c+PHBhdGggZD0iTS00NS4yMTggMzUwLjIyMWgtMXY1aDF2LTV6bS0yIDBoLTExdjFsMTEgM3YtNHptLTUuMjYzLTQuODQ3Yy0uMDY1LS4yNTctLjM0NS0uNDI5LS42MDgtLjM2MWwtMi45MzguNzQ5Yy0uMjY3LjA2OC0uNDI5LjM0LS4zNjEuNjA3bC4zMjIgMS4yNjYgMy44OTEtMS4wNjEtLjMwNi0xLjJ6bTUuMjYzIDEwLjg0N3YtMWwtMTEtMy0yIDF2LTZsMiAxIDEuMTg4LS4zMjQtLjMyNy0xLjI4MWMtLjIwNC0uODAxLjI4Mi0xLjYxOSAxLjA4My0xLjgyM2wyLjkzOC0uNzQ4Yy4xMjEtLjAzMS4yNDUtLjA0Ny4zNjktLjA0Ny42ODcgMCAxLjI4Ni40NjUgMS40NTUgMS4xMjlsLjMwMiAxLjE4MyAzLjk5Mi0xLjA4OXYtMWwzLTEuMDIxdjEzLjk2bC0zLS45Mzl6IiBmaWxsPSIjMWQxZDFiIi8+PHBhdGggZD0iTS00NC4yMTggMzcwLjJsLTUgNWgzbC00IDRoMmwtNCA0LTQtNGgybC00LTRoM2wtNS01aDZ2LTNoNHYzaDZ6IiBmaWxsPSIjMWQxZDFiIi8+PGc+PHBhdGggZD0iTS0yMi43IDM3Mi4yYy0xLjEwNSAwLTIgLjg5Ni0yIDJzLjg5NSAyIDIgMmMxLjEwNCAwIDItLjg5NiAyLTJzLS44OTYtMi0yLTJtMCA1Yy0xLjY1NCAwLTMtMS4zNDYtMy0zIDAtLjg4My4zOTEtMS42NyAxLTIuMjJ2LTQuNzhsMiAyIDItMnY0Ljc4Yy42MDkuNTUgMSAxLjMzNyAxIDIuMjIgMCAxLjY1NC0xLjM0NiAzLTMgMyIgZmlsbD0iIzFkMWQxYiIvPjxwYXRoIGQ9Ik0tMjguMDA5IDM2OS4yaC00LjY5MXYxMmg1LjU4NmwzLTNoMi40MTR2LjQxNGwtNC41ODYgNC41ODZoLTguNDE0di0xNmg4LjYwNWwtMS44NzcgMS45Ni0uMDM3LjA0eiIgZmlsbD0iIzFkMWQxYiIvPjxwYXRoIGQ9Ik0tMjYuNyAzNzguMmgtNXYtMWg1djF6IiBmaWxsPSIjMWQxZDFiIi8+PHBhdGggZD0iTS0yNi43IDM3Ni4yaC01di0xaDV2MXoiIGZpbGw9IiMxZDFkMWIiLz48cGF0aCBkPSJNLTMxLjcgMzczLjJoNXYxaC01di0xeiIgZmlsbD0iIzFkMWQxYiIvPjwvZz48L2c+PC9wYXR0ZXJuPjwvZGVmcz48ZyB0cmFuc2Zvcm09Im1hdHJpeCgxLjI1IDAgMCAtMS4yNSAwIDEyNC4wMTYpIiBmaWxsPSIjMmMzZTUwIiBmaWxsLW9wYWNpdHk9Ii4zMjIiPjxwYXRoIGQ9Ik0yMS4yMzcgMTEuNzAyaC0xdjVoMXYtNXptLTIgMGgtMTF2MWwxMSAzdi00em0tNS4yNjMtNC44NDdjLS4wNjUtLjI1Ny0uMzQ1LS40MjktLjYwOC0uMzYxbC0yLjkzOC43NDljLS4yNjcuMDY4LS40MjkuMzQtLjM2MS42MDdsLjMyMiAxLjI2NiAzLjg5MS0xLjA2MS0uMzA2LTEuMnptNS4yNjMgMTAuODQ3di0xbC0xMS0zLTIgMXYtNmwyIDEgMS4xODgtLjMyNC0uMzI3LTEuMjgxYy0uMjA0LS44MDEuMjgyLTEuNjE5IDEuMDgzLTEuODIzbDIuOTM4LS43NDhjLjEyMS0uMDMxLjI0NS0uMDQ3LjM2OS0uMDQ3LjY4NyAwIDEuMjg2LjQ2NSAxLjQ1NSAxLjEyOWwuMzAyIDEuMTgzIDMuOTkyLTEuMDg5di0xbDMtMS4wMjF2MTMuOTZsLTMtLjkzOXoiIGZpbGw9IiMyYzNlNTAiIGZpbGwtb3BhY2l0eT0iLjMyMiIvPjxwYXRoIGQ9Ik0yMi4yMzcgNTYuNTc1bC01IDVoM2wtNCA0aDJsLTQgNC00LTRoMmwtNC00aDNsLTUtNWg2di0zaDR2M3oiLz48Zz48cGF0aCBkPSJNNDguNDU2IDM5LjYxOGgtMXYtMWMwLTEuNTQyLTEuNDU3LTMtMy0zaC00LjU4NmwtMS40MTQtMS40MTR2LS41ODZjMC0xIDEtMiAyLTJoNWwzLTN2M2MxIDAgMiAxIDIgMnY0YzAgMS0xIDItMiAyIiBmaWxsPSIjMmMzZTUwIiBmaWxsLW9wYWNpdHk9Ii4zMjIiLz48cGF0aCBkPSJNMzkuNDU2IDM2LjYxOGg1YzEgMCAyIDEgMiAydjRjMCAxLTEgMi0yIDJoLThjLTEgMC0yLTEtMi0ydi00YzAtMSAxLTIgMi0ydi0zeiIgZmlsbD0iIzJjM2U1MCIgZmlsbC1vcGFjaXR5PSIuMzIyIi8+PC9nPjxnPjxwYXRoIGQ9Ik00Ni45NTUgODMuNTMyYy0xLjEwNSAwLTIgLjg5Ni0yIDJzLjg5NSAyIDIgMmMxLjEwNCAwIDItLjg5NiAyLTJzLS44OTYtMi0yLTJtMCA1Yy0xLjY1NCAwLTMtMS4zNDYtMy0zIDAtLjg4My4zOTEtMS42NyAxLTIuMjJ2LTQuNzhsMiAyIDItMnY0Ljc4Yy42MDkuNTUgMSAxLjMzNyAxIDIuMjIgMCAxLjY1NC0xLjM0NiAzLTMgMyIgZmlsbD0iIzJjM2U1MCIgZmlsbC1vcGFjaXR5PSIuMzIyIi8+PHBhdGggZD0iTTQxLjY0NyA4MC41MzJoLTQuNjkxdjEyaDUuNTg2bDMtM2gyLjQxNHYuNDE0bC00LjU4NiA0LjU4NmgtOC40MTR2LTE2aDguNjA1bC0xLjg3NyAxLjk2LS4wMzcuMDR6IiBmaWxsPSIjMmMzZTUwIiBmaWxsLW9wYWNpdHk9Ii4zMjIiLz48cGF0aCBkPSJNNDIuOTU1IDg5LjUzMmgtNXYtMWg1djF6Ii8+PHBhdGggZD0iTTQyLjk1NSA4Ny41MzJoLTV2LTFoNXYxeiIvPjxwYXRoIGQ9Ik0zNy45NTUgODQuNTMyaDV2MWgtNXYtMXoiLz48L2c+PHBhdGggZD0iTTc2LjU2OCA2MS4zNzFoLTF2NWgxdi01em0tMiAwaC0xMXYxbDExIDN2LTR6bS01LjI2My00Ljg0N2MtLjA2NS0uMjU3LS4zNDUtLjQyOS0uNjA4LS4zNjFsLTIuOTM4Ljc0OWMtLjI2Ny4wNjgtLjQyOS4zNC0uMzYxLjYwN2wuMzIyIDEuMjY2IDMuODkxLTEuMDYxLS4zMDYtMS4yem01LjI2MyAxMC44NDd2LTFsLTExLTMtMiAxdi02bDIgMSAxLjE4OC0uMzI0LS4zMjctMS4yODFjLS4yMDQtLjgwMS4yODItMS42MTkgMS4wODMtMS44MjNsMi45MzgtLjc0OGMuMTIxLS4wMzEuMjQ1LS4wNDcuMzY5LS4wNDcuNjg3IDAgMS4yODYuNDY1IDEuNDU1IDEuMTI5bC4zMDIgMS4xODMgMy45OTItMS4wODl2LTFsMy0xLjAyMXYxMy45NmwtMy0uOTM5eiIgZmlsbD0iIzJjM2U1MCIgZmlsbC1vcGFjaXR5PSIuMzIyIi8+PHBhdGggZD0iTTc3LjMzNSA3LjA3bC01IDVoM2wtNCA0aDJsLTQgNC00LTRoMmwtNC00aDNsLTUtNWg2di0zaDR2M2g2eiIgZmlsbD0iIzJjM2U1MCIgZmlsbC1vcGFjaXR5PSIuMzIyIi8+PGc+PHBhdGggZD0iTTEwNC4zMjQgODguMzloLTF2LTFjMC0xLjU0Mi0xLjQ1Ny0zLTMtM2gtNC41ODZsLTEuNDE0LTEuNDE0di0uNTg2YzAtMSAxLTIgMi0yaDVsMy0zdjNjMSAwIDIgMSAyIDJ2NGMwIDEtMSAyLTIgMiIgZmlsbD0iIzJjM2U1MCIgZmlsbC1vcGFjaXR5PSIuMzIyIi8+PHBhdGggZD0iTTk1LjMyNCA4NS4zOWg1YzEgMCAyIDEgMiAydjRjMCAxLTEgMi0yIDJoLThjLTEgMC0yLTEtMi0ydi00YzAtMSAxLTIgMi0ydi0zbDMgM3oiIGZpbGw9IiMyYzNlNTAiIGZpbGwtb3BhY2l0eT0iLjMyMiIvPjwvZz48Zz48cGF0aCBkPSJNMTA1LjE1NyAzMy4xM2MtMS4xMDUgMC0yIC44OTYtMiAycy44OTUgMiAyIDJjMS4xMDQgMCAyLS44OTYgMi0ycy0uODk2LTItMi0ybTAgNWMtMS42NTQgMC0zLTEuMzQ2LTMtMyAwLS44ODMuMzkxLTEuNjcgMS0yLjIydi00Ljc4bDIgMiAyLTJ2NC43OGMuNjA5LjU1IDEgMS4zMzcgMSAyLjIyIDAgMS42NTQtMS4zNDYgMy0zIDMiIGZpbGw9IiMyYzNlNTAiIGZpbGwtb3BhY2l0eT0iLjMyMiIvPjxwYXRoIGQ9Ik05OS44NDkgMzAuMTNoLTQuNjkxdjEyaDUuNTg2bDMtM2gyLjQxNHYuNDE0bC00LjU4NiA0LjU4NmgtOC40MTR2LTE2aDguNjA1bC0xLjg3NyAxLjk2LS4wMzcuMDR6IiBmaWxsPSIjMmMzZTUwIiBmaWxsLW9wYWNpdHk9Ii4zMjIiLz48cGF0aCBkPSJNMTAxLjE1NyAzOS4xM2gtNXYtMWg1djF6Ii8+PHBhdGggZD0iTTEwMS4xNTcgMzcuMTNoLTV2LTFoNXYxeiIvPjxwYXRoIGQ9Ik05Ni4xNTcgMzQuMTNoNXYxaC01di0xeiIvPjwvZz48L2c+PC9zdmc+);background-color:#EEE;color:#222;font-family:"PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:15px;line-height:20px}a{color:#2c3e50;text-decoration:none}hr{margin:20px 0;border:0;border-top:1px solid #ecf0f1;border-bottom:1px solid #fff}p{margin:0 0 1em}footer{overflow:hidden}.container{margin:0 auto;background:#fff;width:940px;padding:0 .9cm;box-shadow:0 0 .7em #222}.hero-unit{background-image:url(../img/photo_head.jpg);box-shadow:inset 0 0 1em #222;border-radius:0 0 10px 10px;font-size:18px;font-weight:200;line-height:30px;margin-bottom:30px;padding:70px 60px 60px;color:#2c3e50}.hero-unit h1{font-size:60px;letter-spacing:-1px;line-height:1;margin:0}.hero-unit p{font-size:18px;line-height:30px;margin:0 0 18px}.btn{display:inline-block;background-color:#bfc6cb;color:#fff;padding:9px 20px;text-decoration:none;-webkit-transition:.25s;-moz-transition:.25s;transition:.25s;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}.btn:active{color:rgba(255,255,255,.75)}.btn:hover,.btn:focus,.btn:active{color:#7b8a8b;background-color:#d0d5d9}.btn-primary{background-color:#2c2c2c}.btn-primary:hover,.btn-primary:focus,.btn-primary:active{color:#fff;background-color:#3c3c3c}.btn-primary:active{color:rgba(255,255,255,.75)}.btn-large{padding:18px 36px;line-height:20px;-webkit-border-radius:10px;border-radius:10px;font-size:18.75px}.span3{width:23.404255319148934%;float:left}.span8{width:65.95744680851064%;float:left}.span9{width:74.46808510638297%}.span4{width:31.914893617021278%;float:left;margin-left:2.127659574468085%}.nav-list{padding:0;list-style:none;margin:0}.nav-header{color:#B4BCC2;font-family:'PT Sans Narrow',sans;font-size:19px;line-height:30px;font-weight:100;padding:3px 15px;text-transform:uppercase}.sidebar-nav{background:#ecf0f1;padding:9px 0;margin-bottom:20px;-webkit-border-radius:6px;border-radius:6px}li.active{background-color:#2c3e50}li.active a{color:#fff}.content{margin-left:20px;float:left}.content img{float:left;margin-right:10px;margin-bottom:10px;border-radius:5px 0 5px 0}.row-fluid .span3.banner{margin-left:0;padding-top:18px;width:220px}#main-link,#news-link,#agenda-link,#sponsors-link,#pay-link,#contacts-link{display:block;font-family:'PT Sans Narrow',sans;font-size:19px;line-height:30px;padding:3px 15px}#main-link:before,#news-link:before,#agenda-link:before,#sponsors-link:before,#pay-link:before,#contacts-link:before{width:20px;height:20px;content:'';background-image:url(../img/ico-sprites.png);background-repeat:no-repeat;display:inline-block;margin-right:1ex;vertical-align:middle;margin-top:-4px}#agenda-link:before{background-position:-1px -1px}#sponsors-link:before{background-position:-22px -1px}#contacts-link:before{background-position:-1px -22px}#main-link:before{margin-top:-6px;background-position:-23px -22px}#main.active #main-link:before{background-position:-43px -1px}#news-link:before{background-position:-43px -22px}#pay-link:before{background-position:-1px -43px}@media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (min-resolution:240dpi){#main-link:before,#news-link:before,#agenda-link:before,#sponsors-link:before,#pay-link:before,#contacts-link:before{background-image:url(../img/ico-sprites@2x.png);background-size:63px}}h1{font-family:'PT Sans',sans}h4{font-size:24px;font-weight:500;line-height:20px;margin:10px 0;font-family:'PT Sans Narrow',sans}</style>
     </head>
 
 <!-- ######################################################################
@@ -49,25 +24,17 @@
                                               `Y8P'
      ###################################################################### -->
     <body>
-        <div class="container" style="background: white; ">
+        <div class="container">
             <div class="row-fluid">
-                    <div class="hero-unit">
-                        <h1>LXII форум</h1>
-                        <p>Профессиональных чтецов инструкций на освежителях воздуха</p>
-                        <p><a href="#reg" class="btn btn-primary btn-large">Зарегистрироваться!</a></p>
-                    </div>
-
+                <div class="hero-unit">
+                    <h1>LXII форум</h1>
+                    <p>Профессиональных чтецов инструкций на освежителях воздуха</p>
+                    <p><a href="#reg" class="btn btn-primary btn-large">Зарегистрироваться!</a></p>
+                </div>
             </div>
             <div class="row-fluid">
                 <div class="span3">
                     <div class="well sidebar-nav">
-                        <script type="text/javascript">
-                        jQuery(document).ready(function(evt){
-                            jQuery("ul.nav.nav-list").find("#main").attr("class","active")
-                            var src = jQuery("ul.nav.nav-list").find("#main").find('img').attr('src')
-                            jQuery("ul.nav.nav-list").find("#main").find('img').attr('src', src.replace('.png', '-w.png'))
-                        })
-                        </script>
 <!-- ######################################################################
 
                 ooo        ooooo
@@ -82,50 +49,18 @@
 
                         <ul class="nav nav-list">
                             <li class="nav-header">Меню</li>
-                            <li id="main">
-                                <a>
-                                    <img src="assets/img/ico-main.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Главная
-                                </a>
+                            <li id="main" class="active">
+                                <a id="main-link">Главная</a>
                             </li>
-                            <li id="news"><a href="#menu2">
-                                <img src="assets/img/ico-new.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -4px;
-                                    ">Новости
-                                </a></li>
-                            <li id="agenda"><a href="#menu3">
-                                <img src="assets/img/ico-agenda.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Программа</a></li>
-                            <li id="sponsors"><a href="#menu4">
-                                <img src="assets/img/ico-crown.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Спонсоры</a></li>
-                            <li id="pay"><a href="#menu5">
-                                <img src="assets/img/ico-pay.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -5px;
-                                    ">Оплата</a></li>
-                            <li id="contacts"><a href="#menu6">
-                                <img src="assets/img/ico-helicopter.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Как добраться</a></li>
+                            <li id="news"><a href="#menu2" id="news-link">Новости</a></li>
+                            <li id="agenda"><a href="#menu3" id="agenda-link">Программа</a></li>
+                            <li id="sponsors"><a href="#menu4" id="sponsors-link">Спонсоры</a></li>
+                            <li id="pay"><a href="#menu5" id="pay-link">Оплата</a></li>
+                            <li id="contacts"><a href="#menu6" id="contacts-link">Как добраться</a></li>
                         </ul>
                     </div><!--/.well -->
                     <div class="span3 banner">
-                        <script type="text/javascript" src="assets/js/banner.js"></script>
+                        <a target="_blank" href="http://ya.ru"><img alt="" src="assets/img/banner.png" width="220" height="300"></a>
                     </div>
                 </div><!--/span-->
                 <div class="span9 content">
@@ -144,19 +79,20 @@
                     <div class="row-fluid">
                         <div class="span8">
                             <h4>Звезда из Японии</h4>
-                            <img src="assets/img/photo_01.jpg" alt="Фотография Японии"/>
+                            <img src="assets/img/photo_01.jpg" alt="Фотография Японии" width="170" height="329">
                             <p>На форум приедет знаменитый японский чтец Микаро Яцумомито. Автор классического прочтения инструкции к японскому варианту освежителя Power Glisse 5000 Extreme Pack 250мл в жестяном флаконе с тремя дозаторами.</p>
                             <p>На открытии второго дня он прочтет инструкцию к новейшему освежителю для производственных помещений Simply Spray Here 2 Times Ultimate Edition. Ассистировать маэстро будет победитель молодежных чтений 2012 года в Санкт-Петербруге Игнат Зулусович Шмярк.</p>
                         </div><!--/span-->
                         <div class="span4">
                             <h4>Круглый стол</h4>
-                            <img src="assets/img/photo_02.jpg" alt="Цены"/>
+                            <img src="assets/img/photo_02.jpg" alt="Цены" width="223" height="138">
                             <p>В рамках съезда пройдет круглый стол «Повышение цен на освежители в странах Азии, и как оно отразится на отрасли в мировом масштабе».</p>
                             <p><a class="btn" href="#news2">Далее &raquo;</a></p>
                         </div><!--/span-->
                     </div><!--/row-->
+                    <br clear="all">
                     <div class="row-fluid">
-                        <div class="span4">
+                        <div style="margin:0" class="span4">
                             <h4>Будущее российских освежителей</h4>
                             <p>На открытии форума выступит академик Мирослав Захарович Сунтакаров с докладом гильдии чтецов стран Cодружества наземных государств «Инструкции к российским освежителям: Вчера, Сегодня, Завтра». Доклад будет освещать позицию государств содружества на изменения в российском законодательстве в части, касающейся написания инструкций к освежителям. Будут рассмотрены мировые практики, и проведен анализ рынка российских освежителей на мировой арене и внутреннем рынке страны.</p>
                             <p><a class="btn" href="#news3">Далее &raquo;</a></p>
@@ -176,6 +112,8 @@
                 </div><!--/span-->
             </div><!--/row-->
 
+            <br clear="all">
+
             <hr>
 
             <footer>
@@ -184,64 +122,5 @@
             </footer>
 
         </div><!--/.fluid-container-->
-
-<!-- ######################################################################
-
-             .oooooo..o     .               oooo
-            d8P'    `Y8   .o8               `888
-            Y88bo.      .o888oo oooo    ooo  888   .ooooo.   .oooo.o
-             `"Y8888o.    888    `88.  .8'   888  d88' `88b d88(  "8
-                 `"Y88b   888     `88..8'    888  888ooo888 `"Y88b.
-            oo     .d8P   888 .    `888'     888  888    .o o.  )88b
-            8""88888P'    "888"     .8'     o888o `Y8bod8P' 8""888P'
-                                .o..P'
-                                `Y8P'
-     ###################################################################### -->
-        <link href="assets/css/print.css" rel="stylesheet" media="print">
-        <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
-        <style type="text/css">
-            body {
-                padding-top: 0px;
-                padding-bottom: 0px;
-                background-color: #EEE;
-                box-shadow: 0 0 0.7em #222222;
-            }
-            .sidebar-nav {
-                padding: 9px 0;
-            }
-
-            .container {
-                padding: 0 0.9cm;
-                box-shadow: 0 0 0.7em #222222;
-            }
-            .content img {
-                float: left;
-                margin-right: 10px;
-                margin-bottom: 10px;
-                border-radius: 5px 0 5px 0;
-
-            }
-
-            .nav-list > li {
-                font-family: 'PT Sans Narrow', sans;
-                font-size: 19px;
-                line-height: 30px;
-
-            }
-
-            .row-fluid .span3.banner {
-                margin-left: 0px;
-                padding-top: 18px;
-                width: 220px;
-            }
-
-            h1, h2 {
-                font-family: 'PT Sans', sans;
-            }
-            h3, h4, h5, h6 {
-                font-family: 'PT Sans Narrow', sans;
-            }
-        </style>
-        <link href="assets/css/main.css" rel="stylesheet" media="screen">
     </body>
 </html>
