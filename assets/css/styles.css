@@ -5,6 +5,7 @@ body {
     box-shadow: 0 0 0.7em #222;
 }
 
+
 .sidebar-nav {
     padding: 9px 0;
 }
@@ -42,7 +43,46 @@ h3, h4, h5, h6 {
 }
 
 .navbar-icon {
+    width: 20px;
     height: 20px;
     padding-right: 1ex;
     margin-top: -6px;
 }
+
+.ico-agenda, .ico-crown, .ico-helicopter, .ico-main-w, .ico-main, .ico-new, .ico-pay, .ico-rocket{
+    background: url(../img/sprites.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 1ex;
+    margin-top: -6px;
+}
+
+.ico-agenda{
+    background-position: 0 -156px ;
+    clip: rect(10px, auto, auto, 10px);
+}
+
+.ico-crown{
+    background-position: 0 -130px ;
+}
+
+.ico-helicopter{
+    background-position: 0 -105px ;
+}
+
+.ico-main-w{
+    background-position: 0 -50px ;
+}
+
+.ico-main{
+    background-position: 0 -79px ;
+}
+
+.ico-new{
+    background-position: 0 -26px ;
+}
+
+.ico-pay{
+    background-position: 0 0;
+}
+
