@@ -1,0 +1,20 @@
+{
+  "author": "Robert Haritonov",
+  "name": "Yac_2013_Optimization_Robert_Haritonov",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/operatino/yac2013.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-csso": "~0.5.0",
+    "grunt-htmlcompressor": "~0.1.8",
+    "grunt-imgo": "~0.1.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-montage": "0.0.7"
+  }
+}
