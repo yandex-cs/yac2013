@@ -1,3 +1,32 @@
+
+
+
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url('../fonts/pts55f_w.eot');
+	src: local('PT Sans'), url('../fonts/PTS55F_W.woff') format('woff');
+}
+@font-face {
+	font-family: 'PT Sans Narrow';
+	src: url('../fonts/ptn57f_w.eot');
+	src: local('PT Sans Narrow'), url('../fonts/PTN57F_W.woff') format('woff');
+}
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/pts75f_w.eot');
+	src: local('PT Sans Bold'), url('../fonts/PTS75F_W.woff') format('woff');
+}
+@font-face {
+	font-family: 'PT Sans Narrow';
+	font-weight: bold;
+	src: url('../fonts/ptn77f_w.eot');
+	src: local('PT Sans Narrow Bold'), url('../fonts/PTN77F_W.woff') format('woff');
+}
+
+
 body{
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -52,7 +81,42 @@ h3, h4, h5, h6{
 .hero-unit p{
 	color: #2c3e50;
 }
+.sidebar-nav{
+	padding: 9px 0;
+}
 
+.well {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #ecf0f1;
+	border: 1px solid #d7e0e2;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.well blockquote {
+	border-color: #ddd;
+	border-color: rgba(0, 0, 0, 0.15);
+}
+
+.well-large {
+	padding: 24px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.well-small {
+	padding: 9px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
 .nav-list > li.nav-header{
 	font-family: 'PT Sans Narrow', sans;
 	font-size: 19px;
