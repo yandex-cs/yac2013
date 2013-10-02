@@ -10,7 +10,7 @@
 	font-style: normal;
 	font-weight: bold;
 	src: url('../fonts/pts75f_w.eot');
-	src: local('PT Sans Bold'), url('../fonts/PTS75F_W.woff') format('woff');
+	src: local('PT Sans Bold'), url('../fonts/pts75f_w.woff-webfont.woff') format('woff');
 }
 
 @font-face {

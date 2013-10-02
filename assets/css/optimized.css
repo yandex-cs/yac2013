@@ -10,7 +10,7 @@
 	font-style: normal;
 	font-weight: bold;
 	src: url('../fonts/pts75f_w.eot');
-	src: local('PT Sans Bold'), url('../fonts/PTS75F_W.woff') format('woff');
+	src: local('PT Sans Bold'), url('../fonts/pts75f_w.woff-webfont.woff') format('woff');
 }
 
 @font-face {
@@ -160,7 +160,7 @@ h3, h4, h5, h6 {
     background-position: 0 -62px;
 }body {
   background-attachment: fixed;
-  background-image: url(../img/bg-comp.svg);
+  background-image: url(../img/bg.svg);
 }
 .hero-unit {
   background-image: url(../img/photo_head_2.jpg);
