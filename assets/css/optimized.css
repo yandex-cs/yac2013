@@ -133,7 +133,6 @@ h3, h4, h5, h6 {
     display: inline-block;
     padding-right: 1ex;
     background: url(../img/sprite.png) 0px 0px no-repeat;
-    background-size: 20px 126px;
 }
 
 #main i {
