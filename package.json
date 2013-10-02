@@ -1,0 +1,10 @@
+{
+	"name": "yac2013",
+	"version": "0.1.0",
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "0.4.x",
+		"grunt-cli": "0.1.x",
+		"grunt-csso": "*"
+	}
+}
