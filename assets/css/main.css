@@ -1,3 +1,30 @@
+@font-face {
+  font-family: 'PT Sans';
+  src: url('pts55f_w.eot');
+  src: local('PT Sans'), url('../fonts/PTSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: url('pts75f_w.eot');
+  src: local('PT Sans Bold'), url('../fonts/PTSans-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src: url('ptn57f_w.eot');
+  src: local('PT Sans Narrow'), url('../fonts/PTSans-Narrow.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-weight: bold;
+  src: url('ptn77f_w.eot');
+  src: local('PT Sans Narrow Bold'), url('../fonts/PTSans-NarrowBold.woff') format('woff');
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -240,8 +267,9 @@ li.active a {
     background-position: -1px -43px;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 240dpi) {
   #main-link:before,
   #news-link:before,
   #agenda-link:before,
