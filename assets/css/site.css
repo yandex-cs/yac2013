@@ -1,0 +1,74 @@
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #EEE;
+    box-shadow: 0 0 0.7em #222222;
+}
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.container {
+    padding: 0 0.9cm;
+    box-shadow: 0 0 0.7em #222222;
+    background: #FFF;
+}
+.content img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 0 5px 0;
+
+}
+
+.nav-list > li {
+    font-family: 'PT Sans Narrow', sans;
+    font-size: 19px;
+    line-height: 30px;
+
+}
+
+.row-fluid .span3.banner {
+    margin-left: 0px;
+    padding-top: 18px;
+    width: 220px;
+}
+
+h1, h2 {
+    font-family: 'PT Sans', sans;
+}
+h3, h4, h5, h6 {
+    font-family: 'PT Sans Narrow', sans;
+}
+
+.nav i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding-right: 1ex;
+    background: url(../img/sprite.png) 0px 0px no-repeat;
+}
+
+#main i {
+    background-position: 0 -1px;
+}
+
+#news i {
+    background-position: 0 -83px;
+}
+
+#agenda i {
+    background-position: 0 -22px;
+}
+
+#sponsors i {
+    background-position: 0 -43px;
+}
+
+#pay i {
+    background-position: 0 -103px;
+}
+
+#contacts i {
+    background-position: 0 -62px;
+}
