@@ -1,6 +1,6 @@
 // @import "compass/reset";
 
-html, body, div {
+html, body, div, footer, h1, h4, p {
   margin: 0;
   padding: 0;
   border: 0;
@@ -120,35 +120,49 @@ a {
 
 %nav-item {
   display: block;
-  padding: 3px 15px;
-
   &:hover {text-decoration: none;}
 }
 
 %nav-item-bg {
   @extend %nav-item;
+  margin: 0 15px;
   color: #354B60;
   position: relative;
-  padding-left: 45px;
+  padding-left: 30px;
+  width: 159px;
 
-  &:after { top: 7px;left: 15px; }
+  &:after { top: 7px;left: 0px; }
 }
 
 .nav-header {
   @extend %nav-item;
+  width: 189px;
+  padding: 3px 15px;
   color: #B4BCC2;
   text-transform: uppercase;
 }
 
 #main {
   @extend %nav-item-bg;
-  &:after { @include simple_sprite_img($ico-sprites, 'ico-main'); }
 
-  &.active{
-    color: #FFF;
-    background-color: #2C3E50;
-    &:after { background-position: sprite-position($ico-sprites, 'ico-main-w'); }
-  }
+  background-color: #2C3E50;
+  z-index: 1;
+  .nav-list-item {color: #FFF;}
+  &:after { @include simple_sprite_img($ico-sprites, 'ico-main-w'); }
+  &:before {background-color: #2C3E50; position: absolute; top:0;left: -15px;height:100%;width:220px;content: ' ';z-index: -1;}
+}
+
+.nav-list-item {
+  display: block;
+  width:174px;
+  height: 36px;
+  line-height: 36px;
+  padding-left: 45px;
+  margin-left: -45px;
+  z-index: 1;
+  position: relative;
+
+  &:hover{ text-decoration: none; }
 }
 
 #news {
