@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
 
@@ -24,25 +28,15 @@
                                                  888
                                                 o888o
          ###################################################################### -->
-    <script src="http://yandex.st/jquery/1.8.3/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
 
 </head>
 
-<!-- ######################################################################
-
-            oooooooooo.                  .o8
-            `888'   `Y8b                "888
-             888     888  .ooooo.   .oooo888  oooo    ooo
-             888oooo888' d88' `88b d88' `888   `88.  .8'
-             888    `88b 888   888 888   888    `88..8'
-             888    .88P 888   888 888   888     `888'
-            o888bood8P'  `Y8bod8P' `Y8bod88P"     .8'
-                                              .o..P'
-                                              `Y8P'
-     ###################################################################### -->
 <body>
-<div class="w1h1"><img src="assets/img/banner.jpg" border="0"/></div>
+<div class="w1h1">
+    <img src="assets/img/banner.jpg" border="0"/>
+    <img src="assets/img/photo_02.jpg" alt="Цены"/>
+    <img src="assets/img/photo_01.jpg" alt="Фотография Японии"/>
+</div>
 <div class="container" style="background: white; ">
     <div class="row-fluid">
         <div class="hero-unit">
@@ -57,13 +51,6 @@
     <div class="row-fluid">
         <div class="span3">
             <div class="well sidebar-nav">
-                <script type="text/javascript">
-                    jQuery(document).ready(function (evt) {
-                        jQuery("ul.nav.nav-list").find("#main").attr("class", "active")
-                        var src = jQuery("ul.nav.nav-list").find("#main").find('img').attr('src')
-                        jQuery("ul.nav.nav-list").find("#main").find('img').attr('src', src.replace('.png', '-w.png'))
-                    })
-                </script>
                 <!-- ######################################################################
 
                                 ooo        ooooo
@@ -78,7 +65,7 @@
 
                 <ul class="nav nav-list">
                     <li class="nav-header">Меню</li>
-                    <li id="main"><a href="/#"><span class="icon main-w"></span>Главная</a></li>
+                    <li id="main" class="active"><a href="/#"><span class="icon main-w"></span>Главная</a></li>
                     <li id="news"><a href="#menu2"><span class="icon new"></span>Новости</a></li>
                     <li id="agenda"><a href="#menu3"><span class="icon agenda"></span>Программа</a></li>
                     <li id="sponsors"><a href="#menu4"><span class="icon crown"></span>Спонсоры</a></li>
