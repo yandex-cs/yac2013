@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'PT Sans';
     src: url('../fonts/pts55f_w.eot');
     src: local('PT Sans'), url('../fonts/PTS55F_W.woff') format('woff');
@@ -23,7 +23,7 @@
     font-weight: bold;
     src: url('../fonts/ptn77f_w.eot');
     src: local('PT Sans Narrow Bold'), url('../fonts/PTN77F_W.woff') format('woff');
-}
+} */
 
 /*!
  * Bootstrap v2.3.2
@@ -61,7 +61,7 @@ body {
 }
 
 .nav-list > li {
-    font-family: 'PT Sans Narrow', sans;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 19px;
     line-height: 30px;
 
@@ -74,10 +74,10 @@ body {
 }
 
 h1, h2 {
-    font-family: 'PT Sans', sans;
+    font-family: 'PT Sans', sans-serif;
 }
 h3, h4, h5, h6 {
-    font-family: 'PT Sans Narrow', sans;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 .hero-unit {
   background-image: url(../img/photo_head.jpg);
@@ -91,7 +91,7 @@ h3, h4, h5, h6 {
 }
 
 .nav-list > li.nav-header {
-    font-family: 'PT Sans Narrow', sans;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-size: 19px;
     line-height: 30px;
     font-weight: 100;
