@@ -1,0 +1,65 @@
+@import '_bootstrap.scss';
+
+.content-img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.ptsn {
+  font-family: 'PT Sans Narrow', sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 10px 0;
+}
+
+.hero-unit {
+  background: url(../img/photo_head.jpg) #ECF0F1;
+  color: #2c3e50;
+  padding: 70px 60px 78px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.hero-unit-title {
+  margin-bottom: 0;
+  font-family: 'PT Sans', sans;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+}
+
+.btn {
+  color: #FFF;
+  background-color: #2C2C2C;
+  display: inline-block;
+
+  line-height: 20px;
+  text-decoration: none;
+  padding: 9px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  -webkit-transition: 0.25s;
+
+  background-color: #BFC6CB;
+  &:hover { background-color: #D0D5D9; text-decoration: none;color:#fff;}
+}
+
+.btn-large {
+  padding: 18px 36px;
+  margin-top: 18px;
+  border-radius: 10px;
+  font-size: 19px;
+  background-color: #2B2B2B;
+
+  &:hover {background-color: #3C3C3C;}
+}
+
+
+.br {
+  margin-bottom: 1em;
+}
