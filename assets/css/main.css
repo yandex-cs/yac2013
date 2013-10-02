@@ -58,8 +58,9 @@ p {
   margin: 0 0 1em;
 }
 
-footer {
-  overflow: hidden;
+.footer-used {
+  margin-bottom: 0;
+  padding-bottom: 1em;
 }
 
 .container {
@@ -165,7 +166,7 @@ footer {
 }
 
 .nav-list {
-  padding: 0 15px;
+  padding: 0;
   list-style: none;
   margin: 0;
 }
@@ -182,7 +183,7 @@ footer {
 
 .sidebar-nav {
   background: #ecf0f1;
-  padding: 9px 0;
+  padding: 9px 15px;
   margin-bottom: 20px;
   -webkit-border-radius: 6px;
           border-radius: 6px;
@@ -223,6 +224,7 @@ li.active a {
 
 .banner {
   padding-top: 18px;
+  width: 100%;
 }
 
 #main-link:before,
