@@ -526,16 +526,31 @@ h3, h4, h5, h6 {
   line-height: 30px;
 }
 
-.nav-list img {
+.icons {
+  display: inline-block;
+  width: 20px;
   height: 20px;
-  padding-right: 1ex;
-  margin-top: -6px;
+  margin-right: 1ex;
+  margin-bottom: -3px;
+  background: scroll no-repeat url(../img/icons.png) 0 0;
 }
-#news > a > img {
-  margin-top: -4px;
+.icons.main {
+  background-position: -60px 0;
 }
-#pay > a > img {
-  margin-top: -5px;
+.icons.news {
+  background-position: -80px 0;
+}
+.icons.agenda {
+  background-position: 0 0;
+}
+.icons.sponsors {
+  background-position: -20px 0;
+}
+.icons.pay {
+  background-position: -100px 0;
+}
+.icons.contacts {
+  background-position: -40px 0;
 }
 
 .span3.banner {
@@ -543,4 +558,3 @@ h3, h4, h5, h6 {
   padding-top: 18px;
   width: 220px;
 }
-
