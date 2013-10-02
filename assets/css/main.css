@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'PT Sans Narrow';
   src: url('ptn57f_w.eot');
-  src: local('PT Sans Narrow'), url('../fonts/PTSans-Narrow.woff') format('woff');
+  src: local('PT Sans Narrow'), url('../fonts/ptn57f_w.woff') format('woff');
 }
 
 @font-face {
@@ -120,7 +120,6 @@ footer {
 .btn:hover,
 .btn:focus,
 .btn:active {
-  color: #7b8a8b;
   background-color: #d0d5d9;
 }
 
@@ -289,7 +288,9 @@ only screen and (min-resolution: 240dpi) {
 }
 
 h1 {
-    font-family: 'PT Sans', sans;
+  font-family: 'PT Sans', sans;
+  letter-spacing: -1px;
+  text-rendering: optimizelegibility;
 }
 
 h4 {
@@ -298,4 +299,5 @@ h4 {
   line-height: 20px;
   margin: 10px 0;
   font-family: 'PT Sans Narrow', sans;
+  text-rendering: optimizelegibility;
 }
