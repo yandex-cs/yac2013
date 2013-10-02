@@ -42,7 +42,7 @@ body {
     border-radius: 5px 0 5px 0;
 }
 
-.nav-list {
+.nav-list .nav-item {
     font-family: 'PT Sans Narrow', sans;
     font-size: 19px;
     line-height: 30px;
