@@ -1,0 +1,9 @@
+ { background: url('icons_2x.png') no-repeat; width: 40px; height: 40px; }
+.ico_agenda { background-position: 0px 0px; }
+.ico_crown { background-position: -40px 0px; }
+.ico_helicopter { background-position: -80px 0px; }
+.ico_main { background-position: 0px -40px; }
+.ico_main__w { background-position: -40px -40px; }
+.ico_new { background-position: -80px -40px; }
+.ico_pay { background-position: 0px -80px; }
+.ico_rocket { background-position: -40px -80px; }
