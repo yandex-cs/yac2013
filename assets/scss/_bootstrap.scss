@@ -91,22 +91,16 @@ a {
   font: 19px/30px 'PT Sans Narrow', sans;
 }
 
-$ico-layout: 'smart';
-@import "ico/*.png";
+%sprite {
+  background: url('../img/photo_sprite.jpg') 0 0 no-repeat;
+  display: block;
+}
 
 %sprite_img {
   position: absolute;
-  display: block;
   content: ' ';
   top: 5px;
   left: 0;
-}
-
-@mixin simple_sprite_img($sprite, $icon) {
-  @extend %sprite_img;
-  width: image-width(sprite-file($sprite, $icon));
-  height: image-height(sprite-file($sprite, $icon));
-  background: sprite($sprite, $icon) no-repeat;
 }
 
 %nav-item-bg {
@@ -116,7 +110,14 @@ $ico-layout: 'smart';
   padding-left: 30px;
   width: 159px;
 
-  &:after { top: 7px;left: 0px; }
+  &:after {
+    @extend %sprite;
+    content: ' ';
+    width: 20px;
+    height:12px;
+    position: absolute;
+    top: 7px;left: 0px;
+  }
 }
 
 .nav-header {
@@ -132,7 +133,7 @@ $ico-layout: 'smart';
   z-index: 1;
   background-color: #2C3E50;
   .nlt {color: #FFF;}
-  &:after { @include simple_sprite_img($ico-sprites, 'ico-main-w'); }
+  &:after { height:20px;background-position: -982px -329px; }
   &:before {background-color: #2C3E50; position: absolute; top:0;left: -15px;height:100%;width:220px;content: ' ';z-index: -1;}
 }
 
@@ -151,27 +152,27 @@ $ico-layout: 'smart';
 
 #news {
   @extend %nav-item-bg;
-  &:after { top: 12px; @include simple_sprite_img($ico-sprites, 'ico-new'); }
+  &:after { top: 12px; background-position: -961px -330px; }
 }
 
 #agenda {
   @extend %nav-item-bg;
-  &:after { @include simple_sprite_img($ico-sprites, 'ico-agenda'); }
+  &:after { height:20px;background-position: -1045px -330px; }
 }
 
 #sponsors {
   @extend %nav-item-bg;
-  &:after { top: 8px; @include simple_sprite_img($ico-sprites, 'ico-crown'); }
+  &:after { top: 8px; height:18px;background-position: -1024px -330px; }
 }
 
 #pay {
   @extend %nav-item-bg;
-  &:after { top: 10px; @include simple_sprite_img($ico-sprites, 'ico-pay'); }
+  &:after { top: 10px; height:16px;background-position: -940px -330px; }
 }
 
 #contacts {
   @extend %nav-item-bg;
-  &:after { @include simple_sprite_img($ico-sprites, 'ico-helicopter'); }
+  &:after { top:9px;height:17px;background-position: -1003px -330px; }
 }
 
 .banner {
@@ -180,16 +181,29 @@ $ico-layout: 'smart';
 }
 
 .bimg {
-  display: block;
-  width: image-width(sprite-file($ico-sprites, 'banner'));
-  height: image-height(sprite-file($ico-sprites, 'banner'));
-  background: sprite($ico-sprites, 'banner') no-repeat;
+  @extend %sprite;
+  width: 220px;
+  height: 300px;
+  background-position: -1110px -138px;
 }
 
-.cimg {
+%cimg {
   float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin: 0 10px 10px 0;
+}
+
+#cimg1 {
+  @extend %cimg;
+  width: 170px;
+  height: 329px;
+  background: url(../img/photo_sprite.jpg) #ECF0F1 -940px 0;
+}
+
+#cimg2 {
+  @extend %cimg;
+  width: 223px;
+  height: 138px;
+  background: url(../img/photo_sprite.jpg) #ECF0F1 -1110px 0;
 }
 
 .ptsn {
@@ -201,7 +215,7 @@ $ico-layout: 'smart';
 }
 
 .hero-unit {
-  background: url(../img/photo_head.jpg) #ECF0F1;
+  background: url(../img/photo_sprite.jpg) #ECF0F1;
   color: #2c3e50;
   padding: 70px 60px 78px;
   margin-bottom: 30px;
