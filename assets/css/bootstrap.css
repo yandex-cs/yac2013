@@ -166,11 +166,7 @@ p {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h4{
   margin: 10px 0;
   font-family: inherit;
   font-weight: bold;
@@ -179,9 +175,7 @@ h6 {
   text-rendering: optimizelegibility;
 }
 
-h1,
-h2,
-h3 {
+h1{
   line-height: 40px;
 }
 
@@ -208,13 +202,6 @@ hr {
   border: 0;
   border-top: 1px solid #ecf0f1;
   border-bottom: 1px solid #ffffff;
-}
-
-table {
-  max-width: 100%;
-  background-color: transparent;
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 .well {
@@ -377,30 +364,9 @@ h1 {
   font-weight: 900;
 }
 
-h2 {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 28px;
-  font-weight: 700;
-}
-
 h4 {
   font-size: 24px;
   font-weight: 500;
-}
-
-h5 {
-  font-size: 16px;
-  font-weight: 500;
-}
-
-h6 {
-  font-size: 13px;
-  font-weight: 500;
-  text-transform: none;
 }
 
 p {
@@ -514,10 +480,10 @@ legend {
     width: 220px;
 }
 
-h1, h2 {
+h1{
     font-family: 'PT Sans', sans;
 }
-h3, h4, h5, h6 {
+h4{
     font-family: 'PT Sans Narrow', sans;
 }
 .hero-unit {
