@@ -747,6 +747,7 @@ body {
 }
 .hero-unit {
     background-image: url(../img/photo_head.jpg);
+    background-position: 0 -15px;
     box-shadow: inset 0 0 1em #222;
     border-radius: 0 0 10px 10px;
 }
