@@ -58,6 +58,10 @@ p {
   margin: 0 0 1em;
 }
 
+footer {
+  display: block;
+}
+
 .footer-used {
   margin-bottom: 0;
   padding-bottom: 1em;
@@ -166,7 +170,7 @@ p {
 }
 
 .nav-list {
-  padding: 0;
+  padding: 0 15px;
   list-style: none;
   margin: 0;
 }
@@ -177,13 +181,14 @@ p {
   font-size: 19px;
   line-height: 30px;
   font-weight: 100;
-  padding: 3px 0;
+  padding: 3px 15px;
+  margin: 0 -15px;
   text-transform: uppercase;
 }
 
 .sidebar-nav {
   background: #ecf0f1;
-  padding: 9px 15px;
+  padding: 9px 0;
   margin-bottom: 20px;
   -webkit-border-radius: 6px;
           border-radius: 6px;
