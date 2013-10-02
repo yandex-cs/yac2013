@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         csso: {
           main: {
             files: {
-              'build/css/all.min.css': ['assets/css/bootstrap.css','assets/css/main.css']
+              'build/css/all.min.css': ['assets/css/pt_sans.css','assets/css/bootstrap.css','assets/css/main.css']
             }
           }
         },
