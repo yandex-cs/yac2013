@@ -98,23 +98,23 @@
 
             .b-nh__li {
                 line-height: 30px;
-            }
-
-            .b-nh__li-a__li-a {
-                padding-right: 1ex;
+                position: relative;
             }
 
             .b-nh__li-t {
-                padding-left: 6px;
+                position: relative;
+                top: -2px;
+                padding-left: 30px;
                 line-height: 20px;
                 vertical-align: middle;
             }
 
             .b-nh__icon {
                 vertical-align: middle;
-                display: inline-block;
-                *display: inline;
-                *zoom: 1;
+                position: absolute;
+                left: 0;
+                top: 8px;
+
                 width: 21px;
                 height: 20px;
                 background: url(assets/img/icons-sprite.png) no-repeat;
@@ -130,8 +130,7 @@
             }
 
             .b-nh__icon--pro {
-                padding-left: -3px;
-                background-position: 3px 0;
+                background-position: 2px 0;
             }
 
             .b-nh__icon--spo {
@@ -170,38 +169,38 @@
                             <li class="nav-header b-nh-title">Меню</li>
                             <li id="main" class="active b-nh__li b-nh__li--active">
                                 <a class="b-nh__li-a">
-                                    <i class="b-nh__icon b-nh__icon--main"></i>
                                     <span class="b-nh__li-t">Главная</span>
+                                    <i class="b-nh__icon b-nh__icon--main"></i>
                                 </a>
                             </li>
                             <li id="news" class="b-nh__li">
                                 <a href="#menu2" class="b-nh__li-a">
-                                    <i class="b-nh__icon b-nh__icon--new"></i>
                                     <span class="b-nh__li-t">Новости</span>
+                                    <i class="b-nh__icon b-nh__icon--new"></i>
                                 </a>
                             </li>
                             <li id="agenda" class="b-nh__li">
                                 <a href="#menu3" class="b-nh__li-a">
-                                    <i class="b-nh__icon b-nh__icon--pro"></i>
                                     <span class="b-nh__li-t">Программа</span>
+                                    <i class="b-nh__icon b-nh__icon--pro"></i>
                                 </a>
                             </li>
                             <li id="sponsors" class="b-nh__li">
                                 <a href="#menu4" class="b-nh__li-a">
-                                    <i class="b-nh__icon b-nh__icon--spo"></i>
                                     <span class="b-nh__li-t">Спонсоры</span>
+                                    <i class="b-nh__icon b-nh__icon--spo"></i>
                                 </a>
                             </li>
                             <li id="pay" class="b-nh__li">
                                 <a href="#menu5" class="b-nh__li-a">
-                                    <i class="b-nh__icon b-nh__icon--pay"></i>
                                     <span class="b-nh__li-t">Оплата</span>
+                                    <i class="b-nh__icon b-nh__icon--pay"></i>
                                 </a>
                             </li>
                             <li id="contacts" class="b-nh__li">
                                 <a href="#menu6" class="b-nh__li-a">
-                                    <i class="b-nh__icon b-nh__icon--con"></i>
                                     <span class="b-nh__li-t">Как добраться</span>
+                                    <i class="b-nh__icon b-nh__icon--con"></i>
                                 </a>
                             </li>
                         </ul>
