@@ -1,0 +1,26 @@
+﻿{
+	"scripts": [
+		,"https://yandex.st/jquery/1.8.3/jquery.js"
+		,"./js/bootstrap-transition.js"
+		,"./js/bootstrap-alert.js"
+		,"./js/bootstrap-modal.js"
+		,"./js/bootstrap-dropdown.js"
+		,"./js/bootstrap-scrollspy.js"
+		,"./js/bootstrap-tab.js"
+		,"./js/bootstrap-tooltip.js"
+		,"./js/bootstrap-popover.js"
+		,"./js/bootstrap-button.js"
+		,"./js/bootstrap-collapse.js"
+		,"./js/bootstrap-carousel.js"
+		,"./js/bootstrap-typeahead.js"
+	],
+
+	"styles": [
+		,"./css/print.css"
+		// ,"./fonts/pt_sans.css"
+		,"./css/bootstrap.css"
+		,"./dd.css"
+		,"./css/main.css"
+	]
+}
+
