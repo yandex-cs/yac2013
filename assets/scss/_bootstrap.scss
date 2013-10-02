@@ -14,12 +14,9 @@ html {
 footer { display: block; }
 
 body {
-  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 20px;
+  font: 15px/20px "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
-  background:  inline-image('../img/bg.png') repeat 0 0 #EEE;
-  background-attachment: fixed;
+  background:  inline-image('../img/bg.png') repeat 0 0 #EEE fixed;
 }
 
 a {
@@ -32,9 +29,9 @@ a {
   }
 }
 
-#container {
+#cntr {
   background-color: #FFF;
-  padding: 0 0.9cm 15px;
+  padding: 0 .9cm 15px;
   box-shadow: 0 0 10px #222;
   margin: auto;
   width: 940px;
@@ -51,12 +48,12 @@ a {
   font-size: 15px;
 }
 
-.sidebar {
+#sdb {
   @extend %block-size;
   width: 220px;
 }
 
-.content {
+#cnt {
   @extend %block;
   width: 700px;
   margin-left: 20px;
@@ -73,14 +70,14 @@ a {
   margin-left: 15px;
 }
 
-.fb {
+#fb {
   margin: 20px 0;
   border: 0;
   border-top: 1px solid #ECF0F1;
   border-bottom: 1px solid #FFF;
 }
 
-.footer {
+#f {
   color: #222;
   font-size: 15px;
   width: 940px;
@@ -91,20 +88,15 @@ a {
   margin-bottom: 20px;
   background-color: #ECF0F1;
   border-radius: 6px;
-  font-family: 'PT Sans Narrow', sans;
-  font-size: 19px;
-  line-height: 30px;
+  font: 19px/30px 'PT Sans Narrow', sans;
 }
+
 $ico-layout: 'smart';
 @import "ico/*.png";
 
 %sprite_img {
   position: absolute;
   display: block;
-  font-size:0;
-  line-height:0;
-  padding:0;
-  margin:0;
   content: ' ';
   top: 5px;
   left: 0;
@@ -117,13 +109,7 @@ $ico-layout: 'smart';
   background: sprite($sprite, $icon) no-repeat;
 }
 
-%nav-item {
-  display: block;
-  &:hover {text-decoration: none;}
-}
-
 %nav-item-bg {
-  @extend %nav-item;
   margin: 0 15px;
   color: #354B60;
   position: relative;
@@ -134,7 +120,6 @@ $ico-layout: 'smart';
 }
 
 .nav-header {
-  @extend %nav-item;
   width: 189px;
   padding: 3px 15px;
   color: #B4BCC2;
@@ -144,8 +129,8 @@ $ico-layout: 'smart';
 #main {
   @extend %nav-item-bg;
 
-  background-color: #2C3E50;
   z-index: 1;
+  background-color: #2C3E50;
   .nlt {color: #FFF;}
   &:after { @include simple_sprite_img($ico-sprites, 'ico-main-w'); }
   &:before {background-color: #2C3E50; position: absolute; top:0;left: -15px;height:100%;width:220px;content: ' ';z-index: -1;}
@@ -153,7 +138,7 @@ $ico-layout: 'smart';
 
 .nlt {
   display: block;
-  width:174px;
+  width: 174px;
   height: 36px;
   line-height: 36px;
   padding-left: 45px;
@@ -192,7 +177,6 @@ $ico-layout: 'smart';
 .banner {
   margin-left: 0px;
   padding-top: 18px;
-
 }
 
 .bimg {
@@ -202,7 +186,7 @@ $ico-layout: 'smart';
   background: sprite($ico-sprites, 'banner') no-repeat;
 }
 
-.contentimg {
+.cimg {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -226,10 +210,7 @@ $ico-layout: 'smart';
 }
 
 .hut {
-  margin-bottom: 0;
-  font-family: 'PT Sans', sans;
-  font-size: 60px;
-  line-height: 1;
+  font: 60px/1 'PT Sans', sans;
   letter-spacing: -1px;
   font-weight: bold;
   text-rendering: optimizelegibility;
@@ -237,17 +218,14 @@ $ico-layout: 'smart';
 
 .btn {
   color: #FFF;
-  background-color: #2C2C2C;
   display: inline-block;
-
-  line-height: 20px;
+  font: 15px/20px 'PT Sans', sans;
   text-decoration: none;
   padding: 9px 20px;
   border-radius: 6px;
-  font-size: 15px;
-  -webkit-transition: 0.25s;
-
+  -webkit-transition: .25s;
   background-color: #BFC6CB;
+
   &:hover { background-color: #D0D5D9; text-decoration: none;color:#fff;}
 }
 
@@ -260,7 +238,6 @@ $ico-layout: 'smart';
 
   &:hover {background-color: #3C3C3C;}
 }
-
 
 .br {
   margin-bottom: 1em;
