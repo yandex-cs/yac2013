@@ -1,23 +1,5 @@
 @import '_bootstrap.scss';
 
-@font-face {
-  font-family: 'PT Sans';
-  src: local('PT Sans'), url('../fonts/PTS55F_W.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: bold;
-  src: local('PT Sans Bold'), inline-image('../fonts/PTS75F_W.woff') format('woff');
-                              // url('../fonts/PTS75F_W.woff')
-}
-
-@font-face {
-  font-family: 'PT Sans Narrow';
-  src: local('PT Sans Narrow'), inline-image('../fonts/PTN57F_W.woff') format('woff');
-}
-
 .content-img {
   float: left;
   margin-right: 10px;
