@@ -1,4 +1,4 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {  display: block;}
+footer{  display: block;}
 html {  font-size: 100%; -webkit-text-size-adjust: 100%;}
 a:hover,a:active {  outline: 0;}
 img {  height: auto; max-width: 100%; vertical-align: middle; border: 0;}
@@ -6,7 +6,7 @@ body {  margin: 0; font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, s
 a {  color: #2c3e50; text-decoration: none;}
 a:hover,a:focus {  color: #354b60; text-decoration: underline;}
 [class*="span"] {  float: left; min-height: 1px; margin-left: 20px;}
-.container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container {  width: 940px;}
+.container {  width: 940px;}
 .span9 {  width: 700px;}
 .span8 {  width: 620px;}
 .span4 {  width: 300px;}
