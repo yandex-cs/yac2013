@@ -11,102 +11,83 @@ body {
 .hero-unit p {
   color: #2c3e50;
 }
-.w1h1 {
+.w1h1{
   width: 1px;
   height: 1px;
   overflow: hidden;
   position: absolute;
-  bottom: -100%;
-  left: -100%;
+  bottom:-100%;
+  left:-100%;
 }
-.nav-list {
+
+.nav-list{
   vertical-align: middle;
+  .icon{
+    display: inline-block;
+    background: url(../img/sprite.png);
+    width: 20px;
+    height: 20px;
+    margin-right: 1ex;
+    position: relative;
+    &.agenda{ height: 20px;width: 20px; top: 3px; }
+    &.crown{ background-position: 0 -46px; top:2px;  margin-top: -6px;}
+    &.helicopter{ background-position: 0 -94px;top:4px;margin-top: -6px; }
+    &.main-w{ background-position: 0 -184px; margin-right: 1ex;top: 3px; }
+    &.main{ background-position: 0 -360px;  margin-top: -6px;}
+    &.new{ background-position: 0 -226px;  }
+    &.pay{ background-position: 0 -278px;  height: 18px; top: 4px;}
+//    &.rocket{ background-position: 0 -630px;  }
+
+  }
 }
-.nav-list .icon {
-  display: inline-block;
-  background: url(../img/sprite.png);
-  width: 20px;
-  height: 20px;
-  margin-right: 1ex;
-  position: relative;
-}
-.nav-list .icon.agenda {
-  height: 20px;
-  width: 20px;
-  top: 3px;
-}
-.nav-list .icon.crown {
-  background-position: 0 -46px;
-  top: 2px;
-  margin-top: -6px;
-}
-.nav-list .icon.helicopter {
-  background-position: 0 -94px;
-  top: 4px;
-  margin-top: -6px;
-}
-.nav-list .icon.main-w {
-  background-position: 0 -184px;
-  margin-right: 1ex;
-  top: 3px;
-}
-.nav-list .icon.main {
-  background-position: 0 -360px;
-  margin-top: -6px;
-}
-.nav-list .icon.new {
-  background-position: 0 -226px;
-}
-.nav-list .icon.pay {
-  background-position: 0 -278px;
-  height: 18px;
-  top: 4px;
-}
+
 .nav-list > li.nav-header {
-  font-family: 'PT Sans Narrow', sans;
-  font-size: 19px;
-  line-height: 30px;
-  font-weight: 100;
+    font-family: 'PT Sans Narrow', sans;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 100;
 }
-.sprite {
-  background: url(../img/sprite.png);
+.sprite{
+    background: url(../img/sprite.png);
 }
 body {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #EEE;
-  box-shadow: 0 0 0.7em #222222;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #EEE;
+    box-shadow: 0 0 0.7em #222222;
 }
 .sidebar-nav {
-  padding: 9px 0;
+    padding: 9px 0;
 }
+
 .container {
-  padding: 0 0.9cm;
-  box-shadow: 0 0 0.7em #222222;
+    padding: 0 0.9cm;
+    box-shadow: 0 0 0.7em #222222;
 }
 .content img {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px 0 5px 0;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px 0 5px 0;
+
 }
+
 .nav-list > li {
-  font-family: 'PT Sans Narrow', sans;
-  font-size: 19px;
-  line-height: 30px;
+    font-family: 'PT Sans Narrow', sans;
+    font-size: 19px;
+    line-height: 30px;
+
 }
+
 .row-fluid .span3.banner {
-  margin-left: 0px;
-  padding-top: 18px;
-  width: 220px;
+    margin-left: 0px;
+    padding-top: 18px;
+    width: 220px;
 }
-h1,
-h2 {
-  font-family: 'PT Sans', sans;
+
+h1, h2 {
+    font-family: 'PT Sans', sans;
 }
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'PT Sans Narrow', sans;
+h3, h4, h5, h6 {
+    font-family: 'PT Sans Narrow', sans;
 }
