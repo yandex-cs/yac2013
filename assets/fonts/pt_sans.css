@@ -18,9 +18,9 @@
 	src: local('PT Sans Narrow'), url('PTN57F_W.woff') format('woff');
 }
 
-@font-face {
+/*@font-face {
 	font-family: 'PT Sans Narrow';
 	font-weight: bold;
 	src: url('ptn77f_w.eot');
 	src: local('PT Sans Narrow Bold'), url('PTN77F_W.woff') format('woff');
-}
+}*/
