@@ -24,6 +24,7 @@ body {
     font-size: 19px;
     line-height: 30px;
 }
+li.nav-header {font-weight: 100;}
 
 .row-fluid .span3.banner {
     margin-left: 0px;
@@ -38,22 +39,13 @@ h3, h4, h5, h6 {
     font-family: 'PT Sans Narrow', sans;
 }
 
-
 .hero-unit {
   background-image: url(../img/photo_head.jpg);
   box-shadow: inset 0 0 1em #222;
   border-radius: 0 0 10px 10px;
 }
-.hero-unit h1,
-.hero-unit p {
+.hero-unit h1, .hero-unit p {
   color: #2c3e50;
-}
-
-.nav-list li.nav-header {
-    font-family: 'PT Sans Narrow', sans;
-    font-size: 19px;
-    line-height: 30px;
-    font-weight: 100;
 }
 
 .ico-main-w, .ico-new, .ico-agenda, .ico-crown, .ico-pay, .ico-helicopter {
@@ -71,9 +63,3 @@ margin-top: -6px;
 .ico-crown{background-position: -140px 0;}
 .ico-pay{background-position: -40px 0; margin-top: -5px;}
 .ico-helicopter{background-position: -100px 0;}
-
-.menu-img{height: 20px;padding-right: 1ex;}
-.menu-img4{margin-top: -4px;}
-.menu-img5{margin-top: -5px;}
-.menu-img6{margin-top: -6px;}
-
