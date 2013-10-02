@@ -125,11 +125,14 @@ hr {
 .container  {
   width: 940px;
 }
+.span9 {
+  width: 700px;
+}
 .span8 {
-  width: 620px;
+  width: 462px;
 }
 .span4 {
-  width: 300px;
+  width: 223px;
 }
 .span3 {
   width: 220px;
@@ -146,36 +149,17 @@ hr {
 .row-fluid:after {
   clear: both;
 }
-.row-fluid > .span9, .row-fluid > .span8, .row-fluid > .span4, .row-fluid > .span3 {
+.span9, .span8, .span4, .span3 {
   display: block;
   float: left;
-  width: 100%;
   min-height: 30px;
-  margin-left: 2.127659574468085%;
   box-sizing: border-box;
+  margin-left: 2.127659574468085%;
 }
-.row-fluid [class*="span"]:first-child {
+.row-fluid > .span9:first-child, .row-fluid > .span8:first-child, .row-fluid > .span4:first-child, .row-fluid > .span3:first-child {
   margin-left: 0;
 }
-.row-fluid .controls-row [class*="span"] + [class*="span"] {
-  margin-left: 2.127%;
-}
-.row-fluid .span9 {
-  width: 74.468%;
-  *width: 74.414%;
-}
-.row-fluid .span8 {
-  width: 65.957%;
-  *width: 65.904%;
-}
-.row-fluid .span4 {
-  width: 31.914%;
-  *width: 31.861%;
-}
-.row-fluid .span3 {
-  width: 23.404%;
-  *width: 23.351%;
-}
+
 .container {
   margin-right: auto;
   margin-left: auto;
