@@ -63,7 +63,8 @@ body {
 }
 
 .nav.nav-list a {
-    background: url(../img/csg-524be3ddcd548.png) no-repeat top left;;
+    background-image: url(../img/csg-524be3ddcd548.png);
+    background-repeat: no-repeat;
     padding-left: 40px;
 }
 
