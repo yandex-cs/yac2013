@@ -1,3 +1,5 @@
+@import '_bootstrap.scss';
+
 @font-face {
   font-family: 'PT Sans';
   src: local('PT Sans'), url('../fonts/PTS55F_W.woff') format('woff');
@@ -15,5 +17,3 @@
   font-family: 'PT Sans Narrow';
   src: local('PT Sans Narrow'), inline-image('../fonts/PTN57F_W.woff') format('woff');
 }
-
-@import '_bootstrap.scss';
