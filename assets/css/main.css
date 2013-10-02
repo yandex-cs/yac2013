@@ -80,11 +80,6 @@ img {
   width: 23.404255319148934%;
 }
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
 p {
   margin: 0 0 10px;
   margin-bottom: 1em;
@@ -294,6 +289,13 @@ body {
   box-shadow: 0 0 0.7em #222222;
   background: white;
 }
+
+.container:before, .container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
 .img {
   float: left;
   margin-right: 10px;
