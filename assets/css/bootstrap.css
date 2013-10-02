@@ -399,24 +399,6 @@ p {
   padding: 18px 36px;
 }
 
-textarea{
-  padding: 7px 6px;
-  text-indent: 1px;
-  border: 2px solid #dce4ec;
-          border-radius: 6px;
-          box-shadow: none;
-}
-
-textarea:focus{
-  border-color: #1abc9c;
-          box-shadow: none;
-}
-
-legend {
-  color: #222222;
-  border-bottom: none;
-}
-
 .well {
   border: none;
           box-shadow: none;
