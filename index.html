@@ -23,9 +23,9 @@
                     <div class="well sidebar-nav">
                         <ul class="nav nav-list">
                             <li class="nav-header">Меню</li>
-                            <li class="nav-item" id="main">
+                            <li class="nav-item active" id="main">
                                 <a>
-                                    <img class="nav-item-img" src="assets/img/ico-main.png">Главная
+                                    <img class="nav-item-img" src="assets/img/ico-main-w.png">Главная
                                 </a>
                             </li>
                             <li class="nav-item" id="news"><a href="#menu2">
@@ -41,7 +41,9 @@
                                 <img class="nav-item-img" src="assets/img/ico-helicopter.png">Как добраться</a></li>
                         </ul>
                     </div><!--/.well -->
-                    <div class="span3 banner"></div>
+                    <div class="span3 banner">
+                        <a target="_blank" href="http://ya.ru"><img src="assets/img/banner.png" border=0></a>
+                    </div>
                 </div><!--/span-->
                 <div class="span9 content">
                     <div class="row-fluid">
@@ -87,16 +89,6 @@
             </footer>
 
         </div><!--/.fluid-container-->
-        <link href="assets/css/print.css" rel="stylesheet" media="print">
         <link href="assets/css/main.min.css" rel="stylesheet" media="screen">
-        <script src="assets/js/zepto.min.js"></script>
-        <script>
-            var mainEl = $("#main").addClass("active"),
-                imgEl = mainEl.find('img'),
-                src = imgEl.attr('src');
-
-            imgEl.prop('src', src.replace('.png', '-w.png'));
-        </script>
-        <script src="assets/js/banner.js"></script>
     </body>
 </html>
