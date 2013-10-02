@@ -17,13 +17,14 @@
 	src: url('../fonts/ptn57f_w.eot');
 	src: local('PT Sans Narrow'), url('../fonts/PTN57F_W.woff') format('woff');
 }
-
+/*
 @font-face {
 	font-family: 'PT Sans Narrow';
 	font-weight: bold;
 	src: url('../fonts/ptn77f_w.eot');
 	src: local('PT Sans Narrow Bold'), url('../fonts/PTN77F_W.woff') format('woff');
-}article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {  display: block;}
+}
+*/article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {  display: block;}
 html {  font-size: 100%; -webkit-text-size-adjust: 100%;     -ms-text-size-adjust: 100%;}
 a:hover,a:active {  outline: 0;}
 img {  width: auto\9; height: auto; max-width: 100%; vertical-align: middle; border: 0; -ms-interpolation-mode: bicubic;}
