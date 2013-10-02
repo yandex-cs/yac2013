@@ -13,6 +13,8 @@ html {
   line-height: 1;
 }
 
+footer { display: block; }
+
 body {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
@@ -35,7 +37,7 @@ a {
 
 #container {
   background-color: #FFF;
-  padding: 0 0.9cm;
+  padding: 0 0.9cm 15px;
   box-shadow: 0 0 10px #222;
   margin: auto;
   width: 940px;
@@ -75,18 +77,16 @@ a {
 }
 
 .pre-footer {
-  margin: 20px 0 12px;
+  margin: 20px 0;
   border: 0;
   border-top: 1px solid #ECF0F1;
   border-bottom: 1px solid #FFF;
 }
 
 .footer {
-  display: block;
-  position: relative;
+  color: #222;
   font-size: 15px;
-  line-height: 35px;
-  padding-bottom: 8px;
+  width: 940px;
 }
 
 .sidebar-nav {
