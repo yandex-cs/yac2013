@@ -1,3 +1,261 @@
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('PT Sans Bold'), url('../fonts/PTS75F_W.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src: local('PT Sans Narrow'), url('../fonts/PTN57F_W.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #222222;
+  background-color: #ffffff;
+}
+
+a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.row-fluid {
+  width: 100%;
+}
+
+.row-fluid:before,
+.row-fluid:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row-fluid:after {
+  clear: both;
+}
+
+.row-fluid [class*="span"] {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  margin-left: 2.127659574468085%;
+  box-sizing: border-box;
+}
+
+.row-fluid [class*="span"]:first-child {
+  margin-left: 0;
+}
+
+.row-fluid .span9 {
+  width: 74.46808510638297%;
+}
+
+.row-fluid .span8 {
+  width: 65.95744680851064%;
+}
+
+.row-fluid .span4 {
+  width: 31.914893617021278%;
+}
+
+.row-fluid .span3 {
+  width: 23.404255319148934%;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p {
+  margin: 0 0 10px;
+  margin-bottom: 1em;
+}
+
+h1, h4 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+
+h1 {
+  font-size: 41.25px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ecf0f1;
+  border-bottom: 1px solid #ffffff;
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #ecf0f1;
+  border-radius: 6px;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #bfc6cb;
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #c4c4c4;
+  border-radius: 6px;
+  padding: 9px 20px;
+  color: #ffffff;
+  transition: 0.25s;
+}
+
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #2c2c2c;
+  background-repeat: repeat-x;
+  border-color: #3c3c3c #3c3c3c #151515;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  padding: 18px 36px;
+  font-size: 18.75px;
+  border-radius: 10px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #7b8a8b;
+  text-decoration: none;
+  background-position: 0 -15px;
+  transition: background-position 0.1s linear;
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #3c3c3c !important;
+}
+
+.btn:hover {
+  color: #7b8a8b;
+  background-color: #d0d5d9;
+}
+
+.btn:hover,
+.btn:focus {
+  text-decoration: none;
+  background-position: 0 -15px;
+  transition: background-position 0.25s linear;
+  color: white;
+}
+
+
+.nav {
+  margin-bottom: 20px;
+  margin-left: 0;
+  list-style: none;
+}
+
+.nav-a {
+  display: block;
+}
+
+.nav-a:hover,
+.nav-a:focus {
+  text-decoration: none;
+  background-color: #ecf0f1;
+}
+
+.nav-header {
+  display: block;
+  padding: 3px 15px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #b4bcc2;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+.nav-list {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.nav-a, .nav-header {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.nav-a {
+  padding: 3px 15px;
+}
+
+.active .nav-a {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #2c3e50;
+}
+
+
+.hero-unit {
+  padding: 60px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  background-color: #ecf0f1;
+  border-radius: 6px;
+}
+
+.hero-unit h1 {
+  margin-bottom: 0;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: inherit;
+  font-weight: 900;
+}
+
 body {
   padding-top: 0;
   padding-bottom: 0;
