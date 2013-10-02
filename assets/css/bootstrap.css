@@ -42,13 +42,13 @@
 /*details,*/
 /*figcaption,*/
 /*figure,*/
-/*footer,*/
+footer,
 /*header,*/
 /*hgroup,*/
 /*nav,*/
-/*section {*/
-  /*display: block;*/
-/*}*/
+section {
+  display: block;
+}
 /*audio,*/
 /*canvas,*/
 /*video {*/
