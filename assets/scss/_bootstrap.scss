@@ -1,6 +1,6 @@
 // @import "compass/reset";
 
-html, body, div {
+html, body, div, footer, h1, h4, p {
   margin: 0;
   padding: 0;
   border: 0;
@@ -120,7 +120,8 @@ a {
 
 %nav-item {
   display: block;
-  padding: 3px 15px;
+  margin: 0 15px;
+  padding: 3px 0;
 
   &:hover {text-decoration: none;}
 }
@@ -129,9 +130,10 @@ a {
   @extend %nav-item;
   color: #354B60;
   position: relative;
-  padding-left: 45px;
+  padding-left: 30px;
+  width: 159px;
 
-  &:after { top: 7px;left: 15px; }
+  &:after { top: 7px;left: 0px; }
 }
 
 .nav-header {
@@ -142,11 +144,14 @@ a {
 
 #main {
   @extend %nav-item-bg;
+
   &:after { @include simple_sprite_img($ico-sprites, 'ico-main'); }
 
   &.active{
     color: #FFF;
     background-color: #2C3E50;
+    z-index: 1;
+    &:before {background-color: #2C3E50; position: absolute; top:0;left: -15px;height:100%;width:220px;content: ' ';z-index: -1;}
     &:after { background-position: sprite-position($ico-sprites, 'ico-main-w'); }
   }
 }
