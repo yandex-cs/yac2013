@@ -8,7 +8,6 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="assets/img/favicon.ico">
         <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
     <body>
         <div class="container">
@@ -84,6 +83,8 @@
     lnk.href = 'assets/fonts/pt_sans.css';
     lnk.rel = 'stylesheet';
     var h = document.getElementsByTagName('head')[0];
+    h.parentNode.insertBefore(lnk, h);
+    lnk.href = 'assets/css/bootstrap.min.css';
     h.parentNode.insertBefore(lnk, h);
     document.body.style.display = 'block';
   })(); 
