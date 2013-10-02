@@ -168,14 +168,14 @@
 
         <script>
             $(document).ready(function ($) {
-                setTimeout(function () {
-                    $("body").show();
-                }, 0);
                 var main = document.getElementById("main");
                 main.setAttribute("class", "active");
                 $("img", main).attr("src", function (index, attr) {
                    return attr.replace('.png', '-w.png');
                 });
+                setTimeout(function () {
+                    $("body").show();
+                }, 0);
             })
         </script>
     </body>
