@@ -166,6 +166,15 @@ textarea {
   vertical-align: top;
 }
 
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #ecf0f1;
+  border: 1px solid #d7e0e2;
+  border-radius: 6px;
+}
+
 @media print {
   * {
     color: #000 !important;
