@@ -1,180 +1,263 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
     <head>
         <meta charset="utf-8">
         <title>LXII форум – Профессиональных чтецов инструкций на освежителях воздуха</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
         <link rel="shortcut icon" href="assets/img/favicon.ico">
-        <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
+        <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png">
 
-<!-- ######################################################################
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
-        .oooooo..o                     o8o                 .
-       d8P'    `Y8                     `"'               .o8
-       Y88bo.       .ooooo.  oooo d8b oooo  oo.ooooo.  .o888oo  .oooo.o
-        `"Y8888o.  d88' `"Y8 `888""8P `888   888' `88b   888   d88(  "8
-            `"Y88b 888        888      888   888   888   888   `"Y88b.
-       oo     .d8P 888   .o8  888      888   888   888   888 . o.  )88b
-       8""88888P'  `Y8bod8P' d888b    o888o  888bod8P'   "888" 8""888P'
-                                             888
-                                            o888o
-     ###################################################################### -->
-        <script src="https://yandex.st/jquery/1.8.3/jquery.js"></script>
-        <script src="assets/js/bootstrap-transition.js"></script>
-        <script src="assets/js/bootstrap-alert.js"></script>
-        <script src="assets/js/bootstrap-modal.js"></script>
-        <script src="assets/js/bootstrap-dropdown.js"></script>
-        <script src="assets/js/bootstrap-scrollspy.js"></script>
-        <script src="assets/js/bootstrap-tab.js"></script>
-        <script src="assets/js/bootstrap-tooltip.js"></script>
-        <script src="assets/js/bootstrap-popover.js"></script>
-        <script src="assets/js/bootstrap-button.js"></script>
-        <script src="assets/js/bootstrap-collapse.js"></script>
-        <script src="assets/js/bootstrap-carousel.js"></script>
-        <script src="assets/js/bootstrap-typeahead.js"></script>
+        <style>
+            /* Для оптмизации - вынесено из main.css (плохой стиль, но выиграет один запрос) */
+            @font-face {
+                font-family: 'PT Sans';
+                src: url('assets/fonts/PTS55F_W.eot');
+                src: local('PT Sans'), url('assets/fonts/PTS55F_W.woff') format('woff');
+            }
+
+            @font-face {
+                font-family: 'PT Sans';
+                font-style: normal;
+                font-weight: bold;
+                src: url('assets/fonts/PTS75F_W.eot');
+                src: local('PT Sans Bold'), url('assets/fonts/PTS75F_W.woff') format('woff');
+            }
+
+            @font-face {
+                font-family: 'PT Sans Narrow';
+                src: url('assets/fonts/PTN57F_W.eot');
+                src: local('PT Sans Narrow'), url('assets/fonts/PTN57F_W.woff') format('woff');
+            }
+
+            @font-face {
+                font-family: 'PT Sans Narrow';
+                font-weight: bold;
+                src: url('assets/fonts/PTN77F_W.eot');
+                src: local('PT Sans Narrow Bold'), url('assets/fonts/PTN77F_W.woff') format('woff');
+            }
+
+            .sidebar-nav {
+                padding: 9px 0;
+                -webkit-border-radius: 6px;
+                -moz-border-radius: 6px;
+                border-radius: 6px;
+                background: #ecf0f1;
+                margin-bottom: 20px;
+            }
+
+            .container {
+                padding: 0 0.9cm;
+                box-shadow: 0 0 0.7em #222;
+                background: #fff
+            }
+
+                /* --- */
+
+            body {
+                padding: 0px;
+                box-shadow: 0 0 0.7em #222;
+                background-attachment: fixed;
+                background: #eee url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgo8IS0tIEZST00gUlVTU0lBIFdJVEggTE9WRSAtLT4KPCEtLQpfXyAgIF9fX19fICBfICAgXyAgICAgICAgICAgICAgICAgICAgICAgICAgICBfX19fICBfX19fXyBfX19fICAgIF8gIF9fX19fX19fXyAgIF9fXwpcIFwgLyAvIF8gXHwgfCB8IHwgICBfX18gIF8gX18gICBfX18gXyBfXyAgIHwgIF8gXHwgX19fX3wgIF8gXCAgfCB8LyAvIF9fX19cIFwgLyAvIHwKIFwgViAvIHwgfCB8IHwgfCB8ICAvIF8gXHwgJ18gXCAvIF8gXCAnXyBcICB8IHxfKSB8ICBffCB8IHwgfCB8IHwgJyAvfCAgX3wgIFwgViAvfCB8CiAgfCB8fCB8X3wgfCB8X3wgfCB8IChfKSB8IHxfKSB8ICBfXy8gfCB8IHwgfCAgXyA8fCB8X19ffCB8X3wgfCB8IC4gXHwgfF9fXyAgfCB8IHxffAogIHxffCBcX19fLyBcX19fLyAgIFxfX18vfCAuX18vIFxfX198X3wgfF98IHxffCBcX1xfX19fX3xfX19fLyAgfF98XF9cX19fX198IHxffCAoXykKICAgICAgICAgICAgICAgICAgICAgICAgIHxffAotLT4KCjxzdmcKICAgeG1sbnM6b3NiPSJodHRwOi8vd3d3Lm9wZW5zd2F0Y2hib29rLm9yZy91cmkvMjAwOS9vc2IiCiAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICBpZD0ic3ZnMzAwNCIKICAgdmVyc2lvbj0iMS4xIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIwLjQ4LjIgcjk4MTkiCiAgIHdpZHRoPSIxNDEuNzMyMjgiCiAgIGhlaWdodD0iMTI0LjAxNTc1IgogICB4bWw6c3BhY2U9InByZXNlcnZlIgogICBzb2RpcG9kaTpkb2NuYW1lPSJ0cmVlLnN2ZyI+PG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhMzAxMCI+PHJkZjpSREY+PGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPjxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PjxkYzp0eXBlCiAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz48L2NjOldvcms+PC9yZGY6UkRGPjwvbWV0YWRhdGE+PGRlZnMKICAgICBpZD0iZGVmczMwMDgiPjxwYXR0ZXJuCiAgICAgICBpbmtzY2FwZTpjb2xsZWN0PSJhbHdheXMiCiAgICAgICB4bGluazpocmVmPSIjcGF0dGVybjY0ODIiCiAgICAgICBpZD0icGF0dGVybjc5OTgiCiAgICAgICBwYXR0ZXJuVHJhbnNmb3JtPSJtYXRyaXgoMS4wNTU0ODU4LDAsMCwwLjk0MTg3MTMzLDE4Ljk3MzczOCw0NDUuMjIwMikiIC8+PGxpbmVhckdyYWRpZW50CiAgICAgICBpZD0ibGluZWFyR3JhZGllbnQ3OTkyIgogICAgICAgb3NiOnBhaW50PSJzb2xpZCI+PHN0b3AKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6I2ZmZmZmZjtzdG9wLW9wYWNpdHk6MTsiCiAgICAgICAgIG9mZnNldD0iMCIKICAgICAgICAgaWQ9InN0b3A3OTk0IiAvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoCiAgICAgICBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIGlkPSJjbGlwUGF0aDMwMTgiPjxwYXRoCiAgICAgICAgIGQ9Ik0gMCw0NjQgNTI4LDQ2NCA1MjgsMCAwLDAgMCw0NjQgeiIKICAgICAgICAgaWQ9InBhdGgzMDIwIgogICAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAvPjwvY2xpcFBhdGg+PHBhdHRlcm4KICAgICAgIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICB3aWR0aD0iNTEuMjcyNzI4IgogICAgICAgaGVpZ2h0PSI1MS4yNzUiCiAgICAgICBwYXR0ZXJuVHJhbnNmb3JtPSJtYXRyaXgoMC44LDAsMCwtMC44LDE4Ljk3MzczOCw0NDUuMjIwMikiCiAgICAgICBpZD0icGF0dGVybjY0ODIiPjxnCiAgICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDEuMjUsMCwwLC0xLjI1LDc1LjI3MjcyOCw0NzkpIgogICAgICAgICBpZD0iZzY0NDYiPjxnCiAgICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMuMiw2LjE4KSIKICAgICAgICAgICBpZD0iZzY0NDgiPjxnCiAgICAgICAgICAgICBpZD0iZzY0NTAiCiAgICAgICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTgsMzQ3KSI+PHBhdGgKICAgICAgICAgICAgICAgZD0ibSAwLDAgLTEsMCAwLC0xIGMgMCwtMS41NDIgLTEuNDU3LC0zIC0zLC0zIEwgLTguNTg2LC00IC0xMCwtNS40MTQgLTEwLC02IGMgMCwtMSAxLC0yIDIsLTIgbCA1LDAgMywtMyAwLDMgYyAxLDAgMiwxIDIsMiBsIDAsNCBDIDIsLTEgMSwwIDAsMCIKICAgICAgICAgICAgICAgc3R5bGU9ImZpbGw6IzFkMWQxYjtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgICAgICAgaWQ9InBhdGg2NDUyIgogICAgICAgICAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAvPjwvZz48ZwogICAgICAgICAgICAgaWQ9Imc2NDU0IgogICAgICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI3LDM0NCkiPjxwYXRoCiAgICAgICAgICAgICAgIGQ9Ik0gMCwwIDUsMCBDIDYsMCA3LDEgNywyIEwgNyw2IEMgNyw3IDYsOCA1LDggTCAtMyw4IEMgLTQsOCAtNSw3IC01LDYgbCAwLC00IGMgMCwtMSAxLC0yIDIsLTIgbCAwLC0zIDMsMyB6IgogICAgICAgICAgICAgICBzdHlsZT0iZmlsbDojMWQxZDFiO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICAgICAgICBpZD0icGF0aDY0NTYiCiAgICAgICAgICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiIC8+PC9nPjwvZz48ZwogICAgICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNTYuMjE4MTgsNy4yKSIKICAgICAgICAgICBpZD0iZzY0NTgiPjxwYXRoCiAgICAgICAgICAgICBkPSJtIDExMSwzNDMuMDIxIC0xLDAgMCw1IDEsMCAwLC01IHogbSAtMiwwIC0xMSwwIDAsMSAxMSwzIDAsLTQgeiBtIC01LjI2MywtNC44NDcgYyAtMC4wNjUsLTAuMjU3IC0wLjM0NSwtMC40MjkgLTAuNjA4LC0wLjM2MSBsIC0yLjkzOCwwLjc0OSBjIC0wLjI2NywwLjA2OCAtMC40MjksMC4zNCAtMC4zNjEsMC42MDcgbCAwLjMyMiwxLjI2NiAzLjg5MSwtMS4wNjEgLTAuMzA2LC0xLjIgeiBtIDUuMjYzLDEwLjg0NyAwLC0xIC0xMSwtMyAtMiwxIDAsLTYgMiwxIDEuMTg4LC0wLjMyNCAtMC4zMjcsLTEuMjgxIGMgLTAuMjA0LC0wLjgwMSAwLjI4MiwtMS42MTkgMS4wODMsLTEuODIzIGwgMi45MzgsLTAuNzQ4IGMgMC4xMjEsLTAuMDMxIDAuMjQ1LC0wLjA0NyAwLjM2OSwtMC4wNDcgMC42ODcsMCAxLjI4NiwwLjQ2NSAxLjQ1NSwxLjEyOSBsIDAuMzAyLDEuMTgzIDMuOTkyLC0xLjA4OSAwLC0xIDMsLTEuMDIxIDAsMTMuOTYgLTMsLTAuOTM5IHoiCiAgICAgICAgICAgICBzdHlsZT0iZmlsbDojMWQxZDFiO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICAgICAgaWQ9InBhdGg2NDYwIgogICAgICAgICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIgLz48L2c+PGcKICAgICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDQuMjE4MTgyLDM3MC4yKSIKICAgICAgICAgICBpZD0iZzY0NjIiPjxwYXRoCiAgICAgICAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIgogICAgICAgICAgICAgaWQ9InBhdGg2NDY0IgogICAgICAgICAgICAgc3R5bGU9ImZpbGw6IzFkMWQxYjtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgICAgIGQ9Im0gMCwwIC01LDUgMywwIC00LDQgMiwwIC00LDQgLTQsLTQgMiwwIC00LC00IDMsMCAtNSwtNSA2LDAgMCwtMyA0LDAgMCwzIDYsMCB6IiAvPjwvZz48ZwogICAgICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yLjcwMDIsMTExLjIpIgogICAgICAgICAgIGlkPSJnNjQ2NiI+PGcKICAgICAgICAgICAgIGlkPSJnNjQ2OCIKICAgICAgICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMCwyNjEpIj48cGF0aAogICAgICAgICAgICAgICBkPSJNIDAsMCBDIC0xLjEwNSwwIC0yLDAuODk2IC0yLDIgLTIsMy4xMDQgLTEuMTA1LDQgMCw0IDEuMTA0LDQgMiwzLjEwNCAyLDIgMiwwLjg5NiAxLjEwNCwwIDAsMCBNIDAsNSBDIC0xLjY1NCw1IC0zLDMuNjU0IC0zLDIgLTMsMS4xMTcgLTIuNjA5LDAuMzMgLTIsLTAuMjIgTCAtMiwtNSAwLC0zIDIsLTUgMiwtMC4yMiBDIDIuNjA5LDAuMzMgMywxLjExNyAzLDIgMywzLjY1NCAxLjY1NCw1IDAsNSIKICAgICAgICAgICAgICAgc3R5bGU9ImZpbGw6IzFkMWQxYjtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgICAgICAgaWQ9InBhdGg2NDcwIgogICAgICAgICAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAvPjwvZz48ZwogICAgICAgICAgICAgaWQ9Imc2NDcyIgogICAgICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1LjMwODYsMjU4KSI+PHBhdGgKICAgICAgICAgICAgICAgZD0ibSAwLDAgLTQuNjkxLDAgMCwxMiA1LjU4NiwwIDMsLTMgMi40MTQsMCAwLDAuNDE0IC00LjU4Niw0LjU4NiAtOC40MTQsMCAwLC0xNiA4LjYwNSwwIEwgMC4wMzcsLTAuMDQgMCwwIHoiCiAgICAgICAgICAgICAgIHN0eWxlPSJmaWxsOiMxZDFkMWI7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgICAgICAgIGlkPSJwYXRoNjQ3NCIKICAgICAgICAgICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIgLz48L2c+PHBhdGgKICAgICAgICAgICAgIGQ9Im0gLTI0LDI2NyAtNSwwIDAsLTEgNSwwIDAsMSB6IgogICAgICAgICAgICAgc3R5bGU9ImZpbGw6IzFkMWQxYjtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgICAgIGlkPSJwYXRoNjQ3NiIKICAgICAgICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiIC8+PHBhdGgKICAgICAgICAgICAgIGQ9Im0gLTI0LDI2NSAtNSwwIDAsLTEgNSwwIDAsMSB6IgogICAgICAgICAgICAgc3R5bGU9ImZpbGw6IzFkMWQxYjtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgICAgIGlkPSJwYXRoNjQ3OCIKICAgICAgICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiIC8+PHBhdGgKICAgICAgICAgICAgIGQ9Im0gLTI5LDI2MiA1LDAgMCwxIC01LDAgMCwtMSB6IgogICAgICAgICAgICAgc3R5bGU9ImZpbGw6IzFkMWQxYjtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgICAgIGlkPSJwYXRoNjQ4MCIKICAgICAgICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiIC8+PC9nPjwvZz48L3BhdHRlcm4+PC9kZWZzPjxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBwYWdlY29sb3I9IiNmZmZmZmYiCiAgICAgYm9yZGVyY29sb3I9IiM2NjY2NjYiCiAgICAgYm9yZGVyb3BhY2l0eT0iMSIKICAgICBvYmplY3R0b2xlcmFuY2U9IjEwIgogICAgIGdyaWR0b2xlcmFuY2U9IjEwIgogICAgIGd1aWRldG9sZXJhbmNlPSIxMCIKICAgICBpbmtzY2FwZTpwYWdlb3BhY2l0eT0iMCIKICAgICBpbmtzY2FwZTpwYWdlc2hhZG93PSIyIgogICAgIGlua3NjYXBlOndpbmRvdy13aWR0aD0iMTQzNiIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSI4NTYiCiAgICAgaWQ9Im5hbWVkdmlldzMwMDYiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjQuODQ4Mzk0MSIKICAgICBpbmtzY2FwZTpjeD0iNjEuMDI3OTciCiAgICAgaW5rc2NhcGU6Y3k9IjIzLjMyMTM0MSIKICAgICBpbmtzY2FwZTp3aW5kb3cteD0iNCIKICAgICBpbmtzY2FwZTp3aW5kb3cteT0iMTYyMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9ImczMDEyIgogICAgIHVuaXRzPSJtbSIKICAgICBpbmtzY2FwZTpkb2N1bWVudC11bml0cz0ibW0iCiAgICAgaGVpZ2h0PSIzNW1tIiAvPjxnCiAgICAgaWQ9ImczMDEyIgogICAgIGlua3NjYXBlOmdyb3VwbW9kZT0ibGF5ZXIiCiAgICAgaW5rc2NhcGU6bGFiZWw9Ik1pbmljb25zLUZyZWUiCiAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMS4yNSwwLDAsLTEuMjUsMCwxMjQuMDE1NzQpIj48ZwogICAgICAgaWQ9Imc2NDI0IgogICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg5Ljc2MjYzMiwtMzMxLjMxODk1KSIKICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1MzkiPjxwYXRoCiAgICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICAgIGlkPSJwYXRoMzQ0MCIKICAgICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgZD0ibSAxMTEsMzQzLjAyMSAtMSwwIDAsNSAxLDAgMCwtNSB6IG0gLTIsMCAtMTEsMCAwLDEgMTEsMyAwLC00IHogbSAtNS4yNjMsLTQuODQ3IGMgLTAuMDY1LC0wLjI1NyAtMC4zNDUsLTAuNDI5IC0wLjYwOCwtMC4zNjEgbCAtMi45MzgsMC43NDkgYyAtMC4yNjcsMC4wNjggLTAuNDI5LDAuMzQgLTAuMzYxLDAuNjA3IGwgMC4zMjIsMS4yNjYgMy44OTEsLTEuMDYxIC0wLjMwNiwtMS4yIHogbSA1LjI2MywxMC44NDcgMCwtMSAtMTEsLTMgLTIsMSAwLC02IDIsMSAxLjE4OCwtMC4zMjQgLTAuMzI3LC0xLjI4MSBjIC0wLjIwNCwtMC44MDEgMC4yODIsLTEuNjE5IDEuMDgzLC0xLjgyMyBsIDIuOTM4LC0wLjc0OCBjIDAuMTIxLC0wLjAzMSAwLjI0NSwtMC4wNDcgMC4zNjksLTAuMDQ3IDAuNjg3LDAgMS4yODYsMC40NjUgMS40NTUsMS4xMjkgbCAwLjMwMiwxLjE4MyAzLjk5MiwtMS4wODkgMCwtMSAzLC0xLjAyMSAwLDEzLjk2IC0zLC0wLjkzOSB6IiAvPjwvZz48cGF0aAogICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIKICAgICAgIGlkPSJwYXRoMzYwOCIKICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1Mzk7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICBkPSJtIDIyLjIzNzM2Niw1Ni41NzQ3MDQgLTUsNSAzLDAgLTQsNCAyLDAgLTQsNCAtNCwtNCAyLDAgLTQsLTQgMywwIC01LC01IDYsMCAwLC0zIDQsMCAwLDMgeiIKICAgICAgIHNvZGlwb2RpOm5vZGV0eXBlcz0iY2NjY2NjY2NjY2NjY2NjYyIgLz48ZwogICAgICAgaWQ9Imc2NDE4IgogICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjYuNDU1NTQ4LC0zMDcuMzgyMTIpIgogICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOSI+PGcKICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE4LDM0NykiCiAgICAgICAgIGlkPSJnMzQxNiIKICAgICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOSI+PHBhdGgKICAgICAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIgogICAgICAgICAgIGlkPSJwYXRoMzQxOCIKICAgICAgICAgICBzdHlsZT0iZmlsbDojMmMzZTUwO2ZpbGwtb3BhY2l0eTowLjMyMjExNTM5O2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICAgIGQ9Im0gMCwwIC0xLDAgMCwtMSBjIDAsLTEuNTQyIC0xLjQ1NywtMyAtMywtMyBMIC04LjU4NiwtNCAtMTAsLTUuNDE0IC0xMCwtNiBjIDAsLTEgMSwtMiAyLC0yIGwgNSwwIDMsLTMgMCwzIGMgMSwwIDIsMSAyLDIgbCAwLDQgQyAyLC0xIDEsMCAwLDAiIC8+PC9nPjxnCiAgICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNywzNDQpIgogICAgICAgICBpZD0iZzM0MjAiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1MzkiPjxwYXRoCiAgICAgICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIKICAgICAgICAgICBpZD0icGF0aDM0MjIiCiAgICAgICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgICBkPSJNIDAsMCA1LDAgQyA2LDAgNywxIDcsMiBMIDcsNiBDIDcsNyA2LDggNSw4IEwgLTMsOCBDIC00LDggLTUsNyAtNSw2IGwgMCwtNCBjIDAsLTEgMSwtMiAyLC0yIGwgMCwtMyB6IgogICAgICAgICAgIHNvZGlwb2RpOm5vZGV0eXBlcz0iY3Nzc3Nzc3NjY2MiIC8+PC9nPjwvZz48ZwogICAgICAgaWQ9Imc2NDA1IgogICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjYuOTU1MzQ4LC0xNzcuNDY4NDYpIgogICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOSI+PGcKICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIwLDI2MSkiCiAgICAgICAgIGlkPSJnMzY4NiIKICAgICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOSI+PHBhdGgKICAgICAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIgogICAgICAgICAgIGlkPSJwYXRoMzY4OCIKICAgICAgICAgICBzdHlsZT0iZmlsbDojMmMzZTUwO2ZpbGwtb3BhY2l0eTowLjMyMjExNTM5O2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICAgIGQ9Ik0gMCwwIEMgLTEuMTA1LDAgLTIsMC44OTYgLTIsMiAtMiwzLjEwNCAtMS4xMDUsNCAwLDQgMS4xMDQsNCAyLDMuMTA0IDIsMiAyLDAuODk2IDEuMTA0LDAgMCwwIE0gMCw1IEMgLTEuNjU0LDUgLTMsMy42NTQgLTMsMiAtMywxLjExNyAtMi42MDksMC4zMyAtMiwtMC4yMiBMIC0yLC01IDAsLTMgMiwtNSAyLC0wLjIyIEMgMi42MDksMC4zMyAzLDEuMTE3IDMsMiAzLDMuNjU0IDEuNjU0LDUgMCw1IiAvPjwvZz48ZwogICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjUuMzA4NiwyNTgpIgogICAgICAgICBpZD0iZzM2OTAiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1MzkiPjxwYXRoCiAgICAgICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIKICAgICAgICAgICBpZD0icGF0aDM2OTIiCiAgICAgICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgICBkPSJtIDAsMCAtNC42OTEsMCAwLDEyIDUuNTg2LDAgMywtMyAyLjQxNCwwIDAsMC40MTQgLTQuNTg2LDQuNTg2IC04LjQxNCwwIDAsLTE2IDguNjA1LDAgTCAwLjAzNywtMC4wNCAwLDAgeiIgLz48L2c+PHBhdGgKICAgICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIKICAgICAgICAgaWQ9InBhdGgzNjk0IgogICAgICAgICBzdHlsZT0iZmlsbDojMmMzZTUwO2ZpbGwtb3BhY2l0eTowLjMyMjExNTM5O2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICBkPSJtIC0yNCwyNjcgLTUsMCAwLC0xIDUsMCAwLDEgeiIgLz48cGF0aAogICAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIgogICAgICAgICBpZD0icGF0aDM2OTYiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1Mzk7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGQ9Im0gLTI0LDI2NSAtNSwwIDAsLTEgNSwwIDAsMSB6IiAvPjxwYXRoCiAgICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICAgIGlkPSJwYXRoMzY5OCIKICAgICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgZD0ibSAtMjksMjYyIDUsMCAwLDEgLTUsMCAwLC0xIHoiIC8+PC9nPjxyZWN0CiAgICAgICBzdHlsZT0iZmlsbDp1cmwoI3BhdHRlcm42NDgyKTtzdHJva2U6bm9uZSIKICAgICAgIHdpZHRoPSI0MS4wMTgxODEiCiAgICAgICBoZWlnaHQ9IjAiCiAgICAgICB4PSIxOC45NzM3MzgiCiAgICAgICB5PSI0NDUuMjIwMjEiCiAgICAgICBpZD0icmVjdDY1MDIiIC8+PGcKICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zNC40MzE1NzcsLTI4MS42NTA0OSkiCiAgICAgICBpZD0iZzg0NTIiCiAgICAgICBzdHlsZT0iZmlsbDojMmMzZTUwO2ZpbGwtb3BhY2l0eTowLjMyMjExNTM5Ij48cGF0aAogICAgICAgICBkPSJtIDExMSwzNDMuMDIxIC0xLDAgMCw1IDEsMCAwLC01IHogbSAtMiwwIC0xMSwwIDAsMSAxMSwzIDAsLTQgeiBtIC01LjI2MywtNC44NDcgYyAtMC4wNjUsLTAuMjU3IC0wLjM0NSwtMC40MjkgLTAuNjA4LC0wLjM2MSBsIC0yLjkzOCwwLjc0OSBjIC0wLjI2NywwLjA2OCAtMC40MjksMC4zNCAtMC4zNjEsMC42MDcgbCAwLjMyMiwxLjI2NiAzLjg5MSwtMS4wNjEgLTAuMzA2LC0xLjIgeiBtIDUuMjYzLDEwLjg0NyAwLC0xIC0xMSwtMyAtMiwxIDAsLTYgMiwxIDEuMTg4LC0wLjMyNCAtMC4zMjcsLTEuMjgxIGMgLTAuMjA0LC0wLjgwMSAwLjI4MiwtMS42MTkgMS4wODMsLTEuODIzIGwgMi45MzgsLTAuNzQ4IGMgMC4xMjEsLTAuMDMxIDAuMjQ1LC0wLjA0NyAwLjM2OSwtMC4wNDcgMC42ODcsMCAxLjI4NiwwLjQ2NSAxLjQ1NSwxLjEyOSBsIDAuMzAyLDEuMTgzIDMuOTkyLC0xLjA4OSAwLC0xIDMsLTEuMDIxIDAsMTMuOTYgLTMsLTAuOTM5IHoiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1Mzk7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGlkPSJwYXRoODQ1NCIKICAgICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIgLz48L2c+PGcKICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDc3LjMzNTA3NSw3LjA2OTU3NzcpIgogICAgICAgaWQ9Imc4NDU2IgogICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOSI+PHBhdGgKICAgICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIKICAgICAgICAgaWQ9InBhdGg4NDU4IgogICAgICAgICBzdHlsZT0iZmlsbDojMmMzZTUwO2ZpbGwtb3BhY2l0eTowLjMyMjExNTM5O2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICBkPSJtIDAsMCAtNSw1IDMsMCAtNCw0IDIsMCAtNCw0IC00LC00IDIsMCAtNCwtNCAzLDAgLTUsLTUgNiwwIDAsLTMgNCwwIDAsMyA2LDAgeiIgLz48L2c+PGcKICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyMi4zMjQxLC0yNTguNjEwNDkpIgogICAgICAgaWQ9Imc4NDYwIgogICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOSI+PGcKICAgICAgICAgaWQ9Imc4NDYyIgogICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTgsMzQ3KSIKICAgICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOSI+PHBhdGgKICAgICAgICAgICBkPSJtIDAsMCAtMSwwIDAsLTEgYyAwLC0xLjU0MiAtMS40NTcsLTMgLTMsLTMgTCAtOC41ODYsLTQgLTEwLC01LjQxNCAtMTAsLTYgYyAwLC0xIDEsLTIgMiwtMiBsIDUsMCAzLC0zIDAsMyBjIDEsMCAyLDEgMiwyIGwgMCw0IEMgMiwtMSAxLDAgMCwwIgogICAgICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1Mzk7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgICAgaWQ9InBhdGg4NDY0IgogICAgICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiIC8+PC9nPjxnCiAgICAgICAgIGlkPSJnODQ2NiIKICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI3LDM0NCkiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1MzkiPjxwYXRoCiAgICAgICAgICAgZD0iTSAwLDAgNSwwIEMgNiwwIDcsMSA3LDIgTCA3LDYgQyA3LDcgNiw4IDUsOCBMIC0zLDggQyAtNCw4IC01LDcgLTUsNiBsIDAsLTQgYyAwLC0xIDEsLTIgMiwtMiBsIDAsLTMgMywzIHoiCiAgICAgICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgICBpZD0icGF0aDg0NjgiCiAgICAgICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIgLz48L2c+PC9nPjxnCiAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjUuMTU3NCwtMjI3Ljg3MDQxKSIKICAgICAgIGlkPSJnODQ3MCIKICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1MzkiPjxnCiAgICAgICAgIGlkPSJnODQ3MiIKICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIwLDI2MSkiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1MzkiPjxwYXRoCiAgICAgICAgICAgZD0iTSAwLDAgQyAtMS4xMDUsMCAtMiwwLjg5NiAtMiwyIC0yLDMuMTA0IC0xLjEwNSw0IDAsNCAxLjEwNCw0IDIsMy4xMDQgMiwyIDIsMC44OTYgMS4xMDQsMCAwLDAgTSAwLDUgQyAtMS42NTQsNSAtMywzLjY1NCAtMywyIC0zLDEuMTE3IC0yLjYwOSwwLjMzIC0yLC0wLjIyIEwgLTIsLTUgMCwtMyAyLC01IDIsLTAuMjIgQyAyLjYwOSwwLjMzIDMsMS4xMTcgMywyIDMsMy42NTQgMS42NTQsNSAwLDUiCiAgICAgICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgICBpZD0icGF0aDg0NzQiCiAgICAgICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIgLz48L2c+PGcKICAgICAgICAgaWQ9Imc4NDc2IgogICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjUuMzA4NiwyNTgpIgogICAgICAgICBzdHlsZT0iZmlsbDojMmMzZTUwO2ZpbGwtb3BhY2l0eTowLjMyMjExNTM5Ij48cGF0aAogICAgICAgICAgIGQ9Im0gMCwwIC00LjY5MSwwIDAsMTIgNS41ODYsMCAzLC0zIDIuNDE0LDAgMCwwLjQxNCAtNC41ODYsNC41ODYgLTguNDE0LDAgMCwtMTYgOC42MDUsMCBMIDAuMDM3LC0wLjA0IDAsMCB6IgogICAgICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1Mzk7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgICAgaWQ9InBhdGg4NDc4IgogICAgICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiIC8+PC9nPjxwYXRoCiAgICAgICAgIGQ9Im0gLTI0LDI2NyAtNSwwIDAsLTEgNSwwIDAsMSB6IgogICAgICAgICBzdHlsZT0iZmlsbDojMmMzZTUwO2ZpbGwtb3BhY2l0eTowLjMyMjExNTM5O2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lIgogICAgICAgICBpZD0icGF0aDg0ODAiCiAgICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiIC8+PHBhdGgKICAgICAgICAgZD0ibSAtMjQsMjY1IC01LDAgMCwtMSA1LDAgMCwxIHoiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMyYzNlNTA7ZmlsbC1vcGFjaXR5OjAuMzIyMTE1Mzk7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGlkPSJwYXRoODQ4MiIKICAgICAgICAgaW5rc2NhcGU6Y29ubmVjdG9yLWN1cnZhdHVyZT0iMCIgLz48cGF0aAogICAgICAgICBkPSJtIC0yOSwyNjIgNSwwIDAsMSAtNSwwIDAsLTEgeiIKICAgICAgICAgc3R5bGU9ImZpbGw6IzJjM2U1MDtmaWxsLW9wYWNpdHk6MC4zMjIxMTUzOTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZSIKICAgICAgICAgaWQ9InBhdGg4NDg0IgogICAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIiAvPjwvZz48L2c+PC9zdmc+);
+            }
+
+            .hero-unit {
+                background: url(assets/img/photo_head2.jpg) 0 0;
+                box-shadow: inset 0 0 1em #222;
+                border-radius: 0 0 10px 10px;
+                color: #2c3e50;
+            }
+
+            .b-h1 {
+                font-family: 'PT Sans', sans
+            }
+
+            .b-h4 {
+                font-family: 'PT Sans Narrow', sans
+            }
+
+            .b-banner {
+                margin-left: 0px !important;
+                padding-top: 18px;
+                width: 220px !important;
+            }
+
+            .b-content__img {
+                float: left;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                border-radius: 5px 0 5px 0
+            }
+
+            .b-nh {
+                font-family: 'PT Sans Narrow', sans;
+                font-size: 19px;
+            }
+
+            .b-nh-title {
+                font-size: 19px;
+                line-height: 30px;
+                font-weight: 100;
+            }
+
+            .b-nh__li {
+                line-height: 30px;
+                position: relative;
+            }
+
+            .b-nh__li-t {
+                position: relative;
+                top: -2px;
+                padding-left: 30px;
+                line-height: 20px;
+                vertical-align: middle;
+            }
+
+            .b-nh__icon {
+                vertical-align: middle;
+                position: absolute;
+                left: 0;
+                top: 8px;
+
+                width: 21px;
+                height: 20px;
+                background: url(assets/img/icons-sprite.png) no-repeat;
+            }
+
+            .b-nh__icon--main {
+                background-position: -62px 0;
+            }
+
+            .b-nh__icon--new {
+                width: 21px;
+                background-position: -83px 5px;
+            }
+
+            .b-nh__icon--pro {
+                background-position: 2px 0;
+            }
+
+            .b-nh__icon--spo {
+                background-position: -19px 0;
+            }
+
+            .b-nh__icon--pay {
+                width: 21px;
+                background-position: -126px 3px;
+            }
+
+            .b-nh__icon--con {
+                width: 21px;
+                background-position: -41px 0;
+            }
+
+            .b-nh__li--active .b-nh__icon {
+                background-position: -148px 0 !important;
+            }
+
+            hr {
+                margin: 20px 0;
+                border: 0;
+                border-top: 1px solid #ecf0f1;
+                border-bottom: 1px solid #ffffff;
+            }
+        </style>
     </head>
 
-<!-- ######################################################################
-
-            oooooooooo.                  .o8
-            `888'   `Y8b                "888
-             888     888  .ooooo.   .oooo888  oooo    ooo
-             888oooo888' d88' `88b d88' `888   `88.  .8'
-             888    `88b 888   888 888   888    `88..8'
-             888    .88P 888   888 888   888     `888'
-            o888bood8P'  `Y8bod8P' `Y8bod88P"     .8'
-                                              .o..P'
-                                              `Y8P'
-     ###################################################################### -->
     <body>
-        <div class="container" style="background: white; ">
+        <div class="container">
             <div class="row-fluid">
-                    <div class="hero-unit">
-                        <h1>LXII форум</h1>
-                        <p>Профессиональных чтецов инструкций на освежителях воздуха</p>
-                        <p><a href="#reg" class="btn btn-primary btn-large">Зарегистрироваться!</a></p>
-                    </div>
-
+                <div class="hero-unit">
+                    <h1 class="b-h1">LXII форум</h1>
+                    <p>Профессиональных чтецов инструкций на освежителях воздуха</p>
+                    <p><a href="#reg" class="btn btn-primary btn-large">Зарегистрироваться!</a></p>
+                </div>
             </div>
             <div class="row-fluid">
                 <div class="span3">
                     <div class="well sidebar-nav">
-                        <script type="text/javascript">
-                        jQuery(document).ready(function(evt){
-                            jQuery("ul.nav.nav-list").find("#main").attr("class","active")
-                            var src = jQuery("ul.nav.nav-list").find("#main").find('img').attr('src')
-                            jQuery("ul.nav.nav-list").find("#main").find('img').attr('src', src.replace('.png', '-w.png'))
-                        })
-                        </script>
-<!-- ######################################################################
-
-                ooo        ooooo
-                `88.       .888'
-                 888b     d'888   .ooooo.  ooo. .oo.   oooo  oooo
-                 8 Y88. .P  888  d88' `88b `888P"Y88b  `888  `888
-                 8  `888'   888  888ooo888  888   888   888   888
-                 8    Y     888  888    .o  888   888   888   888
-                o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
-
-     ###################################################################### -->
-
-                        <ul class="nav nav-list">
-                            <li class="nav-header">Меню</li>
-                            <li id="main">
-                                <a>
-                                    <img src="assets/img/ico-main.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Главная
+                        <ul class="nav nav-list b-nh">
+                            <li class="nav-header b-nh-title">Меню</li>
+                            <li id="main" class="active b-nh__li b-nh__li--active">
+                                <a class="b-nh__li-a">
+                                    <span class="b-nh__li-t">Главная</span>
+                                    <i class="b-nh__icon b-nh__icon--main"></i>
                                 </a>
                             </li>
-                            <li id="news"><a href="#menu2">
-                                <img src="assets/img/ico-new.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -4px;
-                                    ">Новости
-                                </a></li>
-                            <li id="agenda"><a href="#menu3">
-                                <img src="assets/img/ico-agenda.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Программа</a></li>
-                            <li id="sponsors"><a href="#menu4">
-                                <img src="assets/img/ico-crown.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Спонсоры</a></li>
-                            <li id="pay"><a href="#menu5">
-                                <img src="assets/img/ico-pay.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -5px;
-                                    ">Оплата</a></li>
-                            <li id="contacts"><a href="#menu6">
-                                <img src="assets/img/ico-helicopter.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Как добраться</a></li>
+                            <li id="news" class="b-nh__li">
+                                <a href="#menu2" class="b-nh__li-a">
+                                    <span class="b-nh__li-t">Новости</span>
+                                    <i class="b-nh__icon b-nh__icon--new"></i>
+                                </a>
+                            </li>
+                            <li id="agenda" class="b-nh__li">
+                                <a href="#menu3" class="b-nh__li-a">
+                                    <span class="b-nh__li-t">Программа</span>
+                                    <i class="b-nh__icon b-nh__icon--pro"></i>
+                                </a>
+                            </li>
+                            <li id="sponsors" class="b-nh__li">
+                                <a href="#menu4" class="b-nh__li-a">
+                                    <span class="b-nh__li-t">Спонсоры</span>
+                                    <i class="b-nh__icon b-nh__icon--spo"></i>
+                                </a>
+                            </li>
+                            <li id="pay" class="b-nh__li">
+                                <a href="#menu5" class="b-nh__li-a">
+                                    <span class="b-nh__li-t">Оплата</span>
+                                    <i class="b-nh__icon b-nh__icon--pay"></i>
+                                </a>
+                            </li>
+                            <li id="contacts" class="b-nh__li">
+                                <a href="#menu6" class="b-nh__li-a">
+                                    <span class="b-nh__li-t">Как добраться</span>
+                                    <i class="b-nh__icon b-nh__icon--con"></i>
+                                </a>
+                            </li>
                         </ul>
-                    </div><!--/.well -->
-                    <div class="span3 banner">
-                        <script type="text/javascript" src="assets/js/banner.js"></script>
                     </div>
-                </div><!--/span-->
+                    <div class="span3 banner b-banner">
+                        <a href="http://ya.ru" target="_blank">
+                            <img src="assets/img/banner.jpg">
+                        </a>
+                    </div>
+                </div>
                 <div class="span9 content">
-<!-- ######################################################################
-
-      .oooooo.                             .                             .
-     d8P'  `Y8b                          .o8                           .o8
-    888           .ooooo.  ooo. .oo.   .o888oo  .ooooo.  ooo. .oo.   .o888oo
-    888          d88' `88b `888P"Y88b    888   d88' `88b `888P"Y88b    888
-    888          888   888  888   888    888   888ooo888  888   888    888
-    `88b    ooo  888   888  888   888    888 . 888    .o  888   888    888 .
-     `Y8bood8P'  `Y8bod8P' o888o o888o   "888" `Y8bod8P' o888o o888o   "888"
-
-     ###################################################################### -->
-
                     <div class="row-fluid">
                         <div class="span8">
-                            <h4>Звезда из Японии</h4>
-                            <img src="assets/img/photo_01.jpg" alt="Фотография Японии"/>
+                            <h4 class="b-h4">Звезда из Японии</h4>
+                            <img src="assets/img/photo_01_1.jpg" class="b-content__img" alt="Фотография Японии">
                             <p>На форум приедет знаменитый японский чтец Микаро Яцумомито. Автор классического прочтения инструкции к японскому варианту освежителя Power Glisse 5000 Extreme Pack 250мл в жестяном флаконе с тремя дозаторами.</p>
                             <p>На открытии второго дня он прочтет инструкцию к новейшему освежителю для производственных помещений Simply Spray Here 2 Times Ultimate Edition. Ассистировать маэстро будет победитель молодежных чтений 2012 года в Санкт-Петербруге Игнат Зулусович Шмярк.</p>
-                        </div><!--/span-->
+                        </div>
                         <div class="span4">
-                            <h4>Круглый стол</h4>
-                            <img src="assets/img/photo_02.jpg" alt="Цены"/>
+                            <h4 class="b-h4">Круглый стол</h4>
+                            <img src="assets/img/photo_02.jpg" class="b-content__img" alt="Цены">
                             <p>В рамках съезда пройдет круглый стол «Повышение цен на освежители в странах Азии, и как оно отразится на отрасли в мировом масштабе».</p>
                             <p><a class="btn" href="#news2">Далее &raquo;</a></p>
-                        </div><!--/span-->
-                    </div><!--/row-->
+                        </div>
+                    </div>
                     <div class="row-fluid">
                         <div class="span4">
-                            <h4>Будущее российских освежителей</h4>
+                            <h4 class="b-h4">Будущее российских освежителей</h4>
                             <p>На открытии форума выступит академик Мирослав Захарович Сунтакаров с докладом гильдии чтецов стран Cодружества наземных государств «Инструкции к российским освежителям: Вчера, Сегодня, Завтра». Доклад будет освещать позицию государств содружества на изменения в российском законодательстве в части, касающейся написания инструкций к освежителям. Будут рассмотрены мировые практики, и проведен анализ рынка российских освежителей на мировой арене и внутреннем рынке страны.</p>
                             <p><a class="btn" href="#news3">Далее &raquo;</a></p>
-                        </div><!--/span-->
+                        </div>
                         <div class="span4">
-                            <h4>Показательные чтения</h4>
+                            <h4 class="b-h4">Показательные чтения</h4>
                             <p>Вечером первого дня в конференц-зале &laquo;Фиалка&raquo; пройдут показательные чтения. Читать будут инструкции к освежителям компании &laquo;P&amp;Jo&raquo; Времена Года. Выставочные образцы инструкций будут доступны зарегистрированным участникам с 27 августа.</p>
                             <p>Для участия требуется предварительная регистрация по email.</p>
                             <p><a class="btn" href="#news4">Далее &raquo;</a></p>
-                        </div><!--/span-->
+                        </div>
                         <div class="span4">
-                            <h4>Фуршет</h4>
+                            <h4 class="b-h4">Фуршет</h4>
                             <p>Заключительный фуршет форума состоится в ресторане &laquo;Квадрига&raquo;. На фуршет приглашаются все участники форума и их сопровождающие. Просьба сообщить о количестве ваших сопровождающих организаторам форума.</p>
                             <p>Администрация ресторана просила не применять сильных освежителей во время фуршета и уважительно относиться к персоналу.</p>
-                        </div><!--/span-->
-                    </div><!--/row-->
-                </div><!--/span-->
-            </div><!--/row-->
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <hr>
 
@@ -182,66 +265,6 @@
                 <p>&copy; 1956–2013 Всемирная организация профсоюзов чтецов инструкций на освежителях воздуха</p>
                 <p>Использованы материалы <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://bootswatch.com/flatly/">bootswatch/flatly</a>, <a href="http://www.webalys.com/minicons">Minicons Free Vector Icons Pack</a>, <a href="http://www.paratype.com/public/">PT Sans fonts</a>, photos by <a href="http://www.flickr.com/photos/booleansplit/6924193463/">booleansplit</a>, <a href="http://www.flickr.com/photos/skyseeker/1945511352/">skyseeker</a>, <a href="http://www.flickr.com/photos/essgee/35280339/">essgee</a> </p>
             </footer>
-
-        </div><!--/.fluid-container-->
-
-<!-- ######################################################################
-
-             .oooooo..o     .               oooo
-            d8P'    `Y8   .o8               `888
-            Y88bo.      .o888oo oooo    ooo  888   .ooooo.   .oooo.o
-             `"Y8888o.    888    `88.  .8'   888  d88' `88b d88(  "8
-                 `"Y88b   888     `88..8'    888  888ooo888 `"Y88b.
-            oo     .d8P   888 .    `888'     888  888    .o o.  )88b
-            8""88888P'    "888"     .8'     o888o `Y8bod8P' 8""888P'
-                                .o..P'
-                                `Y8P'
-     ###################################################################### -->
-        <link href="assets/css/print.css" rel="stylesheet" media="print">
-        <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
-        <style type="text/css">
-            body {
-                padding-top: 0px;
-                padding-bottom: 0px;
-                background-color: #EEE;
-                box-shadow: 0 0 0.7em #222222;
-            }
-            .sidebar-nav {
-                padding: 9px 0;
-            }
-
-            .container {
-                padding: 0 0.9cm;
-                box-shadow: 0 0 0.7em #222222;
-            }
-            .content img {
-                float: left;
-                margin-right: 10px;
-                margin-bottom: 10px;
-                border-radius: 5px 0 5px 0;
-
-            }
-
-            .nav-list > li {
-                font-family: 'PT Sans Narrow', sans;
-                font-size: 19px;
-                line-height: 30px;
-
-            }
-
-            .row-fluid .span3.banner {
-                margin-left: 0px;
-                padding-top: 18px;
-                width: 220px;
-            }
-
-            h1, h2 {
-                font-family: 'PT Sans', sans;
-            }
-            h3, h4, h5, h6 {
-                font-family: 'PT Sans Narrow', sans;
-            }
-        </style>
-        <link href="assets/css/main.css" rel="stylesheet" media="screen">
+        </div>
     </body>
 </html>
