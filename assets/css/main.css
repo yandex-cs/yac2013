@@ -60,11 +60,7 @@ p {
 
 footer {
   display: block;
-}
-
-.footer-used {
-  margin-bottom: 0;
-  padding-bottom: 1em;
+  overflow: hidden;
 }
 
 .container {
