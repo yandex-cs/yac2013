@@ -18,13 +18,6 @@
     src: local('PT Sans Narrow'), url('../fonts/PTN57F_W.woff') format('woff');
 }
 
-@font-face {
-    font-family: 'PT Sans Narrow';
-    font-weight: bold;
-    src: url('../fonts/PTN77F_W.eot');
-    src: local('PT Sans Narrow Bold'), url('../fonts/PTN77F_W.woff') format('woff');
-}
-
 /*!
  * Bootstrap v2.3.2
  *
