@@ -972,10 +972,10 @@ h3, h4, h5, h6 {
 
 @font-face {
     font-family: 'PT Sans';
-    src: local('PT Sans'), local('PTSans-Regular'), url('PTS55F_W.woff') format('woff');
+    src: local('PT Sans'), url('PTS55F_W.woff') format('woff');
 }
 
 @font-face {
     font-family: 'PT Sans Narrow';
-    src: local('PT Sans Narrow'), local('PTSans-Narrow'), url('PTN57F_W.woff') format('woff');
+    src: local('PT Sans Narrow'), url('PTN57F_W.woff') format('woff');
 }
