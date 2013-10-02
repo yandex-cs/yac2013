@@ -1,247 +1,239 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <title>LXII форум – Профессиональных чтецов инструкций на освежителях воздуха</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="shortcut icon" href="assets/img/favicon.ico">
-        <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
+<head>
+<meta charset="utf-8">
+<title>LXII форум – Профессиональных чтецов инструкций на освежителях воздуха</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
+<link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
+<style type="text/css">
+body {
+padding-top: 0px;
+padding-bottom: 0px;
+background-color: #EEE;
+box-shadow: 0 0 0.7em #222222;
+}
+.sidebar-nav {
+padding: 9px 0;
+}
 
-<!-- ######################################################################
+.container {
+padding: 0 0.9cm;
+box-shadow: 0 0 0.7em #222222;
+}
+.content img {
+float: left;
+margin-right: 10px;
+margin-bottom: 10px;
+border-radius: 5px 0 5px 0;
 
-        .oooooo..o                     o8o                 .
-       d8P'    `Y8                     `"'               .o8
-       Y88bo.       .ooooo.  oooo d8b oooo  oo.ooooo.  .o888oo  .oooo.o
-        `"Y8888o.  d88' `"Y8 `888""8P `888   888' `88b   888   d88(  "8
-            `"Y88b 888        888      888   888   888   888   `"Y88b.
-       oo     .d8P 888   .o8  888      888   888   888   888 . o.  )88b
-       8""88888P'  `Y8bod8P' d888b    o888o  888bod8P'   "888" 8""888P'
-                                             888
-                                            o888o
-     ###################################################################### -->
-        <script src="https://yandex.st/jquery/1.8.3/jquery.js"></script>
-        <script src="assets/js/bootstrap-transition.js"></script>
-        <script src="assets/js/bootstrap-alert.js"></script>
-        <script src="assets/js/bootstrap-modal.js"></script>
-        <script src="assets/js/bootstrap-dropdown.js"></script>
-        <script src="assets/js/bootstrap-scrollspy.js"></script>
-        <script src="assets/js/bootstrap-tab.js"></script>
-        <script src="assets/js/bootstrap-tooltip.js"></script>
-        <script src="assets/js/bootstrap-popover.js"></script>
-        <script src="assets/js/bootstrap-button.js"></script>
-        <script src="assets/js/bootstrap-collapse.js"></script>
-        <script src="assets/js/bootstrap-carousel.js"></script>
-        <script src="assets/js/bootstrap-typeahead.js"></script>
-    </head>
+}
 
-<!-- ######################################################################
+.nav-list > li {
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 19px;
+line-height: 30px;
 
-            oooooooooo.                  .o8
-            `888'   `Y8b                "888
-             888     888  .ooooo.   .oooo888  oooo    ooo
-             888oooo888' d88' `88b d88' `888   `88.  .8'
-             888    `88b 888   888 888   888    `88..8'
-             888    .88P 888   888 888   888     `888'
-            o888bood8P'  `Y8bod8P' `Y8bod88P"     .8'
-                                              .o..P'
-                                              `Y8P'
-     ###################################################################### -->
-    <body>
-        <div class="container" style="background: white; ">
-            <div class="row-fluid">
-                    <div class="hero-unit">
-                        <h1>LXII форум</h1>
-                        <p>Профессиональных чтецов инструкций на освежителях воздуха</p>
-                        <p><a href="#reg" class="btn btn-primary btn-large">Зарегистрироваться!</a></p>
-                    </div>
+}
 
-            </div>
-            <div class="row-fluid">
-                <div class="span3">
-                    <div class="well sidebar-nav">
-                        <script type="text/javascript">
-                        jQuery(document).ready(function(evt){
-                            jQuery("ul.nav.nav-list").find("#main").attr("class","active")
-                            var src = jQuery("ul.nav.nav-list").find("#main").find('img').attr('src')
-                            jQuery("ul.nav.nav-list").find("#main").find('img').attr('src', src.replace('.png', '-w.png'))
-                        })
-                        </script>
-<!-- ######################################################################
+.row-fluid .span3.banner {
+margin-left: 0px;
+padding-top: 18px;
+width: 220px;
+}
 
-                ooo        ooooo
-                `88.       .888'
-                 888b     d'888   .ooooo.  ooo. .oo.   oooo  oooo
-                 8 Y88. .P  888  d88' `88b `888P"Y88b  `888  `888
-                 8  `888'   888  888ooo888  888   888   888   888
-                 8    Y     888  888    .o  888   888   888   888
-                o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
+h1, h2 {
+font-family: 'PT Sans', sans-serif;
+}
+h3, h4, h5, h6 {
+font-family: 'PT Sans Narrow', sans-serif;
+}
+</style>
+<style media="screen">
+body {
+background-attachment: fixed;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAAB8CAMAAABjTsMrAAAASFBMVEXq6uqip6zX2drFyMqzt7rk5eXO0NK8v8Pb3N3f4OHAxMevtLinrLGmq7Cus7fJy8+2ur6qr7OprrK0uLy3u7/S1NXJy87o6OhIZb6RAAADfElEQVR4Xu3ayY7jOgyG0Z/ULM8Z6r7/m17I6S46XasmDThA61t4fQBJgRgI/+GD+rc0XdM18f5dvF7jSNJzQnTfZZvGvZr0nLDRoWrS4FXWcyq9VUwaM8fTW2zVCOdyTf19pApzvlwTXYsB8PMUTeGg12RuFeSBJnoEu8bRGNUaTy2H2QfkW7WfqUQ0ms8UBQBPwl9XJjqU9p8fNu5i3h2s0CBUIlrd3hOJRKPexYW48W5QxEQJvPc1kEnzuzpGdvTUaRISSXYNQC1o4oRKH6MJQKK3yhUaiemYN90ovl4ar9eAk9+biCYXbLet1DQRiWAtT+QBrUY4EUDCCZwfmivL6ydpEPo89aOu6Zqu6ZqaP0iTaDyVUyyaRHQeJ8Q0Oo1GMCdymIg0GsGcx2E3EM96TeCFWgNbNeXrMZJPBK/XII+0lyw7NjzTRnN9AqzUCMbCcVtsyzOl2FxqjWBMHEdEfslo6TWCMXBk4LJppEivhgDoNPdjA91HhUYwJo6jnyk0ghHOVRrBGDkuFazTbNIIRs+RZocQ082gEYydMy0AUP2yWjT8am6OhfcKFEXaUuStmTjpNJJvGoah0tZpDmicMzX2yjJfq+kzQ9d0zUV1Tdd0TUh36Ql1gb8Leo2nY3oOH290Wk2ht7xJIxylhk/ULLyXhHOlhvFKOB+gEY5d41y2aISj0eQ/NURj1mrccbU1Gkx0zDVd0moKtzIQvh6VNZp85PiQ2lerYdeKCNutrrQoNIAnSrxX4Miiib5VkeYARCo6TcLiWo+NTBr86hZfX5UmIdExb93F00vjNJr445hbd3EaFCsl0VvVulLhttUHOSg1kQ7dgkkjo7ZWg8x7CxEtAddqpEjE+BgNokEz3Ftx1yzzGRpEvUZeKfuIMOs19rL/LiMDCKVPMF3TNefXNV0TPkmThnC2pjyhSMbZMzV1IK/HCOccDRF5NUY4No28yWCn00R/o5avZo28yVBq5M1Bgl5TGADkTQZEo8AIR6dhurvHKG8yRKPACEetacsDSTQKjHDUGgbMmrB6P9Gr2fuo1wz3YzRsyjNleGwgmp95JUY4es3kJ5tGMMJRarILiDc3WzSCEY5+ZlgTEJ6raPQY4eg19wxgmcuyTqLRYYSj1WRP48MNFQBYNLo529tnhhKTXwNa8/WaY2Wpn6Kx/wdR/82ZoWu65n/qwimUcVGUCAAAAABJRU5ErkJggg==);
+}
+.hero-unit {
+background-image: url(assets/img/photo_head.jpg);
+border-radius: 0;
+}
+.hero-unit h1,
+.hero-unit p {
+color: #2c3e50;
+}
 
-     ###################################################################### -->
+.nav-list > li.nav-header {
+font-family: 'PT Sans Narrow', sans;
+font-size: 19px;
+line-height: 30px;
+font-weight: 100;
+}
 
-                        <ul class="nav nav-list">
-                            <li class="nav-header">Меню</li>
-                            <li id="main">
-                                <a>
-                                    <img src="assets/img/ico-main.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Главная
-                                </a>
-                            </li>
-                            <li id="news"><a href="#menu2">
-                                <img src="assets/img/ico-new.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -4px;
-                                    ">Новости
-                                </a></li>
-                            <li id="agenda"><a href="#menu3">
-                                <img src="assets/img/ico-agenda.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Программа</a></li>
-                            <li id="sponsors"><a href="#menu4">
-                                <img src="assets/img/ico-crown.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Спонсоры</a></li>
-                            <li id="pay"><a href="#menu5">
-                                <img src="assets/img/ico-pay.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -5px;
-                                    ">Оплата</a></li>
-                            <li id="contacts"><a href="#menu6">
-                                <img src="assets/img/ico-helicopter.png" style="
-                                            height: 20px;
-                                            padding-right: 1ex;
-                                            margin-top: -6px;
-                                    ">Как добраться</a></li>
-                        </ul>
-                    </div><!--/.well -->
-                    <div class="span3 banner">
-                        <script type="text/javascript" src="assets/js/banner.js"></script>
-                    </div>
-                </div><!--/span-->
-                <div class="span9 content">
-<!-- ######################################################################
+</style>
+</head>
+<body>
+<div class="container" style="background: white; ">
+<div class="row-fluid">
+<div class="hero-unit">
+<h1>LXII форум</h1>
+<p>Профессиональных чтецов инструкций на освежителях воздуха</p>
+<p><a href="#reg" class="btn btn-primary btn-large">Зарегистрироваться!</a></p>
+</div>
 
-      .oooooo.                             .                             .
-     d8P'  `Y8b                          .o8                           .o8
-    888           .ooooo.  ooo. .oo.   .o888oo  .ooooo.  ooo. .oo.   .o888oo
-    888          d88' `88b `888P"Y88b    888   d88' `88b `888P"Y88b    888
-    888          888   888  888   888    888   888ooo888  888   888    888
-    `88b    ooo  888   888  888   888    888 . 888    .o  888   888    888 .
-     `Y8bood8P'  `Y8bod8P' o888o o888o   "888" `Y8bod8P' o888o o888o   "888"
+</div>
+<div class="row-fluid">
+<div class="span3">
+<div class="well sidebar-nav">
+<ul class="nav nav-list">
+<li class="nav-header">Меню</li>
+<li id="main" class="active">
+<a>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABQElEQVQ4jZ2UPU7DQBCFP0JQQkGQEKKhgusgBQjiBnAMKkTNAeAedBQcIQ1daKGIcIgjCgQfBWOUGP+FJ60sz7z3PDO76xWVBjiL520tU61bfXUSq1/HrzM7CqMMk4j9y3CgTv2LaeSWMjxWn9W0wDCN3HGRtlUy2iFwCIwKcqPIDZfZlC31rqC6DHfBadTyjnpfYZbhPriVhrvqQwOzDA+hKZxhD7gG9oFHIK04vmlw9kPTK5phR91Wu+qpmlRUlgSnG5pOWcuoB+q4Qbvj4FbOsK++NpyfwV24jvNmh1a3WYYktAuGJ+rsH2YZZuFBGxgAV8AbkMzt5BewAWzmdngCTGHhhLTCwxV1L8QfOeEncA5c5uIXwA2wmouvAa028FRx3pKS2EuZoOznMP/VJrFftGsMX/i5Ee/xvk5FdQDfMYVihX3APvMAAAAASUVORK5CYII=" style="
+            height: 20px;
+            padding-right: 1ex;
+            margin-top: -6px;
+    ">Главная
+</a>
+</li>
+<li id="news"><a href="#menu2">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAACKklEQVQ4je2UvWsVSBTFf+fORM2LxKygjdgobgo/EHRZG21sRKJYLNtvuYLVWihbLFims/EPsJGtFkEEUbZRS8EPCCoRlKCVYhSjycubeyzei4mIjdoInuoWM7853LnnyjbfUvFNad8FUHv2HOksjMTunnNI0hc11LaqYnH1XN6u8516IfDhSg1jBAYwiEExqD6qV54TQjjnO/VyFT5kqKgPkxS2Ee4zhQw5uBl9hgHF4JFEDkMIHwpEVxFgrin5xfY9RcHpk05Pgu+Z3Nvk3XbecXrS5q8oBcScs01grigCRDf69gX41d3r/90SPiXcU/A45SfA69aYLtafEXUzYlrS09balNOPi/KB5Bca9KIuf49y/OCRTUMRD5XtX5KxEAWI4bkoi6O8QHSNa5pR0N9FbHeW9ZhYavPy2NitvouNtDjjXp5tZkZ9oJ4PDy2g/N/ZZoWGM315DQs3gfNSe+QVxpaBAaW0V8AEpWyfunHxKkQFckN9sxZrUlG3OtS7f+Pisy6rTof59e71Sy8lxSdAJ7WXdCRHBP+MH/x9k/GQTY23i930/FFnu6Pmzvj+iS0R+iPFiW37Do9if+Bo54Fjbw3DwCzwTDCOVJx+hLwG9BP2NFIC28CzoAVJW5xOxBSwGVgneFfTzETEz8CYpDE7+9ZL2erByCm0a5AIECNC2IkiQtKOpY2VmTO1yb8V+3jaIwm5HKj2maCtlJdSEyHNNfmcfuzDr9Z7W0cVUJf8tl0AAAAASUVORK5CYII=" style="
+            height: 20px;
+            padding-right: 1ex;
+            margin-top: -4px;
+    ">Новости
+</a></li>
+<li id="agenda"><a href="#menu3">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAACcElEQVQ4jZWTwUtUURTGv+/cN+M0DpiGBYHmFJE1YxuhIlITXEqNIfoHtDKiti3a+De0aFdKKw3UomUwokIFQRQvaxEkQVCYFIQ6zcw7p8U0OWPvqX1wuXDPOb/7fRcuzQxdfUM/AaSwm0jAsGEMBv35R/mwFtk+QJHoRYJkknD3s71DZ0LvrDokmTKzdwaboVG2NxqpgO4ncFVcLKGBflINRt4uzr2o7fO2zAlUy6/9hbnbO6XO9g691EDvimM7welTFy6NLi89fh4eGYztBAMAf2F2wkzHTHWTzrU7F5vK9OTORgBr0BwXcsRV9nEht57BX5id0DLGTG1dhO0ifHji/HBnXeRapdP9iUxP0xTJtOFVmaSY5dZO9wwOv1l88h0A/KWZyWxfLkXIHVLanBd0AngfCuzoQPmbyiQU+0EoaQSwUYX9lcoSxNQA5ywoRzqcb221zJeiwINQDWYAIKnsxdw1KOPq+HQ5P+PTgtj2Vwt3uLoaA5pHqXbEDFo5NcAAcfSsHHwG4IfNhgI/5vOFrnOXrxdFPYpYbS1WWHc/tGEtbC4SmE73J1JtTdNxiR0z06C2xmRjvNlwC8DknoErK/PFzOHcTVKTGqjWFcUci/jwXw67u7vdL09zAA+JkzqHIOLi4QGAr3sGFgpHyWSpBcRBmNU5FHFewHLjHh3SAMD3p4sAbkQNVeUUQeB2ABLmnRy4cmBfsSDrzjNEqDEoczOeUPGkRWAG8F+gagAQA17JnpXQIPEglAUAKMHBK0FBJAB6wNbdf4DmVf4+UySP7xa1KgMAUwAEWAlfdXhPzRpANUQGjRYVrmjeCgD8BjPt8+qTUjnHAAAAAElFTkSuQmCC" style="
+            height: 20px;
+            padding-right: 1ex;
+            margin-top: -6px;
+    ">Программа</a></li>
+<li id="sponsors"><a href="#menu4">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC4ElEQVQ4ja2Vz2tcVRTHP+e8N79qWqtBKlkJFqrtNC4ctSMmNWA3pU1sFkXBokLBhRvrWhT9A0S37nThYhQDFUxVULHW4EIINFiRFKk1YhpLQ5rpTJK59+ti+l5nTMEselbnnh/fd873y73PJHEnLc2cvU9PHPKoHdxf/nyu0VjvLaqOPrsX81q70zwzf+7LK725h5+YHLSiDnvK+blvp2b9ZsObKckXnhQ/ZXH9HTPzrOGh0YlhN/s6SZIPK2nlk1rt+N35h8aOD6RlfVwspB9ZtK+qI5NPOYBhp8BSEIYdrtfrpaypYP6YJelQDAGw0WZlY3e+XqczBDoYQgdPkvvwcMIBRHhbaLXrx8bMzEw736nDdyF0fvPEETq9Ggq/ZKnm9vYlyc6YJ8RO51KI/oEDzH1/+j0R3jJzhC2pR6nz56YuGnHWzDHsm8s/NlpZbn56eh10DcWOEV68cHbq55wrNjQrRVycGh45ck9Oev3YA8ifUYyATY6NjeVC7nvyaM3cn5N01ZLCRYBbgK6riqHpSbonmL+Qc1jSmLnfK0WAx5fWd1YBzMwo+OvuSRmxfKPVWukDjLG4DFwHcE9ezaaUOIYZkjD3siXxEMC+g0drLhtHQrA0/9P09T7Apq+tgK1Kws33RNLn9x+Y2IVshO50gBA+Xqu9UkDJa3iyTQjgcsZ7DvjHD9tWgCUMJMA5aSV7GbOdmUaKwoz9rcrSCYNxKWAYZvyVM5c5UiOA/u76EcOGBW/QZwLY7q73gQGU9ZLfHu8v1wJYdkzA74JNd93BBnp6QPozO6f9tbbgZkSz3th/AXviXX4Clq/cDyjmFfW7chH+zwygmbot5pHe56tarRZtcPeu9tr61t60ChRCJVw4+9mibk7RN2EcfPBAav5uuVTaEqDJTIRrj9SPvAQsbAJ0MeRJ+uhWVzYzYlQrqLDjtoAk/msMG9NdnjfLextIBy23C2v/3Jr6Dv8C/gUWEEK/EJRDTgAAAABJRU5ErkJggg==" style="
+            height: 20px;
+            padding-right: 1ex;
+            margin-top: -6px;
+    ">Спонсоры</a></li>
+<li id="pay"><a href="#menu5">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAACMklEQVQ4jc2UzWuUZxTFf+d5nsxMGEQTMJZCEYVgmcaAWQqddCjYroyBunAhiLjptn+EUAouLQEXogsXFgq2dClJXbSbKIQSKgFtUWz8wOBXnOn7vs/pIioSCGViFp7lvfDj3MvhyDZbqbClNCABtCa/Go0qj2YzJDv3A7AUglipnC4vzv2wpLH21EGsS4h/bV5I7su1rSzRxNSQjyXQDNJ8t9c9sb188LLb3at+gI3GLT9JI4ONeuM8MJNsWlJ1bun3X572A1qnYv/k1JwdpjTWPrIKXrJZlBQ3Q7NdSbRAowkoFdJ4DGH8HRySc8a5epaAmHP1V87lHVkb/09E8Ot9xnqTBssGfSQYSeCa7LN/fFA/s+9eb1cIvXVJbxK6Xe9srj6anZ3NAOPjhwa7zdqOmIqcc103P6zfH1vufYN0OgEYla3l4rMY4wXTKNcdExisrdytmp/bfggw1p7+sh74zjnllEL4+J/ipKVSvAo2ohZzcT3n+HWOKqOo47XzbAKmx/Lzt1LgoRBrexyMFIhVbxvI4DWgHLLzwLASB6JdKJffL1z7eWWjd4akG2VZfkt2oUjMofozEvfx2qFNFShHrHTE0Kuky8CGwIWrP84D82/P9renB5BJtoJCDgvXfvoNOLAR5H8lF7ZCAG7Lmuh0OmmzrE6nk2RNALf1yadTXwhdRPwNrNj9VZpEBoYwu42Pyzat9uGJGAZO4TxsqPoCQkThcZWLc4u/Xrmu976x/wPWAPtKXijL2QAAAABJRU5ErkJggg==" style="
+            height: 20px;
+            padding-right: 1ex;
+            margin-top: -5px;
+    ">Оплата</a></li>
+<li id="contacts"><a href="#menu6">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC0UlEQVQ4ja2US2iVVxSF19r/+W+ukfhMaIoPFLX4uIoTRZO0Kr4GWmMjFUF8tEWQjqoTcaSTdFA6LbSDguDMBzEIpYioiSYWOimaiKCdOHASERGj9/GfvTq4mt5r61XBDWey2Xz7sfY+lIQPafZBaQC4eM3OeaGJX0JqZk25DiQW4++3hi7efOVbvmHHdkZbBSDWQkQS5POspLMh5HDRaAWxPlNCwmmHlq7r3nNnoH8QABBDj6XpV+51PPDlC7m4PwgYdo/tABIIExUKAM1aTPY1gMFCYXcubdPRLCu3kvxULq8hUkAUMExJKGzoXphUkJBJnULRyklR/ijxtBgSO03wuOXHH3hx8tzE/21biowp4sjV/vt8F5WXfrbrY2McJbjn9kDfpUax4a00AEGlojMtSja+eN2O+XmmXdGzdhnHUeHwyFDfXxPdS8Lyzi8WMKj51sCF26/DlmzqmRnKcY1opyAdJ7WZlm5TjPdBNoNog3S+WCodvffHb09Z6Nq5T8YfCDXB0ZuVeSprChZKmSuNrcH4K8lOVHUaAzlVrjOj1y8cWLZ+/WTFlo1G+xngYKs92RtE/UTpHIS/LYQfA+O3ARUpDyfYQibtqgrqcB0W0U1ikqrDfwagv9C56yGDXxvz6XuNwDmabZHxoHscFjHFQlhgtEWkvYIBAKLbPUFjkpLasYwMnf8TUB+kI6bHucNy9RL6xfLPt8C5SZ5dJoF6/cmQ6Btjspbgi/8oR9wh9Mn/rs2cjo5J08JH39HsGMipeFklaQANHiuXCO+N8rSqLEuknQA1o+EerujsWasU3wNaItXcrwBSkshqIolgcMeRty42SVvW9fnsUki91p/3OHH9cmcmZndv9D9sCFzZsXtWllZ6CbXptR+mzkTKkJn8dMNLqaSlrSFpOiBFEGwUChJQxOqGwJzZlejlUQkLAVbeXKHMyTLkJ9/pc3gf+wfx6V5fOC5/cAAAAABJRU5ErkJggg==" style="
+            height: 20px;
+            padding-right: 1ex;
+            margin-top: -6px;
+    ">Как добраться</a></li>
+</ul>
+</div><!--/.well -->
+<div class="span3 banner">
+<a target=_blank href="http://ya.ru"><img src="assets/img/banner.jpg"></a>
+</div>
+</div><!--/span-->
+<div class="span9 content">
+<div class="row-fluid">
+<div class="span8">
+<h4>Звезда из Японии</h4>
+<img src="assets/img/photo_01.jpg" width="170" height="329" alt="Фотография Японии"/>
+<p>На форум приедет знаменитый японский чтец Микаро Яцумомито. Автор классического прочтения инструкции к японскому варианту освежителя Power Glisse 5000 Extreme Pack 250мл в жестяном флаконе с тремя дозаторами.</p>
+<p>На открытии второго дня он прочтет инструкцию к новейшему освежителю для производственных помещений Simply Spray Here 2 Times Ultimate Edition. Ассистировать маэстро будет победитель молодежных чтений 2012 года в Санкт-Петербруге Игнат Зулусович Шмярк.</p>
+</div><!--/span-->
+<div class="span4">
+<h4>Круглый стол</h4>
+<img src="assets/img/photo_02.jpg" width="223" height="139" alt="Цены"/>
+<p>В рамках съезда пройдет круглый стол «Повышение цен на освежители в странах Азии, и как оно отразится на отрасли в мировом масштабе».</p>
+<p><a class="btn" href="#news2">Далее &raquo;</a></p>
+</div><!--/span-->
+</div><!--/row-->
+<div class="row-fluid">
+<div class="span4">
+<h4>Будущее российских освежителей</h4>
+<p>На открытии форума выступит академик Мирослав Захарович Сунтакаров с докладом гильдии чтецов стран Cодружества наземных государств «Инструкции к российским освежителям: Вчера, Сегодня, Завтра». Доклад будет освещать позицию государств содружества на изменения в российском законодательстве в части, касающейся написания инструкций к освежителям. Будут рассмотрены мировые практики, и проведен анализ рынка российских освежителей на мировой арене и внутреннем рынке страны.</p>
+<p><a class="btn" href="#news3">Далее &raquo;</a></p>
+</div><!--/span-->
+<div class="span4">
+<h4>Показательные чтения</h4>
+<p>Вечером первого дня в конференц-зале &laquo;Фиалка&raquo; пройдут показательные чтения. Читать будут инструкции к освежителям компании &laquo;P&amp;Jo&raquo; Времена Года. Выставочные образцы инструкций будут доступны зарегистрированным участникам с 27 августа.</p>
+<p>Для участия требуется предварительная регистрация по email.</p>
+<p><a class="btn" href="#news4">Далее &raquo;</a></p>
+</div><!--/span-->
+<div class="span4">
+<h4>Фуршет</h4>
+<p>Заключительный фуршет форума состоится в ресторане &laquo;Квадрига&raquo;. На фуршет приглашаются все участники форума и их сопровождающие. Просьба сообщить о количестве ваших сопровождающих организаторам форума.</p>
+<p>Администрация ресторана просила не применять сильных освежителей во время фуршета и уважительно относиться к персоналу.</p>
+</div><!--/span-->
+</div><!--/row-->
+</div><!--/span-->
+</div><!--/row-->
 
-     ###################################################################### -->
+<hr>
 
-                    <div class="row-fluid">
-                        <div class="span8">
-                            <h4>Звезда из Японии</h4>
-                            <img src="assets/img/photo_01.jpg" alt="Фотография Японии"/>
-                            <p>На форум приедет знаменитый японский чтец Микаро Яцумомито. Автор классического прочтения инструкции к японскому варианту освежителя Power Glisse 5000 Extreme Pack 250мл в жестяном флаконе с тремя дозаторами.</p>
-                            <p>На открытии второго дня он прочтет инструкцию к новейшему освежителю для производственных помещений Simply Spray Here 2 Times Ultimate Edition. Ассистировать маэстро будет победитель молодежных чтений 2012 года в Санкт-Петербруге Игнат Зулусович Шмярк.</p>
-                        </div><!--/span-->
-                        <div class="span4">
-                            <h4>Круглый стол</h4>
-                            <img src="assets/img/photo_02.jpg" alt="Цены"/>
-                            <p>В рамках съезда пройдет круглый стол «Повышение цен на освежители в странах Азии, и как оно отразится на отрасли в мировом масштабе».</p>
-                            <p><a class="btn" href="#news2">Далее &raquo;</a></p>
-                        </div><!--/span-->
-                    </div><!--/row-->
-                    <div class="row-fluid">
-                        <div class="span4">
-                            <h4>Будущее российских освежителей</h4>
-                            <p>На открытии форума выступит академик Мирослав Захарович Сунтакаров с докладом гильдии чтецов стран Cодружества наземных государств «Инструкции к российским освежителям: Вчера, Сегодня, Завтра». Доклад будет освещать позицию государств содружества на изменения в российском законодательстве в части, касающейся написания инструкций к освежителям. Будут рассмотрены мировые практики, и проведен анализ рынка российских освежителей на мировой арене и внутреннем рынке страны.</p>
-                            <p><a class="btn" href="#news3">Далее &raquo;</a></p>
-                        </div><!--/span-->
-                        <div class="span4">
-                            <h4>Показательные чтения</h4>
-                            <p>Вечером первого дня в конференц-зале &laquo;Фиалка&raquo; пройдут показательные чтения. Читать будут инструкции к освежителям компании &laquo;P&amp;Jo&raquo; Времена Года. Выставочные образцы инструкций будут доступны зарегистрированным участникам с 27 августа.</p>
-                            <p>Для участия требуется предварительная регистрация по email.</p>
-                            <p><a class="btn" href="#news4">Далее &raquo;</a></p>
-                        </div><!--/span-->
-                        <div class="span4">
-                            <h4>Фуршет</h4>
-                            <p>Заключительный фуршет форума состоится в ресторане &laquo;Квадрига&raquo;. На фуршет приглашаются все участники форума и их сопровождающие. Просьба сообщить о количестве ваших сопровождающих организаторам форума.</p>
-                            <p>Администрация ресторана просила не применять сильных освежителей во время фуршета и уважительно относиться к персоналу.</p>
-                        </div><!--/span-->
-                    </div><!--/row-->
-                </div><!--/span-->
-            </div><!--/row-->
+<footer>
+<p>&copy; 1956–2013 Всемирная организация профсоюзов чтецов инструкций на освежителях воздуха</p>
+<p>Использованы материалы <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://bootswatch.com/flatly/">bootswatch/flatly</a>, <a href="http://www.webalys.com/minicons">Minicons Free Vector Icons Pack</a>, <a href="http://www.paratype.com/public/">PT Sans fonts</a>, photos by <a href="http://www.flickr.com/photos/booleansplit/6924193463/">booleansplit</a>, <a href="http://www.flickr.com/photos/skyseeker/1945511352/">skyseeker</a>, <a href="http://www.flickr.com/photos/essgee/35280339/">essgee</a> </p>
+</footer>
 
-            <hr>
+</div><!--/.fluid-container-->
+</body>
+<script>
+    (function () {
+        var allFonts = {
+            ie: [
+                'assets/fonts/PTN57F_W.eot',
+                'assets/fonts/PTN77F_W.eot',
+                'assets/fonts/PTS55F_W.eot',
+                'assets/fonts/PTS75F_W.eot'
+            ],
+            nonie: [
+                'assets/fonts/PTN57F_W.woff',
+                'assets/fonts/PTN77F_W.woff',
+                'assets/fonts/PTS55F_W.woff',
+                'assets/fonts/PTS75F_W.woff'
+            ]
+        };
 
-            <footer>
-                <p>&copy; 1956–2013 Всемирная организация профсоюзов чтецов инструкций на освежителях воздуха</p>
-                <p>Использованы материалы <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://bootswatch.com/flatly/">bootswatch/flatly</a>, <a href="http://www.webalys.com/minicons">Minicons Free Vector Icons Pack</a>, <a href="http://www.paratype.com/public/">PT Sans fonts</a>, photos by <a href="http://www.flickr.com/photos/booleansplit/6924193463/">booleansplit</a>, <a href="http://www.flickr.com/photos/skyseeker/1945511352/">skyseeker</a>, <a href="http://www.flickr.com/photos/essgee/35280339/">essgee</a> </p>
-            </footer>
+        var fonts = /msie/.test(navigator.userAgent) ? allFonts.ie : allFonts.nonie;
 
-        </div><!--/.fluid-container-->
-
-<!-- ######################################################################
-
-             .oooooo..o     .               oooo
-            d8P'    `Y8   .o8               `888
-            Y88bo.      .o888oo oooo    ooo  888   .ooooo.   .oooo.o
-             `"Y8888o.    888    `88.  .8'   888  d88' `88b d88(  "8
-                 `"Y88b   888     `88..8'    888  888ooo888 `"Y88b.
-            oo     .d8P   888 .    `888'     888  888    .o o.  )88b
-            8""88888P'    "888"     .8'     o888o `Y8bod8P' 8""888P'
-                                .o..P'
-                                `Y8P'
-     ###################################################################### -->
-        <link href="assets/css/print.css" rel="stylesheet" media="print">
-        <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
-        <style type="text/css">
-            body {
-                padding-top: 0px;
-                padding-bottom: 0px;
-                background-color: #EEE;
-                box-shadow: 0 0 0.7em #222222;
+        function ajax(url, callback){
+            var xmlhttp;
+            // compatible with IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function(){
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
+                    callback(xmlhttp.responseText);
+                }
             }
-            .sidebar-nav {
-                padding: 9px 0;
-            }
+            xmlhttp.open("GET", url, true);
+            xmlhttp.setRequestHeader('Cache-control', 'public');
+            xmlhttp.setRequestHeader('Pragma', 'cache');
+            xmlhttp.send();
+        }
 
-            .container {
-                padding: 0 0.9cm;
-                box-shadow: 0 0 0.7em #222222;
-            }
-            .content img {
-                float: left;
-                margin-right: 10px;
-                margin-bottom: 10px;
-                border-radius: 5px 0 5px 0;
+        function showCustomFonts() {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'assets/fonts/pt_sans.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
 
-            }
-
-            .nav-list > li {
-                font-family: 'PT Sans Narrow', sans;
-                font-size: 19px;
-                line-height: 30px;
-
-            }
-
-            .row-fluid .span3.banner {
-                margin-left: 0px;
-                padding-top: 18px;
-                width: 220px;
-            }
-
-            h1, h2 {
-                font-family: 'PT Sans', sans;
-            }
-            h3, h4, h5, h6 {
-                font-family: 'PT Sans Narrow', sans;
-            }
-        </style>
-        <link href="assets/css/main.css" rel="stylesheet" media="screen">
-    </body>
+        var fontsLoaded = 0;
+        for (var i = 0; i < fonts.length; i += 1) {
+            ajax(fonts[i], function () {
+                fontsLoaded += 1;
+                if (fontsLoaded === fonts.length) {
+                    showCustomFonts();
+                }
+            });
+        }
+    }());
+</script>
+<noscript>
+    <link rel="stylesheet" href="assets/fonts/pt_sans.css" />
+</noscript>
 </html>
