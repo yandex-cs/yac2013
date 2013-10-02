@@ -17,11 +17,10 @@
 	src: url('../fonts/ptn57f_w.eot');
 	src: local('PT Sans Narrow'), url('../fonts/PTN57F_W.woff') format('woff');
 }
-/*
+
 @font-face {
 	font-family: 'PT Sans Narrow';
 	font-weight: bold;
 	src: url('../fonts/ptn77f_w.eot');
 	src: local('PT Sans Narrow Bold'), url('../fonts/PTN77F_W.woff') format('woff');
 }
-*/
