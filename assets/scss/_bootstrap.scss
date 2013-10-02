@@ -1,0 +1,199 @@
+// @import "compass/reset";
+
+html, body, div, footer, h1, h4, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+footer { display: block; }
+
+body {
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #222;
+  // background:  inline-image('../img/bg.png') repeat 0 0 #EEE;
+  background:  inline-image('../img/bg.svg') repeat 0 0 #EEE;
+  background-attachment: fixed;
+}
+
+a {
+  color: #2C3E50;
+  text-decoration: none;
+
+  &:hover {
+    color: #354B60;
+    text-decoration: underline;
+  }
+}
+
+#container {
+  background-color: #FFF;
+  padding: 0 0.9cm 15px;
+  box-shadow: 0 0 10px #222;
+  margin: auto;
+  width: 940px;
+  font-size: 0;
+}
+
+%block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+%block-size {
+  @extend %block;
+  font-size: 15px;
+}
+
+.sidebar {
+  @extend %block-size;
+  width: 220px;
+}
+
+.content {
+  @extend %block;
+  width: 700px;
+  margin-left: 20px;
+}
+
+.span8 {
+  @extend %block-size;
+  width: 462px;
+}
+
+.span4 {
+  @extend %block-size;
+  width: 223px;
+  margin-left: 15px;
+}
+
+.pre-footer {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ECF0F1;
+  border-bottom: 1px solid #FFF;
+}
+
+.footer {
+  color: #222;
+  font-size: 15px;
+  width: 940px;
+}
+
+.sidebar-nav {
+  padding: 9px 0;
+  margin-bottom: 20px;
+  background-color: #ECF0F1;
+  border-radius: 6px;
+  font-family: 'PT Sans Narrow', sans;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+@import "ico/*.png";
+
+%sprite_img {
+  position: absolute;
+  display: block;
+  font-size:0;
+  line-height:0;
+  padding:0;
+  margin:0;
+  content: ' ';
+  top: 5px;
+  left: 0;
+}
+
+@mixin simple_sprite_img($sprite, $icon) {
+  @extend %sprite_img;
+  width: image-width(sprite-file($sprite, $icon));
+  height: image-height(sprite-file($sprite, $icon));
+  background: sprite($sprite, $icon) no-repeat;
+}
+
+%nav-item {
+  display: block;
+  &:hover {text-decoration: none;}
+}
+
+%nav-item-bg {
+  @extend %nav-item;
+  margin: 0 15px;
+  color: #354B60;
+  position: relative;
+  padding-left: 30px;
+  width: 159px;
+
+  &:after { top: 7px;left: 0px; }
+}
+
+.nav-header {
+  @extend %nav-item;
+  width: 189px;
+  padding: 3px 15px;
+  color: #B4BCC2;
+  text-transform: uppercase;
+}
+
+#main {
+  @extend %nav-item-bg;
+
+  background-color: #2C3E50;
+  z-index: 1;
+  .nav-list-item {color: #FFF;}
+  &:after { @include simple_sprite_img($ico-sprites, 'ico-main-w'); }
+  &:before {background-color: #2C3E50; position: absolute; top:0;left: -15px;height:100%;width:220px;content: ' ';z-index: -1;}
+}
+
+.nav-list-item {
+  display: block;
+  width:174px;
+  height: 36px;
+  line-height: 36px;
+  padding-left: 45px;
+  margin-left: -45px;
+  z-index: 1;
+  position: relative;
+
+  &:hover{ text-decoration: none; }
+}
+
+#news {
+  @extend %nav-item-bg;
+  &:after { top: 12px; @include simple_sprite_img($ico-sprites, 'ico-new'); }
+}
+
+#agenda {
+  @extend %nav-item-bg;
+  &:after { @include simple_sprite_img($ico-sprites, 'ico-agenda'); }
+}
+
+#sponsors {
+  @extend %nav-item-bg;
+  &:after { top: 8px; @include simple_sprite_img($ico-sprites, 'ico-crown'); }
+}
+
+#pay {
+  @extend %nav-item-bg;
+  &:after { top: 10px; @include simple_sprite_img($ico-sprites, 'ico-pay'); }
+}
+
+#contacts {
+  @extend %nav-item-bg;
+  &:after { @include simple_sprite_img($ico-sprites, 'ico-helicopter'); }
+}
+
+.banner {
+  margin-left: 0px;
+  padding-top: 18px;
+  width: 220px;
+}
