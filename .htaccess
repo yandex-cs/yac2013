@@ -1,7 +1,9 @@
+
+
 <IfModule mod_deflate.c>
 #The following line is enough for .js and .css
 AddOutputFilter DEFLATE js css
- AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml
+ AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/x-font-woff
 
 #The following lines are to avoid bugs with some browsers
 BrowserMatch ^Mozilla/4 gzip-only-text/html
@@ -14,20 +16,31 @@ BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 
 <IfModule mod_headers.c>
 
+    Header add Access-Control-Allow-Origin "*"
+    Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
+    Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+
     <FilesMatch "\.(js|css|xml|gz)$">
         Header append Vary Accept-Encoding
     </FilesMatch>
 
-    <FilesMatch "\.(ico|jpe?g|png|gif|swf)$">
-        Header set Cache-Control "public"
+    # 1 YEAR
+    <FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+    Header set Cache-Control "max-age=29030400, public"
     </FilesMatch>
-    <FilesMatch "\.(css)$">
-        Header set Cache-Control "public"
+
+    # 1 WEEK
+    <FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+    Header set Cache-Control "max-age=604800, public"
     </FilesMatch>
-    <FilesMatch "\.(js)$">
-        Header set Cache-Control "private"
+
+    # 3 HOUR
+    <FilesMatch "\.(txt|xml|js|css)$">
+    Header set Cache-Control "max-age=10800"
     </FilesMatch>
-    <FilesMatch "\.(x?html?|php)$">
-        Header set Cache-Control "private, must-revalidate"
-    </FilesMatch>
+
+
+
+
 </IfModule>
+

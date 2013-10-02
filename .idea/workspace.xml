@@ -5,9 +5,12 @@
     <ignored path="yac2013.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b93cde25-4cd4-4354-9290-f33b79d39014" time="1380709955337" ignored="false" />
-    <file path="/index.html" changelist="b93cde25-4cd4-4354-9290-f33b79d39014" time="1380710796503" ignored="false" />
-    <file path="/a.dummy" changelist="b93cde25-4cd4-4354-9290-f33b79d39014" time="1380710896892" ignored="false" />
+    <file path="/index.html" changelist="b93cde25-4cd4-4354-9290-f33b79d39014" time="1380719039435" ignored="false" />
+    <file path="/a.dummy" changelist="b93cde25-4cd4-4354-9290-f33b79d39014" time="1380718465898" ignored="false" />
     <file path="/main.css" changelist="b93cde25-4cd4-4354-9290-f33b79d39014" time="1380711377329" ignored="false" />
+    <file path="/bootstrap.css" changelist="b93cde25-4cd4-4354-9290-f33b79d39014" time="1380713710617" ignored="false" />
+    <file path="/bootstrap_origin.css" changelist="b93cde25-4cd4-4354-9290-f33b79d39014" time="1380717940593" ignored="false" />
+    <file path="/bootstrap.js" changelist="b93cde25-4cd4-4354-9290-f33b79d39014" time="1380718136814" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,62 +29,136 @@
     <favorites_list name="yac2013" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="-4.3333335">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="38" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="388" selection-end="388" vertical-scroll-proportion="0.33383685">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pt_sans.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/fonts/pt_sans.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="613" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#878#1740#0" expanded="false" />
-                <element signature="e#2638#4264#0" expanded="false" />
-                <element signature="e#5170#7105#0" expanded="false" />
-                <element signature="e#8008#13162#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.8630849">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="91136" selection-start="91136" selection-end="91136" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1" column="430" selection-start="437" selection-end="446" vertical-scroll-proportion="0.03195489">
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.htaccess">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bootstrap.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/js/bootstrap.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="475" column="41" selection-start="130111" selection-end="130111" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bootstrap_origin.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/css/bootstrap_origin.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1917" column="1" selection-start="126756" selection-end="126756" vertical-scroll-proportion="-19.44">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="bootstrap_origin.css" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/css/bootstrap_origin.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="1" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.17495711">
+                  <folding>
+                    <marker date="1380718838020" expanded="true" signature="4256:4288" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="4302:4336" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="4354:4389" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="4459:4476" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="4496:4548" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="4554:4587" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="4599:4629" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="4633:4665" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="4671:4690" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="4708:4733" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="4744:4769" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="100114:100140" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="100220:100246" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="100325:100351" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="100426:100455" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="100530:100556" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="121347:121410" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="121654:121747" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="121901:121994" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="122126:122219" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="122274:122321" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="122402:122486" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="122582:122666" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="122764:122848" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="122940:123024" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123110:123191" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123130:123149" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123218:123253" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123263:123373" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123298:123356" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123534:123550" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123548:123575" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123576:123603" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123613:123640" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123650:123686" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123689:123795" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123731:123806" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123848:123961" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="123934:124044" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="124064:124127" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="124190:125322" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="125454:125481" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="125569:125596" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="125682:125709" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="125790:125817" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="125820:125832" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="125864:125880" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="125894:125939" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="125918:125978" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="125978:126082" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="126045:126064" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="126212:126239" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="126346:126377" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="126394:126426" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="126572:126586" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="126686:126756" placeholder="{...}" />
+                    <marker date="1380718838020" expanded="true" signature="126663:126679" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -100,18 +177,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/assets/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/assets/js/banner.js" />
+        <option value="$PROJECT_DIR$/assets/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/assets/css/bootstrap_origin.css" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="377" />
-    <option name="y" value="336" />
+    <option name="x" value="336" />
+    <option name="y" value="86" />
     <option name="width" value="1468" />
-    <option name="height" value="1061" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -157,6 +237,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yac2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yac2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yac2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yac2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yac2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yac2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yac2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yac2013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -197,6 +349,11 @@
       </server>
     </servers>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\WebServers\home\localhost\www\backbone\yac2013\assets\img" />
+    </key>
+  </component>
   <component name="RunManager">
     <list size="0" />
   </component>
@@ -210,16 +367,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="336" width="1468" height="1061" extended-state="1" />
+    <frame x="336" y="86" width="1468" height="995" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2406181" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2595238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964438" sideWeight="0.7593819" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17923187" sideWeight="0.7404762" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -298,41 +455,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/fonts/PTN57F_W.woff">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/fonts/pt_sans.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="613" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#878#1740#0" expanded="false" />
-            <element signature="e#2638#4264#0" expanded="false" />
-            <element signature="e#5170#7105#0" expanded="false" />
-            <element signature="e#8008#13162#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="13" selection-end="13" vertical-scroll-proportion="0.04197531">
           <folding />
         </state>
       </provider>
@@ -344,27 +474,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/fonts/PTN57F_W.woff">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="-4.3333335">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/PTN77F_W.woff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/PTS55F_W.eot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/PTS75F_W.eot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/PTS75F_W.woff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/PT Free Font License_eng_1.2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.2839879">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/PT Free Font License_rus_1.2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="104" selection-start="15" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="38" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+        <state line="0" column="91136" selection-start="91136" selection-end="91136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="475" column="41" selection-start="130111" selection-end="130111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap_origin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1917" column="1" selection-start="126756" selection-end="126756" vertical-scroll-proportion="-19.44">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="388" selection-end="388" vertical-scroll-proportion="0.33383685">
+        <state line="14" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="430" selection-start="437" selection-end="446" vertical-scroll-proportion="0.03195489">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
