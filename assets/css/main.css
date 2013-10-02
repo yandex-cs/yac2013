@@ -50,10 +50,6 @@ h4 {
 	color: #b4bcc2
 }
 
-.nav-list > li > a {
-	line-height: 20px;
-}
-
 .nav-list > .active > a,
 .nav-list > .active > a:hover,
 .nav-list > .active > a:focus {
@@ -93,7 +89,6 @@ h4 {
 	font-family: 'PT Sans Narrow', sans;
 	font-size: 19px;
 	line-height: 30px;
-
 }
 
 .row-fluid .span3.banner {
