@@ -63,15 +63,13 @@ body {
 }
 
 .nav.nav-list a {
-    background: url(../img/csg-524bde3ee59de.png) no-repeat top left;;
+    background: url(../img/csg-524be3ddcd548.png) no-repeat top left;;
     padding-left: 40px;
 }
 
-.nav.nav-list a.sprite-ico-agenda{ background-position: 0 0; }
-.nav.nav-list a.sprite-ico-crown{ background-position: 0 -90px; }
-.nav.nav-list a.sprite-ico-helicopter{ background-position: 0 -180px; }
-.nav.nav-list a.sprite-ico-main-w{ background-position: 0 -270px; }
-.nav.nav-list a.sprite-ico-main{ background-position: 0 -360px; }
-.nav.nav-list a.sprite-ico-new{ background-position: 0 -450px; }
-.nav.nav-list a.sprite-ico-pay{ background-position: 0 -540px; }
-.nav.nav-list a.sprite-ico-rocket{ background-position: 0 -630px; }
+.nav.nav-list a.sprite-ico-agenda{ background-position: 15px 6px; }
+.nav.nav-list a.sprite-ico-crown{ background-position: 15px -64px; }
+.nav.nav-list a.sprite-ico-helicopter{ background-position: 15px -134px; }
+.nav.nav-list a.sprite-ico-main-w{ background-position: 15px -204px; }
+.nav.nav-list a.sprite-ico-new{ background-position: 15px -274px; }
+.nav.nav-list a.sprite-ico-pay{ background-position: 15px -345px; }
