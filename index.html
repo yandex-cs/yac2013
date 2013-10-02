@@ -8,34 +8,6 @@
 <meta name="author" content="">
 <link rel="shortcut icon" href="assets/img/favicon.ico">
 <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
-<style>
-@font-face {
-font-family: 'PT Sans';
-src: url('assets/fonts/pts55f_w.eot');
-src: local('PT Sans'), url('assets/fonts/PTS55F_W.woff') format('woff');
-}
-
-@font-face {
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: bold;
-src: url('assets/fonts/pts75f_w.eot');
-src: local('PT Sans Bold'), url('assets/fonts/PTS75F_W.woff') format('woff');
-}
-
-@font-face {
-font-family: 'PT Sans Narrow';
-src: url('assets/fonts/ptn57f_w.eot');
-src: local('PT Sans Narrow'), url('assets/fonts/PTN57F_W.woff') format('woff');
-}
-
-@font-face {
-font-family: 'PT Sans Narrow';
-font-weight: bold;
-src: url('assets/fonts/ptn77f_w.eot');
-src: local('PT Sans Narrow Bold'), url('assets/fonts/PTN77F_W.woff') format('woff');
-}
-</style>
 <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
 <style type="text/css">
 body {
@@ -61,7 +33,7 @@ border-radius: 5px 0 5px 0;
 }
 
 .nav-list > li {
-font-family: 'PT Sans Narrow', sans;
+font-family: 'PT Sans Narrow', sans-serif;
 font-size: 19px;
 line-height: 30px;
 
@@ -74,10 +46,10 @@ width: 220px;
 }
 
 h1, h2 {
-font-family: 'PT Sans', sans;
+font-family: 'PT Sans', sans-serif;
 }
 h3, h4, h5, h6 {
-font-family: 'PT Sans Narrow', sans;
+font-family: 'PT Sans Narrow', sans-serif;
 }
 </style>
 <style media="screen">
@@ -169,7 +141,7 @@ font-weight: 100;
 <div class="span8">
 <h4>Звезда из Японии</h4>
 <img src="assets/img/photo_01.jpg" width="170" height="329" alt="Фотография Японии"/>
-<p>На форум приедет знаменитый японский чтец Микаро Яцумомито. Автор классического прочтения инструкции к японскому варианту освежителя Power Glisse 5000 Extreme Pack 250мл в жестяном флаконе с тремя дозаторами.</p>
+<p>На форум приедет'PT Sans', sans; знаменитый японский чтец Микаро Яцумомито. Автор классического прочтения инструкции к японскому варианту освежителя Power Glisse 5000 Extreme Pack 250мл в жестяном флаконе с тремя дозаторами.</p>
 <p>На открытии второго дня он прочтет инструкцию к новейшему освежителю для производственных помещений Simply Spray Here 2 Times Ultimate Edition. Ассистировать маэстро будет победитель молодежных чтений 2012 года в Санкт-Петербруге Игнат Зулусович Шмярк.</p>
 </div><!--/span-->
 <div class="span4">
@@ -209,4 +181,59 @@ font-weight: 100;
 
 </div><!--/.fluid-container-->
 </body>
+<script>
+    (function () {
+        var allFonts = {
+            ie: [
+                'assets/fonts/PTN57F_W.eot',
+                'assets/fonts/PTN77F_W.eot',
+                'assets/fonts/PTS55F_W.eot',
+                'assets/fonts/PTS75F_W.eot'
+            ],
+            nonie: [
+                'assets/fonts/PTN57F_W.woff',
+                'assets/fonts/PTN77F_W.woff',
+                'assets/fonts/PTS55F_W.woff',
+                'assets/fonts/PTS75F_W.woff'
+            ]
+        };
+
+        var fonts = /msie/.test(navigator.userAgent) ? allFonts.ie : allFonts.nonie;
+
+        function ajax(url, callback){
+            var xmlhttp;
+            // compatible with IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function(){
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
+                    callback(xmlhttp.responseText);
+                }
+            }
+            xmlhttp.open("GET", url, true);
+            xmlhttp.setRequestHeader('Cache-control', 'public');
+            xmlhttp.setRequestHeader('Pragma', 'cache');
+            xmlhttp.send();
+        }
+
+        function showCustomFonts() {
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'assets/fonts/pt_sans.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+
+        var fontsLoaded = 0;
+        for (var i = 0; i < fonts.length; i += 1) {
+            ajax(fonts[i], function () {
+                fontsLoaded += 1;
+                if (fontsLoaded === fonts.length) {
+                    showCustomFonts();
+                }
+            });
+        }
+    }());
+</script>
+<noscript>
+    <link rel="stylesheet" href="assets/fonts/pt_sans.css" />
+</noscript>
 </html>
