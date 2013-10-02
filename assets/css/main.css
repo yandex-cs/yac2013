@@ -43,7 +43,7 @@ h3, h4, h5, h6 {
 }
 
 .hero-unit {
-  background-image: url(../img/photo_head.jpg);
+  background-image: url(../img/photo_head.webp);
   box-shadow: inset 0 0 1em #222;
   border-radius: 0 0 10px 10px;
 }
