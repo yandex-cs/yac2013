@@ -1,15 +1,16 @@
 @font-face {
 	font-family: 'PT Sans';
-	src: url('pts55f_webfont.eot');
-	src: local('PT Sans'), url('PTS55F_WEBFONT.woff') format('woff');
+	src: url('pts55f_w.eot');
+	src: local('PT Sans'), url('PTS55F_W.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'PT Sans';
 	font-style: normal;
 	font-weight: bold;
-	src: url('pts75f_webfont.eot');
-	src: local('PT Sans Bold'), url('PTS75F_WEBFONT.woff') format('woff');
+	src: url('pts75f_w.eot');
+	src: local('PT Sans Bold'), url('PTS75F_W.woff') format('woff');
+}
 
 @font-face {
 	font-family: 'PT Sans Narrow';
