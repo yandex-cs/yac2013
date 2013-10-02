@@ -169,10 +169,12 @@
         <script>
             $(document).ready(function ($) {
                 var main = document.getElementById("main");
+                main.style.display = "none";
                 main.setAttribute("class", "active");
                 $("img", main).attr("src", function (index, attr) {
                    return attr.replace('.png', '-w.png');
                 });
+                main.style.display = "block";
                 setTimeout(function () {
                     $("body").show();
                 }, 0);

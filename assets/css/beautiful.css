@@ -11,6 +11,7 @@ body {
     font-size: 15px;
     line-height: 20px;
     color: #222222;
+    background-color: #ffffff;
 }
 .hero-unit {
     background-image: url(../img/photo_head.jpg);
