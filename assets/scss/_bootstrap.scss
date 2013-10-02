@@ -73,7 +73,7 @@ a {
   margin-left: 15px;
 }
 
-.pre-footer {
+.fb {
   margin: 20px 0;
   border: 0;
   border-top: 1px solid #ECF0F1;
@@ -146,12 +146,12 @@ $ico-layout: 'smart';
 
   background-color: #2C3E50;
   z-index: 1;
-  .nav-list-item {color: #FFF;}
+  .nlt {color: #FFF;}
   &:after { @include simple_sprite_img($ico-sprites, 'ico-main-w'); }
   &:before {background-color: #2C3E50; position: absolute; top:0;left: -15px;height:100%;width:220px;content: ' ';z-index: -1;}
 }
 
-.nav-list-item {
+.nlt {
   display: block;
   width:174px;
   height: 36px;
@@ -195,14 +195,14 @@ $ico-layout: 'smart';
 
 }
 
-.banner_img {
+.bimg {
   display: block;
   width: image-width(sprite-file($ico-sprites, 'banner'));
   height: image-height(sprite-file($ico-sprites, 'banner'));
   background: sprite($ico-sprites, 'banner') no-repeat;
 }
 
-.content-img {
+.contentimg {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -225,7 +225,7 @@ $ico-layout: 'smart';
   line-height: 30px;
 }
 
-.hero-unit-title {
+.hut {
   margin-bottom: 0;
   font-family: 'PT Sans', sans;
   font-size: 60px;
