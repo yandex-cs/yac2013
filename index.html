@@ -8,139 +8,62 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="assets/img/favicon.ico">
         <link rel="apple-touch-icon" href="assets/img/iphone_favicon.png"/>
-
-<!-- ######################################################################
-
-        .oooooo..o                     o8o                 .
-       d8P'    `Y8                     `"'               .o8
-       Y88bo.       .ooooo.  oooo d8b oooo  oo.ooooo.  .o888oo  .oooo.o
-        `"Y8888o.  d88' `"Y8 `888""8P `888   888' `88b   888   d88(  "8
-            `"Y88b 888        888      888   888   888   888   `"Y88b.
-       oo     .d8P 888   .o8  888      888   888   888   888 . o.  )88b
-       8""88888P'  `Y8bod8P' d888b    o888o  888bod8P'   "888" 8""888P'
-                                             888
-                                            o888o
-     ###################################################################### -->
-        <script src="https://yandex.st/jquery/1.8.3/jquery.js"></script>
-        <script src="assets/js/bootstrap-transition.js"></script>
-        <script src="assets/js/bootstrap-alert.js"></script>
-        <script src="assets/js/bootstrap-modal.js"></script>
-        <script src="assets/js/bootstrap-dropdown.js"></script>
-        <script src="assets/js/bootstrap-scrollspy.js"></script>
-        <script src="assets/js/bootstrap-tab.js"></script>
-        <script src="assets/js/bootstrap-tooltip.js"></script>
-        <script src="assets/js/bootstrap-popover.js"></script>
-        <script src="assets/js/bootstrap-button.js"></script>
-        <script src="assets/js/bootstrap-collapse.js"></script>
-        <script src="assets/js/bootstrap-carousel.js"></script>
-        <script src="assets/js/bootstrap-typeahead.js"></script>
+        <link href="assets/css/all.min.css" rel="stylesheet" media="screen">
     </head>
 
-<!-- ######################################################################
-
-            oooooooooo.                  .o8
-            `888'   `Y8b                "888
-             888     888  .ooooo.   .oooo888  oooo    ooo
-             888oooo888' d88' `88b d88' `888   `88.  .8'
-             888    `88b 888   888 888   888    `88..8'
-             888    .88P 888   888 888   888     `888'
-            o888bood8P'  `Y8bod8P' `Y8bod88P"     .8'
-                                              .o..P'
-                                              `Y8P'
-     ###################################################################### -->
     <body>
-        <div class="container" style="background: white; ">
-            <div class="row-fluid">
-                    <div class="hero-unit">
-                        <h1>LXII форум</h1>
-                        <p>Профессиональных чтецов инструкций на освежителях воздуха</p>
-                        <p><a href="#reg" class="btn btn-primary btn-large">Зарегистрироваться!</a></p>
-                    </div>
-
+        <div class="container">
+            <div class="hero-unit">
+                <h1>LXII форум</h1>
+                <p>Профессиональных чтецов инструкций на освежителях воздуха</p>
+                <p><a href="#reg" class="btn btn-primary btn-large">Зарегистрироваться!</a></p>
             </div>
             <div class="row-fluid">
                 <div class="span3">
                     <div class="well sidebar-nav">
-                        <script type="text/javascript">
-                        jQuery(document).ready(function(evt){
-                            jQuery("ul.nav.nav-list").find("#main").attr("class","active")
-                            var src = jQuery("ul.nav.nav-list").find("#main").find('img').attr('src')
-                            jQuery("ul.nav.nav-list").find("#main").find('img').attr('src', src.replace('.png', '-w.png'))
-                        })
-                        </script>
-<!-- ######################################################################
-
-                ooo        ooooo
-                `88.       .888'
-                 888b     d'888   .ooooo.  ooo. .oo.   oooo  oooo
-                 8 Y88. .P  888  d88' `88b `888P"Y88b  `888  `888
-                 8  `888'   888  888ooo888  888   888   888   888
-                 8    Y     888  888    .o  888   888   888   888
-                o8o        o888o `Y8bod8P' o888o o888o  `V88V"V8P'
-
-     ###################################################################### -->
-
                         <ul class="nav nav-list">
                             <li class="nav-header">Меню</li>
-                            <li id="main">
+                            <li id="main" class="active">
                                 <a>
-                                    <img src="assets/img/ico-main.png" style="
-                                            height: 20px;
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAATdJREFUeNqklD9LA0EQxe9PtAikMx8ghU1aschHSaWIYmEbsA1pgm2CkHwiey2CTSBIIFXKK+404xt4JOe5t7PRgR/H7b557OzMXSwiUUA88floKtXQYCiHGFp6y2wkv2P0F8MYjKU+xtQEGapwANZg6zDbcm/gMnUZJqANLsHKYbjiXpvaoJLPwcJT8oKaoJK7YCl2LKn1Gl7wfkJjzZy9R1IayQ6YgR14BZlnfDNqdszpuAa7Bc5ACm5A5jlZRk3KnJbvDvuGWdm0b93hFciPuMOcOU7Da1DI8VEw94fhrfw/1CNqoC93YMKOfZU6qe+6n1Y6rJpPUJ4Q1UxBrN9iT5sNikpiDh7AfWV9Dp7BaWX9RA31BC+eefuoWXurS0iM/28zcG0fDcNwA95ZfsQyN76EbwEGAFxmpadHVEsdAAAAAElFTkSuQmCC" style="
                                             padding-right: 1ex;
                                             margin-top: -6px;
                                     ">Главная
                                 </a>
                             </li>
                             <li id="news"><a href="#menu2">
-                                <img src="assets/img/ico-new.png" style="
-                                            height: 20px;
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVFJREFUeNrs1L0vBEEYx3E7d0QiGlyhkhAUd9FoCFHwDyCXeOklGtGLRklzFX8BtUZHRCURoaLQ6ETkLo54iT3n1vdJfptMULntmOSzN7Pz7LPPzGYuiKKoIckW/MGEubHJQX7H8YHfZg+QwmGayw76EyrwynHJaPCGF2/yCaEqf0RZ/VBzcXvWPWsZS1jVoIAB3Gg8i02caQV9ONW9GS9hHuvqV5038YprrGh8jwdVbVVsIYtb3bvApfrlOEnaS2jL6cYR9tEOp822j3WOITRprqDVdSjmW8IKcpjAmpKklLSil8yjBcearykmGydxX75SCYsKtIeaVUUrtvXCd9xhTqzf+FPCmoJtSRveNjjt0QhO9LCtbAnLqjD0lxwnXcC0+qM4QBfasKdKe7Vnw+hRrG1FZ1ygnZSigpJoJatwFVN1HDv/+O0G//+HdbdPAQYAFIpmL6FJwIIAAAAASUVORK5CYII=" style="
                                             padding-right: 1ex;
                                             margin-top: -4px;
                                     ">Новости
                                 </a></li>
                             <li id="agenda"><a href="#menu3">
-                                <img src="assets/img/ico-agenda.png" style="
-                                            height: 20px;
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYVJREFUeNqclDtLA0EUhW+SzVoYFLQVtFFUfFRWgmKvIqJgZWVlISpY+xO0007BRkUNPv6AhY2lQRsblVQKvh8QMesZOAPDMLPZ5MK3M7tzc/a+NqmeoYlDEZkEbyAl8RaCApgG9/Zh4TwvAdYc7xslmQ2AYzAOHuxDJVjm/hWscA0cQj9gFMyBfnAKxmzRwPrBAQV9piL7BIugD5wx0jvtkDacM6AuQcpLYJ37XnAC2lyCdvEbWN8c96ElumaI7oFul2DEdQEUwQ0pMk3TlsEu9x2gVRzF12Oj0rgFv0bEV45M1AjNgJL2DTwRNoMuNko/bwf1bMoG+LLKIOIZD2EHZ8G7w19NwRYFpZKgTnkH5MGf41zN7YtvBHwpz4NVx0xmwTMYBk/VRHgEro2mmGNW4ndfVYQtYBB8W+cZPruksCRtihrSKU9TVHTbjpfFCm6SShaJoybaysY/T1KL4iJsAvusTTqBmPLrdAmGxuc1IrVZVgenLhdcP2oUCzjoj+rmX4ABAA5NVTlPI4/wAAAAAElFTkSuQmCC" style="
                                             padding-right: 1ex;
                                             margin-top: -6px;
                                     ">Программа</a></li>
                             <li id="sponsors"><a href="#menu4">
-                                <img src="assets/img/ico-crown.png" style="
-                                            height: 20px;
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAaxJREFUeNqslc0rRFEYxs0YMhpfk3wlG7KgWVmZaISN8tEUSUrKRhZY2MlfYIOytCDJX2ClrGShLCylpBnDlbHwLTSet56jt9OdMVPz1O/e95xzz3POec85M55UKlWQT/lCkagf7xHQA7bBifVNE5gHDtgEb1b7BIiYvj48loloCITBNcsesAX6WS4HK8pMvt9jPAhmvXiE1Ae1oEGVA6BZlVut2bWoWPq1ieEaOGPlgbXkZ7aLXsG6ZbgPrhjvgF0xPAKTrCxzyfOFMry02opBBTiX5YKElw03IMaNGbU6jfFdwzxpLYIgZ/khFcbwHdwyXgCFjKvUhoiGrXxOM74zlcbwm8dC1AWijHt5bIy6QSPjOVDJOG4bipLWUkQD1hKDTEs9mFL1sb+DrSrjKu5kksMum9QH2pkOI+c/Q5n5KvC7GI4DfV8lXQ9uho7VMZDmutqDyHG6d8thgqPlqmS6Gcoojzyo2Rr7ee8/3QyloQMUWTnKJFnhC/hxM5TRlvgD8ZWlYQk41ndcG8oxmMmwGelUDTbMqrThEzgEdTnMsBSc6hR58v0X8CvAAGbCVc5m95L1AAAAAElFTkSuQmCC" style="
                                             padding-right: 1ex;
                                             margin-top: -6px;
                                     ">Спонсоры</a></li>
                             <li id="pay"><a href="#menu5">
-                                <img src="assets/img/ico-pay.png" style="
-                                            height: 20px;
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVNJREFUeNrMlD9Lw1AUxZP0KQVxFvwEihbnDiqIH8DuUsVZdPQDFMRNcBPBwd1BxE0FN3EQQdGPYLVYEAf/1abnwLnyCARJ0sELP17eI5zce899CeM4DvoZUdDncJXZGtc1MM89yJpyCDrgFOxQYAusgiPwnSPrLhgAm2CUgsvKcL9gtSsUdcqoBcqglFPsRxqR9WwPvBUwiWUPU8vpYEQUjWcnlw7Bwx9OlrVaiZ+Jd8bBjJW8De7AhEYgKUb3r72zQTAlYWrcaz9tJXNdAg3wlegljWqDKnjSGWf2xHtnA1yaEGMI7IJjZRglMjQX027Y794E30FNA/4CFuV6WlyBBX2cQ30DxnxBfuFRfXz1mp/qpm6WH5MmWJLghcgbH9SiYBPUwa13l8OMQ22mNvmwDg5UbiejWKCxc5rLOh/OpD6nBndz/FNZ2Tm1wn//x+4JMADa303AyPJHHwAAAABJRU5ErkJggg==" style="
                                             padding-right: 1ex;
                                             margin-top: -5px;
                                     ">Оплата</a></li>
                             <li id="contacts"><a href="#menu6">
-                                <img src="assets/img/ico-helicopter.png" style="
-                                            height: 20px;
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAahJREFUeNqslU0oRFEUx+dpfBYTDUrJQrGRYiEfzawsfE3NahTFQkqxFbZKNLIgZCHFWj6ysLJVNrK0kZKEJLFhPt7zP/V/ut3um5eaU795d+659z/nnHveHctxnEA+rSCQZ7NaovFRPPtNPnAMDpW5aRABGQ+98yA+tkDIY8EIGAcH/F4BhnMEOCSCSRAHNtALWgIaOW4AyyALEiCtZSPlO5GUZSJIh2OosWysAldgClxwva2IWRxnXCGvmmSVSGuU0nit/4vMzz7AD3gGrWAG1FP4EuyDJzelcqaS8BDrAgugDIyBDa59BJ/cew363Ah3QS/HbWyVYpDigWyCSopHQZhRTXJOfGvgCHTIoXxhME+xCS6yiV6Sbv64RNOj+STKe0l5B6yAGFgCtyyFqb4pnrpl8K1LhLJpVjocvIMbpriopKTaKqgDdwbfGyhy+9BkMQo0G3wPYE/J4hsMSu1zCYrVgjm2Slprt1LtTRHb9uvDF5YkrDR5wOMiEV79BCNsq1Cut4NionXqJ9gOmv5xHQ74CZ6BTlCt1dAUYaHcnVa+/wJ+BRgApK1WpZB3/7YAAAAASUVORK5CYII=" style="
                                             padding-right: 1ex;
                                             margin-top: -6px;
                                     ">Как добраться</a></li>
                         </ul>
                     </div><!--/.well -->
                     <div class="span3 banner">
-                        <script type="text/javascript" src="assets/js/banner.js"></script>
+                        <a target=_blank href="http://ya.ru"><img src="assets/img/banner.png" border=0></a>
                     </div>
                 </div><!--/span-->
                 <div class="span9 content">
-<!-- ######################################################################
-
-      .oooooo.                             .                             .
-     d8P'  `Y8b                          .o8                           .o8
-    888           .ooooo.  ooo. .oo.   .o888oo  .ooooo.  ooo. .oo.   .o888oo
-    888          d88' `88b `888P"Y88b    888   d88' `88b `888P"Y88b    888
-    888          888   888  888   888    888   888ooo888  888   888    888
-    `88b    ooo  888   888  888   888    888 . 888    .o  888   888    888 .
-     `Y8bood8P'  `Y8bod8P' o888o o888o   "888" `Y8bod8P' o888o o888o   "888"
-
-     ###################################################################### -->
-
                     <div class="row-fluid">
                         <div class="span8">
                             <h4>Звезда из Японии</h4>
@@ -182,66 +105,6 @@
                 <p>&copy; 1956–2013 Всемирная организация профсоюзов чтецов инструкций на освежителях воздуха</p>
                 <p>Использованы материалы <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>, <a href="http://bootswatch.com/flatly/">bootswatch/flatly</a>, <a href="http://www.webalys.com/minicons">Minicons Free Vector Icons Pack</a>, <a href="http://www.paratype.com/public/">PT Sans fonts</a>, photos by <a href="http://www.flickr.com/photos/booleansplit/6924193463/">booleansplit</a>, <a href="http://www.flickr.com/photos/skyseeker/1945511352/">skyseeker</a>, <a href="http://www.flickr.com/photos/essgee/35280339/">essgee</a> </p>
             </footer>
-
         </div><!--/.fluid-container-->
-
-<!-- ######################################################################
-
-             .oooooo..o     .               oooo
-            d8P'    `Y8   .o8               `888
-            Y88bo.      .o888oo oooo    ooo  888   .ooooo.   .oooo.o
-             `"Y8888o.    888    `88.  .8'   888  d88' `88b d88(  "8
-                 `"Y88b   888     `88..8'    888  888ooo888 `"Y88b.
-            oo     .d8P   888 .    `888'     888  888    .o o.  )88b
-            8""88888P'    "888"     .8'     o888o `Y8bod8P' 8""888P'
-                                .o..P'
-                                `Y8P'
-     ###################################################################### -->
-        <link href="assets/css/print.css" rel="stylesheet" media="print">
-        <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
-        <style type="text/css">
-            body {
-                padding-top: 0px;
-                padding-bottom: 0px;
-                background-color: #EEE;
-                box-shadow: 0 0 0.7em #222222;
-            }
-            .sidebar-nav {
-                padding: 9px 0;
-            }
-
-            .container {
-                padding: 0 0.9cm;
-                box-shadow: 0 0 0.7em #222222;
-            }
-            .content img {
-                float: left;
-                margin-right: 10px;
-                margin-bottom: 10px;
-                border-radius: 5px 0 5px 0;
-
-            }
-
-            .nav-list > li {
-                font-family: 'PT Sans Narrow', sans;
-                font-size: 19px;
-                line-height: 30px;
-
-            }
-
-            .row-fluid .span3.banner {
-                margin-left: 0px;
-                padding-top: 18px;
-                width: 220px;
-            }
-
-            h1, h2 {
-                font-family: 'PT Sans', sans;
-            }
-            h3, h4, h5, h6 {
-                font-family: 'PT Sans Narrow', sans;
-            }
-        </style>
-        <link href="assets/css/main.css" rel="stylesheet" media="screen">
     </body>
 </html>
