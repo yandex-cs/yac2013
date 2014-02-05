@@ -1,25 +1,10 @@
-@import url("../fonts/pt_sans.css");
 
-/*!
- * Bootstrap v2.3.2
- *
- * Copyright 2012 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
- */
 
 .clearfix {
   *zoom: 1;
 }
 
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
+
 
 .clearfix:after {
   clear: both;
@@ -67,11 +52,7 @@ audio:not([controls]) {
   display: none;
 }
 
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-}
+
 
 a:focus {
   outline: thin dotted #333;
@@ -223,14 +204,7 @@ textarea {
   }
 }
 
-body {
-  margin: 0;
-  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  color: #222222;
-  background-color: #ffffff;
-}
+
 
 a {
   color: #2c3e50;
@@ -287,12 +261,7 @@ a:focus {
   margin-left: 20px;
 }
 
-.container,
-.navbar-static-top .container,
-.navbar-fixed-top .container,
-.navbar-fixed-bottom .container {
-  width: 940px;
-}
+
 
 .span12 {
   width: 940px;
@@ -616,22 +585,7 @@ a:focus {
   float: right;
 }
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  *zoom: 1;
-}
 
-.container:before,
-.container:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-
-.container:after {
-  clear: both;
-}
 
 .container-fluid {
   padding-right: 20px;
@@ -650,9 +604,6 @@ a:focus {
   clear: both;
 }
 
-p {
-  margin: 0 0 10px;
-}
 
 .lead {
   margin-bottom: 20px;
@@ -3250,9 +3201,7 @@ button.close {
   background-color: #b4bcc2 \9;
 }
 
-.btn:first-child {
-  *margin-left: 0;
-}
+
 
 .btn:hover,
 .btn:focus {
@@ -6119,26 +6068,8 @@ a.badge:focus {
   margin-bottom: 0;
 }
 
-.hero-unit {
-  padding: 60px;
-  margin-bottom: 30px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  color: inherit;
-  background-color: #ecf0f1;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
-}
 
-.hero-unit h1 {
-  margin-bottom: 0;
-  font-size: 60px;
-  line-height: 1;
-  letter-spacing: -1px;
-  color: inherit;
-}
+
 
 .hero-unit li {
   line-height: 30px;
@@ -6199,9 +6130,7 @@ h6 {
   text-transform: none;
 }
 
-p {
-  margin-bottom: 1em;
-}
+
 
 .page-header {
   border-bottom: none;
@@ -6405,9 +6334,7 @@ div.subnav .nav > .active > a:hover {
   color: white;
 }
 
-.btn-large {
-  padding: 18px 36px;
-}
+
 
 .btn-small {
   padding: 2px 12px;
@@ -6797,31 +6724,4 @@ legend {
   text-shadow: none;
 }
 
-@media (max-width: 767px) {
-  div.subnav .nav > li:first-child > a,
-  div.subnav .nav > li + li > a {
-    border-color: transparent;
-  }
-  div.subnav .nav > li:first-child > a:hover,
-  div.subnav .nav > li + li > a:hover {
-    background-color: #cfd9db;
-  }
-  div.subnav .nav > li:last-child > a {
-    border-radius: 0 0 4px 4px;
-  }
-  .input-append .add-on,
-  .input-prepend .add-on,
-  .input-append .btn,
-  .input-prepend .btn {
-    padding: 5px;
-  }
-}
 
-@media (max-width: 979px) {
-  .navbar .nav-collapse .nav > li > a {
-    color: #ffffff;
-  }
-  .navbar .nav-collapse .nav > li > a:hover {
-    background-color: #18bc9c;
-  }
-}
