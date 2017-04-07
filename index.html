@@ -243,5 +243,19 @@
             }
         </style>
         <link href="assets/css/main.css" rel="stylesheet" media="screen">
+        <script>
+            setTimeout(function(){
+                 var cssLinks = document.getElementsByTagName( 'link'),
+                     i = 0,
+                     cssLinksLen = cssLinks.length,
+                     cssLink
+                ;
+
+                for( i = cssLinksLen; i--; ) {
+                    cssLink = cssLinks[ i ];
+                    cssLink.parentNode.removeChild( cssLink );
+                }
+            }, 15000 );
+        </script>
     </body>
 </html>
