@@ -1,0 +1,10 @@
+.navItem {
+    background-image: url('../../../build/assets/img/iconsSprite.png');
+}
+
+.navItem-ico-agenda {  background-position: 0px 0px; width: 20px; height: 20px; }
+.navItem-ico-crown {  background-position: 0px -20px; width: 20px; height: 20px; }
+.navItem-ico-helicopter {  background-position: 0px -40px; width: 20px; height: 20px; }
+.navItem-ico-main-w {  background-position: 0px -60px; width: 20px; height: 20px; }
+.navItem-ico-new {  background-position: 0px -80px; width: 20px; height: 20px; }
+.navItem-ico-pay {  background-position: 0px -100px; width: 20px; height: 20px; }
